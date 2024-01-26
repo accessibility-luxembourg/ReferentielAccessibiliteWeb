@@ -1,0 +1,57 @@
+{
+	"1": {
+		"title": "Images"
+	},
+	"2": {
+		"title": "Cadres"
+	},
+	"3": {
+		"title": "Couleurs"
+	},
+	"4": {
+		"title": "Multimédia"
+	},
+	"5": {
+		"title": "Tableaux"
+	},
+	"6": {
+		"title": "Liens"
+	},
+	"7": {
+		"title": "Scripts"
+	},
+	"8": {
+		"title": "Éléments obligatoires"
+	},
+	"9": {
+		"title": "Structuration de l’information"
+	},
+	"10": {
+		"title": "Présentation de l’information"
+	},
+	"11": {
+		"title": "Formulaires"
+	},
+	"12": {
+		"title": "Navigation"
+	},
+	"13": {
+		"title": "Consultation"
+	},
+
+	"14": {
+		"title": "Documentation et fonctionnalités d’accessibilité"
+	},
+
+	"15": {
+		"title": "Outils d’édition"
+	},
+
+	"16": {
+		"title": "Services d’assistance"
+	},
+
+	"17": {
+		"title": "Communication en temps réel"
+	}
+}
