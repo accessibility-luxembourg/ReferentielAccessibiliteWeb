@@ -3,9 +3,14 @@ WCAG:
   - successCriterion: 4.1.1
     title: Parsing
     level: A
+  - successCriterion: 4.1.2
+    title: Name, Role, Value
+    level: A
 Norm:
   - criterion: 9.4.1.1
     title: Parsing
+  - criterion: 9.4.1.2
+    title: Name, Role, Value
 ---
 
 #### Note 

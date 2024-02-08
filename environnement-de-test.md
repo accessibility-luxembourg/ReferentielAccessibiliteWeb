@@ -12,11 +12,11 @@ Quelques critères RAWeb, notamment ceux de la thématique JavaScript, incluent 
 
 Les tests effectués selon ces combinaisons (technologie d’assistance, système d’exploitation, navigateur) permettent de déclarer qu’un dispositif HTML / WAI-ARIA est “compatible avec l’accessibilité” tel que défini par <abbr lang="en" title="web content accessibility guidelines">WCAG</abbr>.
 
-Les combinaisons ont été établies à partir de la liste des technologies d’assistance dont l’usage est suffisamment répandu, ou, dans certains cas lorsqu’elle est fournie de manière native et constitue le moyen privilégié d’accès à l’information et aux fonctionnalités.
+Les combinaisons ont été établies à partir de la liste des technologies d’assistance dont l’usage est suffisamment répandu, ou dans certains cas lorsqu’elle est fournie de manière native et constitue le moyen privilégié d’accès à l’information et aux fonctionnalités.
 
 ### Environnement de test Ordinateur (desktop)
 
-Les systèmes d’exploitation retenus sont Windows et Mac OS X et les navigateurs, Firefox, Chrome, Edge et Safari. Il appartient à l’auditeur de définir, en concertation avec les responsables du site audité, les versions de système d’exploitation et de navigateur en adéquation avec le contexte d’usage du site et l’environnement de test utilisé lors du développement du site. Les versions des technologies d’assistance à utiliser seront soit la dernière disponible en langue française sur le système d’exploitation retenu soit la version précédente.
+Les systèmes d’exploitation retenus sont Windows et Mac OS X et les navigateurs Firefox, Chrome, Edge et Safari. Il appartient à l’auditeur de définir, en concertation avec les responsables du site audité, les versions de système d’exploitation et de navigateur en adéquation avec le contexte d’usage du site et l’environnement de test utilisé lors du développement du site. Les versions des technologies d’assistance à utiliser seront soit la dernière disponible sur le système d’exploitation retenu soit la version précédente.
 
 Lorsque le site ou l’application est destinée à un public dont l’équipement est maîtrisé, les tests devront se faire sur un environnement de test adapté au contexte de l’environnement maîtrisé.
 
@@ -53,7 +53,7 @@ Pour qu’un dispositif HTML / WAI-ARIA ou son alternative soit considéré comm
 
 Les systèmes d’exploitation retenus sont Android et iOS et les navigateurs Chrome et Safari. Il appartient à l’auditeur de définir, en concertation avec les responsables du site audité, les versions de système d’exploitation et de navigateur en adéquation avec le contexte d’usage du site et l’environnement de test utilisé lors du développement du site. 
 
-Les versions des technologies d’assistance à utiliser seront soit la dernière disponible en langue française sur le système d’exploitation retenu, soit la version précédente. 
+Les versions des technologies d’assistance à utiliser seront soit la dernière disponible sur le système d’exploitation retenu, soit la version précédente. 
 
 Pour tester un site web sur un terminal mobile, l’environnement de test devra comporter une des deux combinaisons complémentaires suivantes :
 
