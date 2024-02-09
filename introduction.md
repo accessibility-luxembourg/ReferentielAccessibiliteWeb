@@ -9,7 +9,7 @@ La méthode technique du RAWeb permet de vérifier qu’une page web – c’est
 
 La méthode technique du RAWeb propose un cadre opérationnel de vérification de la conformité aux exigences d’accessibilité.
 
-Elle comporte 135 critères de contrôle. Certains tests font référence à des techniques d’implémentation (HTML, CSS, JavaScript…) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
+Elle comporte 136 critères de contrôle. Certains tests font référence à des techniques d’implémentation (HTML, CSS, JavaScript…) pour vérifier que le critère est respecté afin de réduire la marge d’interprétation quant au respect des normes d’accessibilité.
 
 En cas d’absence de mise à jour du référentiel sous 3 ans, et afin de prendre en compte de nouveaux standards ou spécifications techniques, il est possible de créer ses propres tests en complément de ceux existants.
 
