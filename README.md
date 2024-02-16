@@ -19,6 +19,9 @@ Les pages HTML sont organisées de la manière suivante :
   * [Méthodologie de test](./methodologie-de-test.md)
   * [Notes de révision](./notes-de-revision.md)
 
+Les fichiers du RAWeb sont disponibles au format Markdown dans le dossier "rgaa", ils sont notamment compatibles avec la structure de données du RGAA.
+Ils sont aussi disponibles au format JSON dans le dossier "json" avec une structure similaire à celle du RGAA. Les critères possèdent en plus des informations relatives aux correspondances avec les critères de la norme européenne.
+Ces fichiers sont générés par les scripts disponibles dans le dossier "scripts". Ces scripts sont adaptés des [scripts disponibles dans le dépôt du RGAA](https://github.com/DISIC/accessibilite.numerique.gouv.fr/tree/main/scripts).
 
 ********************
 

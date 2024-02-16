@@ -1,0 +1,15 @@
+{
+  "name": "raweb",
+  "version": "1.0.0",
+  "description": "Référentiel d'évaluation de l'accessibilité Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SIP",
+  "license": "CC-BY-3.0",
+  "dependencies": {
+    "front-matter": "^4.0.2",
+    "markdown-it": "^14.0.0"
+  }
+}
