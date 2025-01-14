@@ -7,4 +7,4 @@ Norm:
 
 #### Cas particuliers
 
-Le critère est non applicable pour les sous-titres sont incrustés dans la vidéo (<em lang="en">open captions</em>).
+Le critère est non applicable pour les sous-titres incrustés dans la vidéo (<em lang="en">open captions</em>).

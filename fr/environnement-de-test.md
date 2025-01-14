@@ -103,11 +103,11 @@ Pour tester un site web sur un terminal mobile, l’environnement de test devra 
 
 Enfin, en fonction du contexte du site audité, d’autres technologies d’assistance complémentaires peuvent être utiles telles que :
 
-- ZoomText sur Windows ou Mac OSX ;
-- Dragon Naturally Speaking sur Windows ou Mac OSX.
+- ZoomText sur Windows ou macOS ;
+- Dragon Naturally Speaking sur Windows ou macOS.
 
 ### Environnement maîtrisé
 
 Lorsque le site web est destiné à être diffusé et utilisé dans un environnement maîtrisé, l’environnement de test (base de référence) doit être constitué des configurations (technologie d’assistance, système d’exploitation, navigateur) effectivement utilisées dans l’environnement maîtrisé.
 
-Par exemple, lorsque le site web est exclusivement diffusé dans un environnement GNU/Linux, les tests devront être réalisés uniquement sur les navigateurs et les technologies d’assistance utilisés par les agents sur cette plateforme. Cet environnement de test (base de référence) se substitue à l’environnement de test (base de référence) utilisé en environnement non maîtrisé.
+Par exemple, lorsque le site web est exclusivement diffusé dans un environnement GNU/Linux, les tests devront être réalisés uniquement sur les navigateurs et les technologies d’assistance utilisés par les agents sur cette plateforme. Cet environnement de test se substitue à l’environnement de test (base de référence) utilisé en environnement non maîtrisé.

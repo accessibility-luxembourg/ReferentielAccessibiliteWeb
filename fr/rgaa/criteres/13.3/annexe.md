@@ -25,7 +25,7 @@ Techniques:
   - F15
   - G10
   - G135
-Norm: tous les critères de la section 10 Non-web documents.
+Norm: tous les critères de la section 10 <span lang="en">Non-web documents</span>.
 ---
 
 #### Cas particuliers

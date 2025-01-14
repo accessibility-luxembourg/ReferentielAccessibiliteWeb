@@ -1,0 +1,59 @@
+---
+title: List of possible values for the `autocomplete` attribute
+---
+
+[The list of available values](https://www.w3.org/TR/WCAG21/#input-purposes) is provided by the WCAG 2.1 specification:
+
+- `name` -- Full name;
+- `honorific-prefix` -- Abbreviation, title;
+- `given-name` -- First name;
+- `additional-name` -- Additional first names;
+- `family-name` -- Family name;
+- `honorific-suffix` -- Honorific suffix;
+- `nickname` -- Nickname, diminutive;
+- `organisation-title` -- Function, job title;
+- `username` -- User name;
+- `new-password` -- New password (for example, when creating an account or changing a password);
+- `current-password` -- Current password for the account identified by the `username` field (for example, when logging in);
+- `organization` -- The name of the organization corresponding to the person, address or contact information in the other fields associated with this field;
+- `street-address` -- Postal address (multi-line, new lines retained);
+- `address-line1` -- Postal address (one line per field, line 1);
+- `address-line2` -- Postal address (one line per field, line 2);
+- `address-line3` -- Postal address (one line per field, line 3);
+- `address-level4` -- The most detailed administrative level, for addresses with four administrative levels;
+- `address-level3` -- The third administrative level, for addresses with three or more administrative levels;
+- `address-level2` -- The second administrative level, for addresses with two or more administrative levels;
+- `address-level1` -- The highest administrative level of an address, i.e. the province in which the locality is located;
+- `country` -- Country code;
+- `country-name` -- Country name;
+- `postal-code` -- Postcode;
+- `cc-name` -- Full name appearing on the means of payment;
+- `cc-given-name` -- First name shown on the means of payment;
+- `cc-additional-name` -- Additional first names appearing on the means of payment;
+- `cc-family-name` -- Family name appearing on the means of payment;
+- `cc-number` -- Code identifying the means of payment (e.g. a bank card number);
+- `cc-exp` -- Expiry date of the payment method;
+- `cc-exp-month` -- The month in which the payment method expires;
+- `cc-exp-year` -- The year of the expiry date of the means of payment;
+- `cc-csc` -- Payment method security code (also known as the card security code (CSC), card validation code (CVC), card verification value (CVV), signature panel code (SPC), credit card ID (CCID), etc.);
+- `cc-type` -- Type of payment method (e.g. Visa);
+- `transaction-currency` -- The currency preferred by the user during a transaction;
+- `transaction-amount` -- The amount preferred by the user in a transaction (e.g., in response to an auction or clearance price);
+- `language` -- Preferred language;
+- `bday` -- Birthday;
+- `bday-day` -- The day of the birthday;
+- `bday-month` -- The month of the birthday;
+- `bday-year` -- The year of the birthday;
+- `sex` -- Gender identity;
+- `url` -- Home page or other web page corresponding to the organisation, person, address or contact information in the other fields associated with this field;
+- `photo` -- A photograph, icon or other image that matches the organisation, person, address or contact information in other fields associated with this field;
+- `tel` -- Full telephone number, including country code;
+- `tel-country-code` -- Country code of the phone number;
+- `tel-national` -- Telephone number without the country code part, with an internal country prefix if applicable;
+- `tel-area-code` -- Area code of the telephone number, with an internal country prefix, if applicable;
+- `tel-local` -- Telephone number without the country code part and the area code;
+- `tel-local-prefix` -- The first part of the telephone number component following the area code, when that component is split into two parts;
+- `tel-local-suffix` -- The second part of the telephone number component following the area code, when this component is split into two parts;
+- `tel-extension` -- The telephone number of an internal extension;
+- `email` -- E-mail address;
+- `impp` -- Corresponding URL of an instant messaging protocol (for example, `"aim:goim?screenname=example"` or `"xmpp:fred@example.net"`).

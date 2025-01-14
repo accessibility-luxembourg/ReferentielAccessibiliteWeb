@@ -14,7 +14,7 @@ Note 2 : Il est également possible de structurer les listes à l’aide des at
 
 Note 3 : la notion de « regroupés visuellement sous forme de liste » se caractérise par :
 
-- La présence d’un marqueur visuel permettant de faire comprendre qu’il s’agit d’une liste non ordonnée par exemple `-`, `•`, `\*`, etc. ;
+- La présence d’un marqueur visuel permettant de faire comprendre qu’il s’agit d’une liste non ordonnée par exemple `-`, `•`, `*`, etc. ;
 - La présence d’un marqueur visuel permettant de faire comprendre qu’il s’agit d’une liste ordonnée par exemple un chiffre, une lettre grecque, etc. ;
 - La présence d’une série d’éléments se suivant visuellement les uns les autres, avec une forme visuelle, une nature et un fonctionnement identique, mais sans avoir directement de marqueur visuel de liste (non ordonnée ou ordonnée), par exemple un menu de navigation.
 

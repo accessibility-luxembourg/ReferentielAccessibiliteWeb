@@ -1,0 +1,57 @@
+{
+	"1": {
+		"title": "Images"
+	},
+	"2": {
+		"title": "Frames"
+	},
+	"3": {
+		"title": "Colours"
+	},
+	"4": {
+		"title": "Multimedia"
+	},
+	"5": {
+		"title": "Tables"
+	},
+	"6": {
+		"title": "Links"
+	},
+	"7": {
+		"title": "Scripts"
+	},
+	"8": {
+		"title": "Mandatory elements"
+	},
+	"9": {
+		"title": "Information structure"
+	},
+	"10": {
+		"title": "Presentation of information"
+	},
+	"11": {
+		"title": "Forms"
+	},
+	"12": {
+		"title": "Navigation"
+	},
+	"13": {
+		"title": "Consultation"
+	},
+
+	"14": {
+		"title": "Documentation and accessibility features"
+	},
+
+	"15": {
+		"title": "Editing tools"
+	},
+
+	"16": {
+		"title": "Support services"
+	},
+
+	"17": {
+		"title": "Real-time communication"
+	}
+}
