@@ -1,5 +1,5 @@
 ---
-title: RAWeb 1 revision notes
+title: RAWeb 1 changelog
 ---
 
 RAWeb 1 is the first Luxembourg accessibility framework to cover all the requirements of the European standard EN 301 549 v3.2.1 currently in force.

@@ -1,5 +1,5 @@
 ---
-title: Test methodology
+title: Testing methodology
 layout: layouts/base.njk
 description: Test methodology documenting the steps used to check whether a RAWeb criterion is compliant or not
 eleventyNavigation:

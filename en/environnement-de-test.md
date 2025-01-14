@@ -1,5 +1,5 @@
 ---
-title: Test environment
+title: Testing environment
 layout: layouts/base.njk
 description: The different desktop or mobile test environments
 eleventyNavigation:
