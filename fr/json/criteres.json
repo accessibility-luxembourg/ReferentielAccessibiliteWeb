@@ -151,7 +151,7 @@
             "title": "Pour chaque image [porteuse d’information](#image-porteuse-d-information) ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
             "tests": {
               "1": [
-                "Chaque image (balise `<img>` ou balise possédant l’attribut WAI-ARIA `role=\"img\"`) [porteuse d’information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
+                "Pour chaque image (balise `<img>` ou balise possédant l’attribut WAI-ARIA `role=\"img\"`) [porteuse d’information](#image-porteuse-d-information), ayant une [alternative textuelle](#alternative-textuelle-image), cette alternative est-elle pertinente (hors cas particuliers) ?",
                 "S’il est présent, le contenu de l’attribut `alt` est pertinent.",
                 "S’il est présent, le contenu de l’attribut `title` est pertinent.",
                 "S’il est présent, le contenu de l’attribut WAI-ARIA `aria-label` est pertinent.",
@@ -408,7 +408,7 @@
             "technicalNote": [
               "Dans le cas du SVG, le manque de support de l’élément `<title>` et `<desc>` par les technologies d’assistance crée une difficulté dans le cas de l’implémentation de l’[alternative textuelle](#alternative-textuelle-image) de l’image et de sa [description détaillée](#description-detaillee-image). Dans ce cas, il est recommandé d’utiliser l’attribut WAI-ARIA `aria-label` pour implémenter à la fois l’[alternative textuelle](#alternative-textuelle-image) courte et la référence à la [description détaillée](#description-detaillee-image) adjacente ou l’attribut WAI-ARIA `aria-labelledby` pour associer les passages de texte faisant office d’alternative courte et de [description détaillée](#description-detaillee-image).\r",
               "\r",
-              "L’utilisation de l’attribut WAI-ARIA aria-describedby n’est pas recommandée pour lier une image (`<img>`, `<object>`, `<embed>`, `<canvas>`) à sa [description détaillée](#description-detaillee-image), par manque de support des technologies d’assistance. Néanmoins, lorsqu’il est utilisé, l’attribut devra nécessairement faire référence à l’`id` de la zone contenant la [description détaillée](#description-detaillee-image).\r",
+              "L’utilisation de l’attribut WAI-ARIA aria-describedby n’est pas recommandée pour lier une image (`<img>`, `<object>`, `<embed>`, `<canvas>`) à sa [description détaillée](#description-detaillee-image), par manque de support des technologies d’assistance. Néanmoins, lorsqu’il est utilisé, l’attribut devra nécessairement faire référence à l’`id` de la zone contenant la [description détaillée](#description-detaillee-image).\r",
               "\r",
               "La [description détaillée](#description-detaillee-image) adjacente peut être implémentée via une balise `<figcaption>`, dans ce cas le critère 1.9 doit être vérifié (utilisation de `<figure>` et des attributs WAI-ARIA `role=\"figure\"` et `aria-label`, notamment)."
             ],
@@ -1564,7 +1564,7 @@
               ]
             },
             "particularCases": [
-              "Le critère est non applicable pour les sous-titres sont incrustés dans la vidéo (<em lang=\"en\">open captions</em>)."
+              "Le critère est non applicable pour les sous-titres incrustés dans la vidéo (<em lang=\"en\">open captions</em>)."
             ],
             "references": [
               {
@@ -3929,7 +3929,7 @@
         {
           "criterium": {
             "number": 12,
-            "title": "Pour chaque [formulaire](#formulaire) qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur ?",
+            "title": "Pour chaque [formulaire](#formulaire) qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur ?",
             "tests": {
               "1": [
                 "Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou un examen, ou dont la validation a des conséquences financières ou juridiques, la saisie des données vérifie-t-elle une de ces conditions ?",
@@ -3979,9 +3979,9 @@
               ]
             },
             "technicalNote": [
-              "La [liste des valeurs possibles pour l’attribut `autocomplete`](#liste-des-valeurs-possibles-pour-l-attribut-autocomplete) repose sur la liste des valeurs présentes dans la spécification WCAG2.1 qui reprend elle-même la liste des valeurs de type \"field name\" de la spécification HTML5.2. Le critère WCAG demande à ce que l’une de ces valeurs soit présente pour qualifier un champ de saisie concernant l’utilisateur.\r",
+              "La [liste des valeurs possibles pour l’attribut `autocomplete`](#liste-des-valeurs-possibles-pour-l-attribut-autocomplete) repose sur la liste des valeurs présentes dans la spécification WCAG2.1 qui reprend elle-même la liste des valeurs de type \"<span lang=\"en\">field name</span>\" de la spécification HTML5.2. Le critère WCAG demande à ce que l’une de ces valeurs soit présente pour qualifier un champ de saisie concernant l’utilisateur.\r",
               "\r",
-              "Ce que le critère WCAG laisse implicite, ce sont les différentes règles de construction possibles pour obtenir une valeur (simple ou composée) pour l’attribut `autocomplete`. C’est cependant l’affaire du développeur de fournir à l’attribut `autocomplete` une valeur ou un ensemble de valeurs valides au regard des exigences de l’algorithme fourni par la spécification HTML5.2. Ainsi, un attribut `autocomplete` ne peut contenir qu’une seule valeur de type `\"field name\"`, comme `\"name\"` ou `\"street-address\"`. On peut avoir également un ensemble composé de différentes valeurs comme, par exemple, `autocomplete=\"shipping name\"` ou `autocomplete=\"section-software shipping street-address\"` : `\"section-software\"` renvoie à une valeur de type <span lang=\"en\">\"scope\"</span> et `\"shipping\"` à une valeur de type <span lang=\"en\">\"hint set\"</span>, mais toujours une seule valeur de type <span lang=\"en\">\"field name\"</span>."
+              "Ce que le critère WCAG laisse implicite, ce sont les différentes règles de construction possibles pour obtenir une valeur (simple ou composée) pour l’attribut `autocomplete`. C’est cependant l’affaire du développeur de fournir à l’attribut `autocomplete` une valeur ou un ensemble de valeurs valides au regard des exigences de l’algorithme fourni par la spécification HTML5.2. Ainsi, un attribut `autocomplete` ne peut contenir qu’une seule valeur de type <span lang=\"en\">`\"field name\"`</span>, comme <span lang=\"en\">`\"name\"`</span> ou <span lang=\"en\">`\"street-address\"`</span>. On peut avoir également un ensemble composé de différentes valeurs comme, par exemple, <span lang=\"en\">`autocomplete=\"shipping name\"`</span> ou <span lang=\"en\">`autocomplete=\"section-software shipping street-address\"` : `\"section-software\"`</span> renvoie à une valeur de type <span lang=\"en\">\"scope\"</span> et `\"shipping\"` à une valeur de type <span lang=\"en\">\"hint set\"</span>, mais toujours une seule valeur de type <span lang=\"en\">\"field name\"</span>."
             ],
             "references": [
               {
@@ -4174,10 +4174,10 @@
                 "Dans chaque [ensemble de pages](#ensemble-de-pages), le [moteur de recherche](#moteur-de-recherche-interne-a-un-site-web) est-il accessible à partir d’une fonctionnalité identique ?"
               ],
               "2": [
-                "Dans chaque [ensemble de pages](#ensemble-de-pages), la fonctionnalité vers le [moteur de recherche](#moteur-de-recherche-interne-a-un-site-web) est-elle située à la même place dans la présentation ?"
+                "Dans chaque [ensemble de pages](#ensemble-de-pages), la fonctionnalité menant au [moteur de recherche](#moteur-de-recherche-interne-a-un-site-web) est-elle située à la même place dans la présentation ?"
               ],
               "3": [
-                "Dans chaque [ensemble de pages](#ensemble-de-pages), la fonctionnalité vers le [moteur de recherche](#moteur-de-recherche-interne-a-un-site-web) se présente-t-elle toujours dans le même ordre relatif dans le code source ?"
+                "Dans chaque [ensemble de pages](#ensemble-de-pages), la fonctionnalité menant au [moteur de recherche](#moteur-de-recherche-interne-a-un-site-web) se présente-t-elle toujours dans le même ordre relatif dans le code source ?"
               ]
             },
             "references": [
@@ -4570,7 +4570,7 @@
                 ]
               },
               {
-                "norm": "tous les critères de la section 10 Non-web documents."
+                "norm": "tous les critères de la section 10 <span lang=\"en\">Non-web documents</span>."
               }
             ]
           }
@@ -4609,7 +4609,7 @@
                 ]
               },
               {
-                "norm": "tous les critères de la section 10 Non-web documents."
+                "norm": "tous les critères de la section 10 <span lang=\"en\">Non-web documents</span>."
               }
             ]
           }
@@ -4685,7 +4685,7 @@
             "title": "Dans chaque page web, [les changements brusques de luminosité ou les effets de flash](#changement-brusque-de-luminosite-ou-effet-de-flash) sont-ils correctement utilisés ?",
             "tests": {
               "1": [
-                "Dans chaque page web, chaque image ou élément multimédia (balise `<video>`, balise `<img>`, balise `<svg>`, balise `<canvas>`, balise `<embed>` ou balise `<object>`) qui provoque un changement brusque de luminosité ou un effet de flash vérifie-t-il une de ces conditions ?",
+                "Dans chaque page web, chaque image ou élément multimédia (balise `<video>`, balise `<img>`, balise `<svg>`, balise `<canvas>`, balise `<embed>` ou balise `<object>`) qui provoque un changement brusque de luminosité ou un effet de flash vérifie-t-il une de ces conditions ?",
                 "La fréquence de l’effet est inférieure à 3 par seconde.",
                 "La surface totale cumulée des effets est inférieure ou égale à 21824 pixels."
               ],
@@ -5067,7 +5067,7 @@
                 "La [documentation](#documentation) mise à disposition au format PDF est-elle conforme au [RAPDF](../rapdf1/index.html) ?"
               ],
               "3": [
-                "La [documentation](#documentation) mise à disposition dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1 ?"
+                "La [documentation](#documentation) mise à disposition dans un format non web (hors PDF) est-elle conforme aux critères de la [section 10 <span lang=\"en\">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1 ?"
               ]
             },
             "references": [
@@ -5101,7 +5101,7 @@
                 "Chaque [outil d’édition](#outil-d-edition) qui crée du contenu au format PDF permet-il de définir les [informations d’accessibilité](#information-d-accessibilite) nécessaires pour créer un contenu conforme au [RAPDF](../rapdf1/index.html) ?"
               ],
               "3": [
-                "Chaque [outil d’édition](#outil-d-edition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](#information-d-accessibilite) nécessaires pour créer un contenu conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1 ?"
+                "Chaque [outil d’édition](#outil-d-edition) qui crée du contenu au format non web (hors PDF) permet-il de définir les [informations d’accessibilité](#information-d-accessibilite) nécessaires pour créer un contenu conforme aux critères de la [section 10 <span lang=\"en\">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1 ?"
               ]
             },
             "references": [
@@ -5202,7 +5202,7 @@
                 "Pour chaque ensemble de [gabarits](#gabarit) au format PDF, un gabarit au moins est conforme au [RAPDF](../rapdf1/index.html). Cette règle est-elle respectée ?"
               ],
               "3": [
-                "Pour chaque ensemble de [gabarits](#gabarit) au format non-web (hors PDF), un gabarit au moins est conforme aux critères de la [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1. Cette règle est-elle respectée ?"
+                "Pour chaque ensemble de [gabarits](#gabarit) au format non-web (hors PDF), un gabarit au moins est conforme aux critères de la [section 10 <span lang=\"en\">Non-web documents</span>](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) de la norme européenne EN 301 549 v3.2.1. Cette règle est-elle respectée ?"
               ]
             },
             "references": [

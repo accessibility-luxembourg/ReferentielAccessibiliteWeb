@@ -11,11 +11,12 @@ const fs = require("fs").promises;
  * }
  * ```
  */
-async function generateMethodologies() {
-	const METHODOLOGY_SOURCE = path.join(__dirname, "..", "./rgaa/criteres");
+async function generateMethodologies(lang) {
+	const METHODOLOGY_SOURCE = path.join(__dirname, "..", lang, "./rgaa/criteres");
 	const METHODOLOGY_DESTINATION = path.join(
 		__dirname,
 		"..",
+		lang,
 		"./json/methodologies.json"
 	);
 
@@ -71,7 +72,15 @@ async function generateMethodologies() {
 	);
 }
 
-generateMethodologies()
+generateMethodologies('fr')
+	.then(() => {
+		console.log(`✅ Methodologies successfully generated.`);
+	})
+	.catch((err) => {
+		console.error(`❌ An error occured while generating methodologies: ${err}`);
+	});
+
+generateMethodologies('en')
 	.then(() => {
 		console.log(`✅ Methodologies successfully generated.`);
 	})

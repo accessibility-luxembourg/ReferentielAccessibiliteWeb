@@ -2,14 +2,13 @@ const fs = require('fs').promises;
 const md = require('markdown-it')({ html: true })
 const fm = require('front-matter')
 
-const GLOSSARY_SOURCE = "./rgaa/glossaire";
-const GLOSSARY_DESTINATION = "./json/glossaire.json";
+
 
 /**
  * @param {string} filename
  * @returns {object} Frontmatter attributes and main content
  */
-async function parseMarkdownFile(filename) {
+async function parseMarkdownFile(filename, GLOSSARY_SOURCE) {
 	const data = await fs.readFile(`${GLOSSARY_SOURCE}/${filename}`, "utf-8");
 	const result = fm(data);
 
@@ -22,7 +21,10 @@ async function parseMarkdownFile(filename) {
  * Generate a JSON file containing all the glossary entries
  * from `src/rgaa/glossaire` with 2 `title` and `content`
  */
-async function generateGlossary() {
+async function generateGlossary(lang) {
+	const GLOSSARY_SOURCE = `${__dirname}/../${lang}/rgaa/glossaire`;
+	const GLOSSARY_DESTINATION = `${__dirname}/../${lang}/json/glossaire.json`;  
+
   try {
     // Init JSON data
     let jsonData = { glossary: [] }
@@ -33,7 +35,7 @@ async function generateGlossary() {
       if (!file.endsWith(".md")) {
 				console.error(`❌ Ignoring "${file}" as it is not a Markdown file.`);
 			} else {
-        const { title, content } = await parseMarkdownFile(file)
+        const { title, content } = await parseMarkdownFile(file, GLOSSARY_SOURCE)
         let cleanedContent = null
 
         // Handle shortcodes
@@ -62,4 +64,5 @@ async function generateGlossary() {
   }
 }
 
-generateGlossary();
+generateGlossary('fr');
+generateGlossary('en');

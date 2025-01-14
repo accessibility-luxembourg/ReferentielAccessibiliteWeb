@@ -1,10 +1,6 @@
 const fs = require("fs").promises;
 const fm = require("front-matter");
 
-const themes = require("../themes.json");
-
-const CRITERIA_SOURCE = "./rgaa/criteres";
-const CRITERIA_DESTINATION = "./json/criteres.json";
 
 /**
  * Get criterion title
@@ -187,7 +183,12 @@ function transformGlossaryLinks(str) {
  * Generate a JSON file containing all the criteria
  * from `src/rgaa/criteres` grouped by topics.
  */
-async function generateCriteria() {
+async function generateCriteria(lang) {
+
+	const themes = require(`${__dirname}/../${lang}/themes.json`);
+	const CRITERIA_SOURCE = `${__dirname}/../${lang}/rgaa/criteres`;
+	const CRITERIA_DESTINATION = `${__dirname}/../${lang}/json/criteres.json`;
+
 	try {
 		// Init JSON data
 		let jsonData = { wcag: { version: 2.1 }, topics: [] };
@@ -265,4 +266,5 @@ async function generateCriteria() {
 	}
 }
 
-generateCriteria();
+generateCriteria('fr');
+generateCriteria('en');

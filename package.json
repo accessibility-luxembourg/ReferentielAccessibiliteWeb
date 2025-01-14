@@ -1,10 +1,13 @@
 {
   "name": "raweb",
   "version": "1.0.0",
-  "description": "Référentiel d'évaluation de l'accessibilité Web",
+  "description": "Web Accessibility Assessment Framework (RAWeb) for Luxembourg",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:criteria": "node ./scripts/generate-criteria.js",
+    "build:glossary": "node ./scripts/generate-glossary.js",
+    "build:methodo": "node ./scripts/generate-methodologies.js", 
+    "build": "npm run build:criteria && npm run build:glossary && npm run build:methodo"
   },
   "author": "SIP",
   "license": "CC-BY-3.0",
