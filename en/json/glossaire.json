@@ -390,7 +390,7 @@
     },
     {
       "title": "Pressed",
-      "body": "<p>Corresponds to JavaScript event handlers considered as descendant events (<code>mousedown</code>, <code>touchstart</code> for example).</p> "
+      "body": "<p>Corresponds to JavaScript event handlers considered as down events (<code>mousedown</code>, <code>touchstart</code> for example).</p> "
     },
     {
       "title": "When focused",
@@ -418,7 +418,7 @@
     },
     {
       "title": "Digital accessibility rules",
-      "body": "<p>The generic term &quot;digital accessibility rules&quot; refers to the <a href=\"../raweb1/index.html\">RAWeb</a>, the <a href=\"../raam1/index.html\">RAAM</a>, the <a href=\"../rapdf1/index.html\">RAPDF</a> or the <a href=\"https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf\">EN 301 549 standard</a>, depending on the context of use.</p> "
+      "body": "<p>The generic term &quot;digital accessibility rules&quot; refers to the <a href=\"../raweb1/index.html\">RAWeb</a>, the <a href=\"../raam1.1/index.html\">RAAM</a>, the <a href=\"../rapdf1/index.html\">RAPDF</a> or the <a href=\"https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf\">EN 301 549 standard</a>, depending on the context of use.</p> "
     },
     {
       "title": "Writing rules",
@@ -426,7 +426,7 @@
     },
     {
       "title": "Released",
-      "body": "<p>Corresponds to JavaScript event handlers considered as bottom-up events (<code>mouseup</code>, <code>touchend</code> for example).</p> "
+      "body": "<p>Corresponds to JavaScript event handlers considered as up events (<code>mouseup</code>, <code>touchend</code> for example).</p> "
     },
     {
       "title": "Summary (of table)",
