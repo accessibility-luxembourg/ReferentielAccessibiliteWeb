@@ -5,7 +5,7 @@ title: RAWeb 1 changelog
 RAWeb 1 is the first Luxembourg accessibility framework to cover all the requirements of the European standard EN 301 549 v3.2.1 currently in force.
 
 For all WCAG-compatible criteria, RAWeb 1 is based on the RGAA 4.1.2. The RGAA is published by DINUM on the website [accessibilite.numerique.gouv.fr](https://accessibilite.numerique.gouv.fr/) and the sources are available on this <a href="https://github.com/DISIC/accessibilite.numerique.gouv.fr/" rel="noreferrer noopener">GitHub repository</a>.
-The RGAA 4.1.2 has its own [revision notes](../../fr/rgaa4.1.2/notes-revision.html).
+The RGAA 4.1.2 has its own [changelog](../../fr/rgaa4.1.2/notes-revision.html).
 
 All the other criteria are new and transcribe, in the form of operational tests, the criteria from European standard EN 301 549 v3.2.1 which are not based on WCAG.
 These are the following criteria and themes:
@@ -50,17 +50,17 @@ This update also includes changes to content from RGAA 4.1.2.
 
 #### Introduction of the non-interference principle
 
-A new section ["Non-interference principle"](../obligations.html#non-interference-principle) has been introduced into the "Requirements" page in order to comply fully with standard EN 301 549.
+A new section ["Non-interference principle"](./methodo-test.html#non-interference-principle) has been introduced into the "Testing Methodology" page in order to comply fully with standard EN 301 549.
 
 In addition, each criterion included in the non-interference principle is identified in the technical framework by the words "This criterion is subject to the non-interference principle".
 
 #### Modification of the sample description for the audit of a website
 
-The section ["Website audit sample"](../obligations.html#website-audit-sample) on the "Requirements" page has been modified to take account of changes to the RAWeb criteria, in particular by introducing the obligation to assess the documentation for the website or the support service.
+The section ["Website audit sample"](./methodo-test.html#sample) on the "Testing Methodology" page has been modified to take account of changes to the RAWeb criteria, in particular by introducing the obligation to assess the documentation for the website or the support service.
 
 #### Details of the compliance rate and general methodology
 
-In the section ["Testing pages or screens"](../obligations.html#testing-pages-or-screens) of the "Requirements" page, a note has been added on the possible ways of managing content common to several pages in a sample: 
+In the section ["Testing pages or screens"](./methodo-test.html#testing-pages) of the "Testing Methodology" page, a note has been added on the possible ways of managing content common to several pages in a sample: 
 
 <blockquote>
 Some criteria or themes are applicable to the whole site and not to a particular page, so it is not necessary to evaluate them on all the pages in the sample. In this case, they may, for example, be evaluated on a single page in the sample and considered not applicable to all the other pages. This methodology for reporting the results of the evaluation of these criteria is, of course, optional. Whatever methodology is chosen, there will be no impact on the site's overall compliance rate. This is particularly the case for the following criteria and themes:
@@ -70,7 +70,7 @@ Some criteria or themes are applicable to the whole site and not to a particular
 - Theme 16. Support services
 </blockquote>
 
-In the section ["Compliance rate with the standard"](../obligations.html#compliance-rate-with-the-standard) on the "Requirements" page, all references to the "average rate" have been removed and only the "overall rate" is referred to as the reference rate, in particular for drawing up the accessibility statement.
+In the section ["Compliance rate with the standard"](./methodo-test.html#compliance-rate-with-the-standard) on the "Testing Methodology" page, all references to the "average rate" have been removed and only the "overall rate" is referred to as the reference rate, in particular for drawing up the accessibility statement.
 
 #### Modification of the computer test environment
 

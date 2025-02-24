@@ -38,4 +38,4 @@ Dans ces situations, le critère est non applicable. Par exemple, le rafraîchis
 
 #### Note
 
-Le test 13.1.1 de ce critère est soumis au [principe de non-interférence](../obligations.html#principe-de-non-interférence).
+Le test 13.1.1 de ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interférence).

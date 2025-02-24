@@ -2,4 +2,4 @@
 title: Released
 ---
 
-Corresponds to JavaScript event handlers considered as bottom-up events (`mouseup`, `touchend` for example).
+Corresponds to JavaScript event handlers considered as up events (`mouseup`, `touchend` for example).

@@ -16,4 +16,4 @@ Norm:
 
 #### Note
 
-Ce critère est soumis au [principe de non-interférence](../obligations.html#principe-de-non-interférence).
+Ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interférence).

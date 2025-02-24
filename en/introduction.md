@@ -11,11 +11,9 @@ The RAWeb technical method provides an operational framework for checking compli
 
 It includes 136 control criteria. Some tests refer to implementation techniques (HTML, CSS, JavaScript, etc.) to check that the criterion has been met, in order to reduce the margin of interpretation as to whether accessibility standards have been complied with.
 
-If the framework is not updated within 3 years, and in order to take into account new standards or technical specifications, it is possible to create your own tests in addition to the existing ones.
-
 Some tests, in particular those concerning user interface components developed in JavaScript, require content to be assessed using assistive technologies associated with browsers and operating systems. The test environment (or "baseline") is described on the [Test environment](environnement.html) page. 
 
-The RAWeb technical method only covers Websites, native mobile applications are covered by [RAAM 1](../raam1/index.html).
+The RAWeb technical method only covers Websites, native mobile applications are covered by [RAAM 1.1](../raam1.1/index.html).
 
 The current version is version 1, and contains content from [RGAA 4.1.2](https://accessibilite.numerique.gouv.fr/). This framework has been adapted by the [Information and Press Service](https://sip.gouvernement.lu/en.html) to refer to the Luxembourg legal framework. The sources are available in the [accessibility-luxembourg/ReferentielAccessibiliteWeb](https://github.com/accessibility-luxembourg/ReferentielAccessibiliteWeb) repository on GitHub.
 If you find any issue in this framework, feel free to create a ticket in this repository.

@@ -50,17 +50,17 @@ Cette mise à jour s’accompagne également d’évolutions des contenus issus 
 
 #### Introduction du principe de non-interférence
 
-Une nouvelle section [&laquo;&nbsp;Principe de non-interférence&nbsp;&raquo;](../obligations.html#principe-de-non-interférence) a été introduite dans la page &laquo;&nbsp;Obligations&nbsp;&raquo; afin de se conformer pleinement à la norme EN 301 549.
+Une nouvelle section [&laquo;&nbsp;Principe de non-interférence&nbsp;&raquo;](./methodo-test.html#principe-de-non-interférence) a été introduite dans la page &laquo;&nbsp;Méthodologie de test&nbsp;&raquo; afin de se conformer pleinement à la norme EN 301 549.
 
 De plus, chaque critère inclus dans le principe de non-interférence est identifié dans le référentiel technique par la mention &laquo;&nbsp;Ce critère est soumis au principe de non-interférence&nbsp;&raquo;.
 
 #### Modification de la description de l’échantillon pour l’audit d’un site web
 
-La section [&laquo;&nbsp;Échantillon pour l’audit d’un site web &nbsp;&raquo;](../obligations.html#Échantillon-pour-l’audit-d’un-site-web) de la page &laquo;&nbsp;Obligations&nbsp;&raquo; a été modifiée pour prendre en compte les évolutions des critères du RAWeb, notamment en introduisant l’obligation d’évaluer la documentation du site web ou du service d’assistance.
+La section [&laquo;&nbsp;Échantillon pour l’audit d’un site web &nbsp;&raquo;](./methodo-test.html#Échantillon) de la page &laquo;&nbsp;Méthodologie de test&nbsp;&raquo; a été modifiée pour prendre en compte les évolutions des critères du RAWeb, notamment en introduisant l’obligation d’évaluer la documentation du site web ou du service d’assistance.
 
 #### Précisions concernant le taux de conformité et la méthodologie générale
 
-Dans la section [&laquo;&nbsp;Test des pages ou écrans&nbsp;&raquo;](../obligations.html#test-des-pages-ou-écrans) de la page &laquo;&nbsp;Obligations&nbsp;&raquo;, une note est ajoutée sur les modalités possibles de gestion des contenus communs à plusieurs pages d’un échantillon : 
+Dans la section [&laquo;&nbsp;Test des pages&nbsp;&raquo;](./methodo-test.html#test-des-pages) de la page &laquo;&nbsp;Méthodologie de test&nbsp;&raquo;, une note est ajoutée sur les modalités possibles de gestion des contenus communs à plusieurs pages d’un échantillon : 
 
 <blockquote>
 Certains critères ou thématiques sont applicables à l’ensemble du site et non à une page particulière, il n’est donc pas nécessaire de les évaluer sur toutes les pages de l’échantillon. Dans ce cas, ils peuvent par exemple être évalués sur une seule page de l’échantillon et être considérés comme non applicables sur toutes les autres pages. Cette méthodologie permettant de rapporter les résultats de l’évaluation de ces critères est bien entendu optionnelle. Quelle que soit la méthodologie choisie, il n’y aura pas d’impact sur le taux de conformité global du site. C’est notamment le cas pour les critères et thématiques suivantes :
@@ -70,7 +70,7 @@ Certains critères ou thématiques sont applicables à l’ensemble du site et n
 - La thématique « 16. Services d’assistance »
 </blockquote>
 
-Dans la section [&laquo;&nbsp;Taux de conformité à la norme&nbsp;&raquo;](../obligations.html#taux-de-conformité-à-la-norme) de la page &laquo;&nbsp;Obligations&nbsp;&raquo;, toute référence au &laquo;&nbsp;taux moyen&nbsp;&raquo; est supprimée pour ne faire référence qu’au &laquo;&nbsp;taux global&nbsp;&raquo; en tant que taux de référence, notamment pour l’établissement de la déclaration d’accessibilité.
+Dans la section [&laquo;&nbsp;Taux de conformité à la norme&nbsp;&raquo;](./methodo-test.html#taux-de-conformité-à-la-norme) de la page &laquo;&nbsp;Méthodologie de test&nbsp;&raquo;, toute référence au &laquo;&nbsp;taux moyen&nbsp;&raquo; est supprimée pour ne faire référence qu’au &laquo;&nbsp;taux global&nbsp;&raquo; en tant que taux de référence, notamment pour l’établissement de la déclaration d’accessibilité.
 
 #### Modification de l’environnement de test Ordinateur
 

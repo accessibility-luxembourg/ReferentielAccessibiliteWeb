@@ -2,4 +2,4 @@
 title: Pressed
 ---
 
-Corresponds to JavaScript event handlers considered as descendant events (`mousedown`, `touchstart` for example).
+Corresponds to JavaScript event handlers considered as down events (`mousedown`, `touchstart` for example).
