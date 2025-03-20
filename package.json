@@ -7,7 +7,9 @@
     "build:criteria": "node ./scripts/generate-criteria.js",
     "build:glossary": "node ./scripts/generate-glossary.js",
     "build:methodo": "node ./scripts/generate-methodologies.js", 
-    "build": "npm run build:criteria && npm run build:glossary && npm run build:methodo"
+    "build": "npm run build:criteria && npm run build:glossary && npm run build:methodo",
+    "lint:links": "node ./scripts/link-checker.js",
+    "fix:links": "node ./scripts/link-checker.js --fix"
   },
   "author": "SIP",
   "license": "CC-BY-3.0",
