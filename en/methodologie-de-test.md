@@ -165,7 +165,7 @@ A very useful extension is available for checking the document tree structure an
 - [HeadingsMap for Firefox](https://addons.mozilla.org/en-US/firefox/addon/headingsmap/): Firefox extension that lets you preview the document map and its tree structure;
 - [HeadingsMap for Chrome](https://chrome.google.com/webstore/detail/headingsmap/flbjommegcjonpdmenkdiocclhjacmbi): same extension as above for Chrome.
 
-Various tools can be used to analyse office files, depending on the file format:
+Various tools can be used to analyze office files, depending on the file format:
 
 - [PAC (PDF Accessibility Checker) 2024 for Windows](https://pac.pdf-accessibility.org/en): software for checking certain accessibility issues in PDF documents;
 - Recent versions of Microsoft Office offer a built-in accessibility validation feature (see the article [Make your Word documents accessible to people with disabilities](https://support.microsoft.com/en-us/office/make-your-word-documents-accessible-to-people-with-disabilities-d9bf3683-87ac-47ea-b91a-78dcacb3c66d) and related articles);
