@@ -15,9 +15,9 @@ The pages are organised as follows:
   * [Testing environment](./en/environnement-de-test.md)
   * [References](./en/references.md)
 * Documentation
-  * [Auditing kit](./kit-audit.md)
-  * [Testing methodology](./methodologie-de-test.md)
-  * [Changelog](./notes-de-revision.md)
+  * [Auditing kit](./en/kit-audit.md)
+  * [Testing methodology](./en/methodologie-de-test.md)
+  * [Changelog](./en/notes-de-revision.md)
 
 The same content is also available in French, in the <code>/fr</code> folder.
 
