@@ -6,8 +6,9 @@
   "scripts": {
     "build:criteria": "node ./scripts/generate-criteria.js",
     "build:glossary": "node ./scripts/generate-glossary.js",
-    "build:methodo": "node ./scripts/generate-methodologies.js", 
-    "build": "npm run build:criteria && npm run build:glossary && npm run build:methodo"
+    "build:methodo": "node ./scripts/generate-methodologies.js",
+    "build:asca": "node ./scripts/generate-asca-criteria.js",
+    "build": "npm run build:criteria && npm run build:glossary && npm run build:methodo && npm run build:asca"
   },
   "author": "SIP",
   "license": "CC-BY-3.0",

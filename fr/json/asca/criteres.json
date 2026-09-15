@@ -1,0 +1,1230 @@
+{
+  "schemaVersion": 1,
+  "referential": "raweb-1.1",
+  "questions": [
+    {
+      "id": 1,
+      "critere": "1.1",
+      "recommandation": "Chaque image porteuse d’information a-t-elle une alternative textuelle ?",
+      "level": "A",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 2,
+      "critere": "1.2",
+      "recommandation": "Chaque image de décoration, sans légende, est-elle correctement ignorée par les technologies d’assistance ?",
+      "level": "A",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 3,
+      "critere": "1.3",
+      "recommandation": "Pour chaque image porteuse d’information ayant une alternative textuelle, cette alternative est-elle pertinente (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 4,
+      "critere": "1.4",
+      "recommandation": "Pour chaque image utilisée comme CAPTCHA ou comme image-test, ayant une alternative textuelle, cette alternative permet-elle d’identifier la nature et la fonction de l’image ?",
+      "level": "A",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 5,
+      "critere": "1.5",
+      "recommandation": "Pour chaque image utilisée comme CAPTCHA, une solution d’accès alternatif au contenu ou à la fonction du CAPTCHA est-elle présente ?",
+      "level": "A",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 6,
+      "critere": "1.6",
+      "recommandation": "Chaque image porteuse d’information a-t-elle, si nécessaire, une description détaillée ?",
+      "level": "A",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 7,
+      "critere": "1.7",
+      "recommandation": "Pour chaque image porteuse d’information ayant une description détaillée, cette description est-elle pertinente ?",
+      "level": "A",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 8,
+      "critere": "1.8",
+      "recommandation": "Chaque image texte porteuse d’information, en l’absence d’un mécanisme de remplacement, doit si possible être remplacée par du texte stylé. Cette règle est-elle respectée (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 9,
+      "critere": "1.9",
+      "recommandation": "Chaque légende d’image est-elle, si nécessaire, correctement reliée à l’image correspondante ?",
+      "level": "A",
+      "theme": "Images",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 10,
+      "critere": "2.1",
+      "recommandation": "Chaque cadre a-t-il un titre de cadre ?",
+      "level": "A",
+      "theme": "Cadres",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 11,
+      "critere": "2.2",
+      "recommandation": "Pour chaque cadre ayant un titre de cadre, ce titre de cadre est-il pertinent ?",
+      "level": "A",
+      "theme": "Cadres",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 12,
+      "critere": "3.1",
+      "recommandation": "Dans chaque page web, l’information ne doit pas être donnée uniquement par la couleur. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Couleurs",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 13,
+      "critere": "3.2",
+      "recommandation": "Dans chaque page web, le contraste entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Couleurs",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 14,
+      "critere": "3.3",
+      "recommandation": "Dans chaque page web, les couleurs utilisées dans les composants d’interface ou les éléments graphiques porteurs d’informations sont-elles suffisamment contrastées (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Couleurs",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 15,
+      "critere": "4.1",
+      "recommandation": "Chaque média temporel pré-enregistré a-t-il, si nécessaire, une transcription textuelle ou une audiodescription (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 16,
+      "critere": "4.2",
+      "recommandation": "Pour chaque média temporel pré-enregistré ayant une transcription textuelle ou une audiodescription synchronisée, celles-ci sont-elles pertinentes (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 17,
+      "critere": "4.3",
+      "recommandation": "Chaque média temporel synchronisé a-t-il, si nécessaire, des sous-titres synchronisés (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 18,
+      "critere": "4.4",
+      "recommandation": "Pour chaque média temporel synchronisé ayant des sous-titres synchronisés, ces sous-titres sont-ils pertinents (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 19,
+      "critere": "4.5",
+      "recommandation": "Chaque média temporel pré-enregistré a-t-il, si nécessaire, une audiodescription synchronisée (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 20,
+      "critere": "4.6",
+      "recommandation": "Pour chaque média temporel pré-enregistré ayant une audiodescription synchronisée, celle-ci est-elle pertinente ?",
+      "level": "AA",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 21,
+      "critere": "4.7",
+      "recommandation": "Chaque média temporel est-il clairement identifiable (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 22,
+      "critere": "4.8",
+      "recommandation": "Chaque média non temporel a-t-il, si nécessaire, une alternative (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 23,
+      "critere": "4.9",
+      "recommandation": "Pour chaque média non temporel ayant une alternative, cette alternative est-elle pertinente ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 24,
+      "critere": "4.10",
+      "recommandation": "Chaque son déclenché automatiquement est-il contrôlable par l’utilisateur ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 25,
+      "critere": "4.11",
+      "recommandation": "La consultation de chaque média temporel est-elle, si nécessaire, contrôlable par le clavier et tout dispositif de pointage ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 26,
+      "critere": "4.12",
+      "recommandation": "La consultation de chaque média non temporel est-elle contrôlable par le clavier et tout dispositif de pointage ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 27,
+      "critere": "4.13",
+      "recommandation": "Chaque média temporel et non temporel est-il compatible avec les technologies d’assistance (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 28,
+      "critere": "4.14",
+      "recommandation": "Pour chaque média temporel qui dispose d’une piste de sous-titres synchronisés ou d’une audiodescription, les fonctionnalités de contrôle de ces alternatives sont-elles présentées au même niveau que les fonctionnalités principales ?",
+      "level": "AA",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 29,
+      "critere": "4.15",
+      "recommandation": "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel synchronisé pré-enregistré qui possède une piste de sous-titres, à l’issue du processus, les sous-titres sont-ils correctement conservés ?",
+      "level": "AA",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 30,
+      "critere": "4.16",
+      "recommandation": "Pour chaque fonctionnalité qui transmet, convertit ou enregistre un média temporel pré-enregistré avec une audiodescription synchronisée, à l’issue du processus, l’audiodescription est-elle correctement conservée ?",
+      "level": "AA",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 31,
+      "critere": "4.17",
+      "recommandation": "Pour chaque média temporel pré-enregistré, la présentation des sous-titres est-elle contrôlable par l’utilisateur (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 32,
+      "critere": "4.18",
+      "recommandation": "Pour chaque média temporel synchronisé pré-enregistré qui possède des sous-titres de traduction synchronisés, ceux-ci peuvent-ils être vocalisés (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Multimédia",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 33,
+      "critere": "5.1",
+      "recommandation": "Chaque tableau de données complexe a-t-il un résumé ?",
+      "level": "A",
+      "theme": "Tableaux",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 34,
+      "critere": "5.2",
+      "recommandation": "Pour chaque tableau de données complexe ayant un résumé, celui-ci est-il pertinent ?",
+      "level": "A",
+      "theme": "Tableaux",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 35,
+      "critere": "5.3",
+      "recommandation": "Pour chaque tableau de mise en forme, le contenu linéarisé reste-t-il compréhensible ?",
+      "level": "A",
+      "theme": "Tableaux",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 36,
+      "critere": "5.4",
+      "recommandation": "Pour chaque tableau de données ayant un titre, le titre est-il correctement associé au tableau de données ?",
+      "level": "A",
+      "theme": "Tableaux",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 37,
+      "critere": "5.5",
+      "recommandation": "Pour chaque tableau de données ayant un titre, celui-ci est-il pertinent ?",
+      "level": "A",
+      "theme": "Tableaux",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 38,
+      "critere": "5.6",
+      "recommandation": "Pour chaque tableau de données, chaque en-tête de colonne et chaque en-tête de ligne sont-ils correctement déclarés ?",
+      "level": "A",
+      "theme": "Tableaux",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 39,
+      "critere": "5.7",
+      "recommandation": "Pour chaque tableau de données, la technique appropriée permettant d’associer chaque cellule avec ses en-têtes est-elle utilisée (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Tableaux",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 40,
+      "critere": "5.8",
+      "recommandation": "Chaque tableau de mise en forme ne doit pas utiliser d’éléments propres aux tableaux de données. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Tableaux",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 41,
+      "critere": "6.1",
+      "recommandation": "Chaque lien est-il explicite (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Liens",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 42,
+      "critere": "6.2",
+      "recommandation": "Dans chaque page web, chaque lien a-t-il un intitulé ?",
+      "level": "A",
+      "theme": "Liens",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 43,
+      "critere": "7.1",
+      "recommandation": "Chaque script est-il, si nécessaire, compatible avec les technologies d’assistance ?",
+      "level": "A",
+      "theme": "Scripts",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 44,
+      "critere": "7.2",
+      "recommandation": "Pour chaque script ayant une alternative, cette alternative est-elle pertinente ?",
+      "level": "A",
+      "theme": "Scripts",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 45,
+      "critere": "7.3",
+      "recommandation": "Chaque script est-il contrôlable par le clavier et par tout dispositif de pointage (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Scripts",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 46,
+      "critere": "7.4",
+      "recommandation": "Pour chaque script qui initie un changement de contexte, l’utilisateur est-il averti ou en a-t-il le contrôle ?",
+      "level": "A",
+      "theme": "Scripts",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 47,
+      "critere": "7.5",
+      "recommandation": "Dans chaque page web, les messages de statut sont-ils correctement restitués par les technologies d’assistance ?",
+      "level": "AA",
+      "theme": "Scripts",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 48,
+      "critere": "8.1",
+      "recommandation": "Chaque page web est-elle définie par un type de document ?",
+      "level": "A",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 49,
+      "critere": "8.2",
+      "recommandation": "Pour chaque page web, le code source généré est-il valide selon le type de document spécifié ?",
+      "level": "A",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 50,
+      "critere": "8.3",
+      "recommandation": "Dans chaque page web, la langue par défaut est-elle présente ?",
+      "level": "A",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 51,
+      "critere": "8.4",
+      "recommandation": "Pour chaque page web ayant une langue par défaut, le code de langue est-il pertinent ?",
+      "level": "A",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 52,
+      "critere": "8.5",
+      "recommandation": "Chaque page web a-t-elle un titre de page ?",
+      "level": "A",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 53,
+      "critere": "8.6",
+      "recommandation": "Pour chaque page web ayant un titre de page, ce titre est-il pertinent ?",
+      "level": "A",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 54,
+      "critere": "8.7",
+      "recommandation": "Dans chaque page web, chaque changement de langue est-il indiqué dans le code source (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 55,
+      "critere": "8.8",
+      "recommandation": "Dans chaque page web, le code de langue de chaque changement de langue est-il valide et pertinent ?",
+      "level": "AA",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 56,
+      "critere": "8.9",
+      "recommandation": "Dans chaque page web, les balises ne doivent pas être utilisées uniquement à des fins de présentation. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 57,
+      "critere": "8.10",
+      "recommandation": "Dans chaque page web, les changements du sens de lecture sont-ils signalés ?",
+      "level": "A",
+      "theme": "Éléments obligatoires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 58,
+      "critere": "9.1",
+      "recommandation": "Dans chaque page web, l’information est-elle structurée par l’utilisation appropriée de titres ?",
+      "level": "A",
+      "theme": "Structuration de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 59,
+      "critere": "9.2",
+      "recommandation": "Dans chaque page web, la structure du document est-elle cohérente ?",
+      "level": "A",
+      "theme": "Structuration de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 60,
+      "critere": "9.3",
+      "recommandation": "Dans chaque page web, chaque liste est-elle correctement structurée ?",
+      "level": "A",
+      "theme": "Structuration de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 61,
+      "critere": "9.4",
+      "recommandation": "Dans chaque page web, chaque citation est-elle correctement indiquée ?",
+      "level": "A",
+      "theme": "Structuration de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 62,
+      "critere": "10.1",
+      "recommandation": "Dans le site web, des feuilles de styles sont-elles utilisées pour contrôler la présentation de l’information ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 63,
+      "critere": "10.2",
+      "recommandation": "Dans chaque page web, le contenu visible porteur d’information est-il accessible aux technologies d’assistance ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 64,
+      "critere": "10.3",
+      "recommandation": "Dans chaque page web, l’information reste-t-elle compréhensible lorsque les feuilles de styles sont désactivées ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 65,
+      "critere": "10.4",
+      "recommandation": "Dans chaque page web, le texte reste-t-il lisible lorsque la taille des caractères est augmentée jusqu’à 200 %, au moins (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 66,
+      "critere": "10.5",
+      "recommandation": "Dans chaque page web, les déclarations CSS de couleurs de fond d’élément et de police sont-elles correctement utilisées ?",
+      "level": "AA",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 67,
+      "critere": "10.6",
+      "recommandation": "Dans chaque page web, chaque lien dont la nature n’est pas évidente est-il visible par rapport au texte environnant ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 68,
+      "critere": "10.7",
+      "recommandation": "Dans chaque page web, pour chaque élément recevant le focus du clavier, la prise de focus est-elle visible ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 69,
+      "critere": "10.8",
+      "recommandation": "Pour chaque page web, les contenus cachés ont-ils vocation à être ignorés par les technologies d’assistance ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 70,
+      "critere": "10.9",
+      "recommandation": "Dans chaque page web, l’information ne doit pas être donnée uniquement par la forme, taille ou position. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 71,
+      "critere": "10.10",
+      "recommandation": "Dans chaque page web, l’information ne doit pas être donnée par la forme, taille ou position uniquement. Cette règle est-elle implémentée de façon pertinente ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 72,
+      "critere": "10.11",
+      "recommandation": "Pour chaque page web, les contenus peuvent-ils être présentés sans perte d’information ou de fonctionnalité et sans avoir recours soit à un défilement vertical pour une fenêtre ayant une hauteur de 256 px, soit à un défilement horizontal pour une fenêtre ayant une largeur de 320 px (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 73,
+      "critere": "10.12",
+      "recommandation": "Dans chaque page web, les propriétés d’espacement du texte peuvent-elles être redéfinies par l’utilisateur sans perte de contenu ou de fonctionnalité (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 74,
+      "critere": "10.13",
+      "recommandation": "Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d’un composant d’interface sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 75,
+      "critere": "10.14",
+      "recommandation": "Dans chaque page web, les contenus additionnels apparaissant via les styles CSS uniquement peuvent-ils être rendus visibles au clavier et par tout dispositif de pointage ?",
+      "level": "A",
+      "theme": "Présentation de l’information",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 76,
+      "critere": "11.1",
+      "recommandation": "Chaque champ de formulaire a-t-il une étiquette ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 77,
+      "critere": "11.2",
+      "recommandation": "Chaque étiquette associée à un champ de formulaire est-elle pertinente (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 78,
+      "critere": "11.3",
+      "recommandation": "Dans chaque formulaire, chaque étiquette associée à un champ de formulaire ayant la même fonction et répétée plusieurs fois dans une même page ou dans un ensemble de pages est-elle cohérente ?",
+      "level": "AA",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 79,
+      "critere": "11.4",
+      "recommandation": "Dans chaque formulaire, chaque étiquette de champ et son champ associé sont-ils accolés (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 80,
+      "critere": "11.5",
+      "recommandation": "Dans chaque formulaire, les champs de même nature sont-ils regroupés, si nécessaire ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 81,
+      "critere": "11.6",
+      "recommandation": "Dans chaque formulaire, chaque regroupement de champs de même nature a-t-il une légende ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 82,
+      "critere": "11.7",
+      "recommandation": "Dans chaque formulaire, chaque légende associée à un regroupement de champs de même nature est-elle pertinente ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 83,
+      "critere": "11.8",
+      "recommandation": "Dans chaque formulaire, les items de même nature d’une liste de choix sont-ils regroupés de manière pertinente ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 84,
+      "critere": "11.9",
+      "recommandation": "Dans chaque formulaire, l’intitulé de chaque bouton est-il pertinent (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 85,
+      "critere": "11.10",
+      "recommandation": "Dans chaque formulaire, le contrôle de saisie est-il utilisé de manière pertinente (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 86,
+      "critere": "11.11",
+      "recommandation": "Dans chaque formulaire, le contrôle de saisie est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ?",
+      "level": "AA",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 87,
+      "critere": "11.12",
+      "recommandation": "Pour chaque formulaire qui modifie ou supprime des données, ou qui transmet des réponses à un test ou à un examen, ou dont la validation a des conséquences financières ou juridiques, les données saisies peuvent-elles être modifiées, mises à jour ou récupérées par l’utilisateur ?",
+      "level": "AA",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 88,
+      "critere": "11.13",
+      "recommandation": "La finalité d’un champ de saisie peut-elle être déduite pour faciliter le remplissage automatique des champs avec les données de l’utilisateur ?",
+      "level": "AA",
+      "theme": "Formulaires",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 89,
+      "critere": "12.1",
+      "recommandation": "Chaque ensemble de pages dispose-t-il de deux systèmes de navigation différents, au moins (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 90,
+      "critere": "12.2",
+      "recommandation": "Dans chaque ensemble de pages, le menu et les barres de navigation sont-ils toujours à la même place (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 91,
+      "critere": "12.3",
+      "recommandation": "La page « plan du site » est-elle pertinente ?",
+      "level": "AA",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 92,
+      "critere": "12.4",
+      "recommandation": "Dans chaque ensemble de pages, la page « plan du site » est-elle accessible à partir d’une fonctionnalité identique ?",
+      "level": "AA",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 93,
+      "critere": "12.5",
+      "recommandation": "Dans chaque ensemble de pages, le moteur de recherche est-il atteignable de manière identique ?",
+      "level": "AA",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 94,
+      "critere": "12.6",
+      "recommandation": "Les zones de regroupement de contenus présentes dans plusieurs pages web (à l’exception des zones principales constituant la structure du document) peuvent-elles être atteintes ou évitées, si nécessaire ?",
+      "level": "A",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 95,
+      "critere": "12.7",
+      "recommandation": "Dans chaque page web, un lien d’évitement ou d’accès rapide à la zone de contenu principal est-il présent (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 96,
+      "critere": "12.8",
+      "recommandation": "Dans chaque page web, l’ordre de tabulation est-il cohérent ?",
+      "level": "A",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 97,
+      "critere": "12.9",
+      "recommandation": "Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 98,
+      "critere": "12.10",
+      "recommandation": "Dans chaque page web, les raccourcis clavier n’utilisant qu’une seule touche (lettre minuscule ou majuscule, ponctuation, chiffre ou symbole) sont-ils contrôlables par l’utilisateur ?",
+      "level": "A",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 99,
+      "critere": "12.11",
+      "recommandation": "Dans chaque page web, les contenus additionnels apparaissant au survol, à la prise de focus ou à l’activation d’un composant d’interface sont-ils si nécessaire atteignables au clavier ?",
+      "level": "A",
+      "theme": "Navigation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 100,
+      "critere": "13.1",
+      "recommandation": "Pour chaque page web, l’utilisateur a-t-il le contrôle de chaque limite de temps modifiant le contenu (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 101,
+      "critere": "13.2",
+      "recommandation": "Dans chaque page web, l’ouverture d’une nouvelle fenêtre ne doit pas être déclenchée sans action de l’utilisateur. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 102,
+      "critere": "13.3",
+      "recommandation": "Dans chaque page web, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une version accessible (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 103,
+      "critere": "13.4",
+      "recommandation": "Pour chaque document bureautique ayant une version accessible, cette version offre-t-elle la même information ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 104,
+      "critere": "13.5",
+      "recommandation": "Dans chaque page web, chaque contenu cryptique est-il correctement identifié ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 105,
+      "critere": "13.6",
+      "recommandation": "Dans chaque page web, pour chaque contenu cryptique ayant une alternative, cette alternative est-elle pertinente ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 106,
+      "critere": "13.7",
+      "recommandation": "Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 107,
+      "critere": "13.8",
+      "recommandation": "Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 108,
+      "critere": "13.9",
+      "recommandation": "Dans chaque page web, le contenu proposé est-il consultable, quelle que soit l’orientation de l’écran (portrait ou paysage) (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 109,
+      "critere": "13.10",
+      "recommandation": "Dans chaque page web, les fonctionnalités utilisables ou disponibles au moyen d’un geste complexe peuvent-elles être également disponibles au moyen d’un geste simple (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 110,
+      "critere": "13.11",
+      "recommandation": "Dans chaque page web, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran peuvent-elles faire l’objet d’une annulation (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 111,
+      "critere": "13.12",
+      "recommandation": "Dans chaque page web, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 112,
+      "critere": "13.13",
+      "recommandation": "Pour chaque fonctionnalité de conversion d’un document, les informations relatives à l’accessibilité disponibles dans le document source sont-elles conservées dans le document de destination (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 113,
+      "critere": "13.14",
+      "recommandation": "Chaque fonctionnalité d’identification ou de contrôle qui repose sur l’utilisation de caractéristiques biologiques de l’utilisateur dispose-t-elle d’une méthode alternative ?",
+      "level": "A",
+      "theme": "Consultation",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 114,
+      "critere": "14.1",
+      "recommandation": "La documentation du site web décrit-elle les fonctionnalités d’accessibilité disponibles et les informations relatives à la compatibilité avec l’accessibilité ?",
+      "level": "AA",
+      "theme": "Documentation et fonctionnalités d’accessibilité",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 115,
+      "critere": "14.2",
+      "recommandation": "Pour chaque fonctionnalité d’accessibilité décrite dans la documentation, le mécanisme qui permet de l’activer répond aux besoins d’accessibilité des utilisateurs concernés. Cette règle est-elle respectée (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Documentation et fonctionnalités d’accessibilité",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 116,
+      "critere": "14.3",
+      "recommandation": "La documentation du site web est-elle conforme aux règles d’accessibilité numérique ?",
+      "level": "AA",
+      "theme": "Documentation et fonctionnalités d’accessibilité",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 117,
+      "critere": "15.1",
+      "recommandation": "Chaque outil d’édition permet-il de définir les informations d’accessibilité nécessaires pour créer un contenu conforme aux règles d’accessibilité numérique ?",
+      "level": "AA",
+      "theme": "Outils d’édition",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 118,
+      "critere": "15.2",
+      "recommandation": "Chaque outil d’édition met-il à disposition des aides à la création de contenus conformes aux règles d’accessibilité numérique ?",
+      "level": "A",
+      "theme": "Outils d’édition",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 119,
+      "critere": "15.3",
+      "recommandation": "Le contenu généré par chaque transformation des contenus est-il conforme aux règles d’accessibilité numérique (hors cas particuliers) ?",
+      "level": "AA",
+      "theme": "Outils d’édition",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 120,
+      "critere": "15.4",
+      "recommandation": "Pour chaque erreur d’accessibilité relevée par un test d’accessibilité automatique ou semi-automatique, l’outil d’édition fournit-il des suggestions de réparation ?",
+      "level": "AA",
+      "theme": "Outils d’édition",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 121,
+      "critere": "15.5",
+      "recommandation": "Pour chaque ensemble de gabarits, un gabarit au moins permet de répondre aux règles d’accessibilité numérique. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Outils d’édition",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 122,
+      "critere": "15.6",
+      "recommandation": "Chaque gabarit qui permet de répondre aux règles d’accessibilité numérique est-il clairement identifiable ?",
+      "level": "A",
+      "theme": "Outils d’édition",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 123,
+      "critere": "16.1",
+      "recommandation": "Chaque service d’assistance fournit-il des informations relatives aux fonctionnalités d’accessibilité et à la compatibilité avec l’accessibilité, décrites dans la documentation du site web ?",
+      "level": "AA",
+      "theme": "Services d’assistance",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 124,
+      "critere": "16.2",
+      "recommandation": "Chaque service d’assistance répond aux besoins de communication des personnes handicapées directement ou par l’intermédiaire d’un service de relais. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Services d’assistance",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 125,
+      "critere": "16.3",
+      "recommandation": "La documentation fournie par le service d’assistance est-elle conforme aux règles d’accessibilité numérique ?",
+      "level": "AA",
+      "theme": "Services d’assistance",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 126,
+      "critere": "17.1",
+      "recommandation": "Pour chaque application web de communication orale bidirectionnelle, l’application est-elle capable d’encoder et de décoder cette communication avec une gamme de fréquences dont la limite supérieure est de 7 000 Hz au moins ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 127,
+      "critere": "17.2",
+      "recommandation": "Chaque application web qui permet une communication orale bidirectionnelle dispose-t-elle d’une fonctionnalité de communication écrite en temps réel ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 128,
+      "critere": "17.3",
+      "recommandation": "Pour chaque application web qui permet une communication orale bidirectionnelle et écrite en temps réel, les deux modes sont-ils utilisables simultanément ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 129,
+      "critere": "17.4",
+      "recommandation": "Pour chaque fonctionnalité de communication écrite en temps réel, les messages peuvent-ils être identifiés (hors cas particuliers) ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 130,
+      "critere": "17.5",
+      "recommandation": "Pour chaque application web de communication orale bidirectionnelle, un indicateur visuel de l’activité orale est-il présent ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 131,
+      "critere": "17.6",
+      "recommandation": "Chaque application web de communication écrite en temps réel qui peut interagir avec d’autres applications de communication écrite en temps réel respecte-t-elle les règles d’interopérabilité en vigueur ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 132,
+      "critere": "17.7",
+      "recommandation": "Pour chaque application web de communication écrite en temps réel, le délai de transmission de chaque unité de saisie est de 500ms ou moins. Cette règle est-elle respectée ?",
+      "level": "AA",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 133,
+      "critere": "17.8",
+      "recommandation": "Pour chaque application web de télécommunication, l’identification de l’interlocuteur qui initie un appel est-elle accessible ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 134,
+      "critere": "17.9",
+      "recommandation": "Pour chaque application web de communication orale bidirectionnelle qui permet d’identifier l’activité d’un interlocuteur oralisant, il est possible d’identifier l’activité d’un interlocuteur signant. Cette règle est-elle respectée ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 135,
+      "critere": "17.10",
+      "recommandation": "Pour chaque application web de communication orale bidirectionnelle qui dispose de fonctionnalités vocales, celles-ci sont-elles utilisables sans la nécessité d’écouter ou parler ?",
+      "level": "A",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    },
+    {
+      "id": 136,
+      "critere": "17.11",
+      "recommandation": "Pour chaque application web de communication orale bidirectionnelle qui dispose d’une vidéo en temps réel, la qualité de la vidéo est-elle suffisante ?",
+      "level": "AA",
+      "theme": "Communication en temps réel",
+      "defaultStatus": "NT",
+      "defaultDerogation": "N"
+    }
+  ]
+}
