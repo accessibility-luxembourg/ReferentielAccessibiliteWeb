@@ -38,3 +38,29 @@ The contents of the RAWeb are licensed under a Creative Commons [CC-BY 3.0 LU](h
 These contents have been adapted to the Luxembourg legal context by the [Service information et presse](https://sip.gouvernement.lu) and are listed in the [changelog](./en/notes-de-revision.md). 
 
 The RGAA technical method is adapted from the RGAA 3 technical framework updated 2017 (list of criteria, glossary, special cases, technical notes, "baseline" test environment) which is itself an adapted copy of the AccessiWeb HTML5/ARIA framework - Working version of 19/12/2013 - Published by the BrailleNet association. Copyright 2013 BrailleNet Association. All rights reserved.
+
+## Build
+
+The reference files are generated using Node.js scripts located in the `scripts` folder.
+
+Install the dependencies:
+
+```bash id="3x4x7b"
+npm install
+```
+
+Generate all reference files:
+
+```bash id="38kz7f"
+npm run build
+```
+
+Individual files can also be generated separately:
+
+```bash id="btdfb1"
+npm run build:criteria
+npm run build:glossary
+npm run build:methodo
+npm run build:asca
+```
+
