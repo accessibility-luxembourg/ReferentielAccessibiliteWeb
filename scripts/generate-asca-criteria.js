@@ -1,9 +1,9 @@
 const fs = require("fs").promises;
 const path = require("path");
 
-const LANGUAGES = ["fr", "en"];
-const REFERENTIAL_ID = "raweb-1.1";
-const EXPECTED_CRITERIA_COUNT = 136;
+const LANGUAGES = ["fr"];
+const REFERENTIAL_ID = "raweb-2.0";
+const EXPECTED_CRITERIA_COUNT = 173;
 
 /**
  * Remove Markdown formatting that ASCA does not need in criterion labels.
@@ -41,7 +41,7 @@ async function readJson(filePath) {
 async function generateAscaCriteria(lang) {
   const langRoot = path.join(__dirname, "..", lang);
   const criteriaPath = path.join(langRoot, "json", "criteres.json");
-  const levelsPath = path.join(langRoot, "niveaux.json");
+  const levelsPath = path.join(langRoot, "en301549-v4.json");
   const themesPath = path.join(langRoot, "themes.json");
   const destinationDir = path.join(langRoot, "json", "asca");
   const destinationPath = path.join(destinationDir, "criteres.json");
@@ -74,6 +74,7 @@ async function generateAscaCriteria(lang) {
     for (const entry of topic.criteria) {
       const criterion = entry?.criterium;
       const criterionNumber = `${topicNumber}.${criterion?.number}`;
+      const enNumber = ''+criterion?.references['EN301549-V4'];
 
       if (!criterion?.number || !criterion?.title) {
         throw new Error(`${lang}: critère incomplet dans le thème ${topicNumber}.`);
@@ -84,9 +85,12 @@ async function generateAscaCriteria(lang) {
       }
       seenCriteria.add(criterionNumber);
 
-      const level = levels[criterionNumber];
-      if (!level) {
-        throw new Error(`${lang}: niveau absent pour le critère ${criterionNumber}.`);
+      // const level = levels[criterionNumber];
+      let level = levels.criteria.find(r => r['data-ref'] === enNumber.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0])
+      if (level !== undefined){
+        level = level.level
+      } else {
+        level = 'N/A'
       }
 
       questions.push({
