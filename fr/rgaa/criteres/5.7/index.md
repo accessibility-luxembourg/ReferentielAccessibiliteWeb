@@ -1,3 +1,3 @@
 ---
-title: Pour chaque [tableau de données](#tableau-de-donnees), la technique appropriée permettant d’associer chaque cellule avec ses [en-têtes](#en-tete-de-colonne-ou-de-ligne) est-elle utilisée (hors cas particuliers) ?
+title: Pour chaque [tableau de mise en forme](#tableau-de-mise-en-forme), le rôle n’est pas présenté aux technologies d’assistance. Cette règle est-elle respectée ?
 ---

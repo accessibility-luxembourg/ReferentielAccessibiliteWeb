@@ -1,24 +1,13 @@
 ---
-WCAG:
-  - successCriterion: 2.5.2
-    title: Pointer Cancellation
-    level: A
+EN301549-V4: 9.1.1.1
+WCAG: 1.1.1
 Techniques:
-  - F101
-  - G210
-  - G212
-Norm:
-  - criterion: 9.2.5.2
-    title: Pointer Cancellation
+  - G144
 ---
 
-#### Cas particuliers
-
-Il existe une gestion de cas particulier lorsque la fonctionnalité nécessite que le comportement attendu soit réalisé lors d’un événement descendant, par exemple, un émulateur de clavier dont les touches doivent s’activer à la pression comme sur un clavier physique. Dans ces situations, le critère est non applicable.
 
 #### Notes techniques
 
-Deux exemples de mécanisme mis en place pour annuler ou abandonner une action déclenchée au moyen d’un dispositif de pointage sur un point unique de l’écran :
+Un CAPTCHA qui repose à la fois sur une information visuelle et sonore, devra être évalué par les deux tests.
 
-- Une fenêtre modale permettant d’annuler l’action après son achèvement ;
-- Pour une fonction de glisser/déposer, le fait d’abandonner l’action si l’utilisateur relâche l’élément en dehors de la zone cible.
+Il existe une particularité pour les procédures d’authentification, avec des attentes sur la portée des [tests cognitifs](#test-cognitif). L’alternative qui serait proposée en recommandation de correction de ce critère devra aussi satisfaire le {% crit 13.13  %}.

@@ -1,3 +1,3 @@
 ---
-title: Pour chaque [tableau de données](#tableau-de-donnees), chaque [en-tête de colonne](#en-tete-de-colonne-ou-de-ligne) et chaque [en-tête de ligne](#en-tete-de-colonne-ou-de-ligne) sont-ils correctement déclarés ?
+title: Pour chaque [tableau de données](#tableau-de-donnees), la technique appropriée permettant d’associer chaque cellule avec ses [en-têtes](#en-tete-de-colonne-ou-de-ligne) est-elle utilisée (hors cas particuliers) ?
 ---

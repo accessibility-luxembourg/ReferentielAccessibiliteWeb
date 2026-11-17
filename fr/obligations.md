@@ -49,7 +49,7 @@ Certains contenus sont exemptés de l’obligation d’accessibilité et se situ
 
 #### Norme de référence et niveau de conformité
 
-Les sites Internet et applications mobiles doivent se référer et respecter la norme européenne [EN 301 549 V3.2.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf) afin d’être considérés comme conformes aux exigences légales en matière d’accessibilité.
+Les sites Internet et applications mobiles doivent se référer et respecter la norme européenne [EN 301 549 V4.1.1](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf) afin d’être considérés comme conformes aux exigences légales en matière d’accessibilité.
 
 #### Dérogation pour charge disproportionnée
 

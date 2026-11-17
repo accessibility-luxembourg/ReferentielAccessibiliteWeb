@@ -1,8 +1,7 @@
 ---
-WCAG:
-  - successCriterion: 1.4.10
-    title: Reflow
-    level: AA
+EN301549-V4: 9.1.4.10
+WCAG: 1.4.10
+RAWEB1.1: 10.11
 Techniques:
   - C31
   - C32
@@ -14,16 +13,14 @@ Techniques:
   - G206
   - G224
   - G225
-Norm:
-  - criterion: 9.1.4.10
-    title: Reflow
+ACT: 18
 ---
 
 #### Cas particuliers
 
 L’objectif de ce critère est de garantir un défilement dans une unique direction pour une lecture facilitée selon le sens de l’écriture.
 
-Font exception à ce critère, les contenus dont l’agencement requiert deux dimensions pour être compris ou utilisés comme :
+Le critère ne s’applique pas aux contenus dont l’agencement requiert deux dimensions pour être compris ou utilisés comme :
 
 - Les images, les graphiques ou les vidéos ;
 - Les jeux (jeux de plateforme, par exemple) ;
@@ -35,4 +32,4 @@ Note : la majorité des navigateurs sur les systèmes d’exploitation sur mobi
 
 #### Note technique
 
-Lorsqu’il est ici question de pixel, il s’agit du pixel CSS tel que défini par le W3C https://www.w3.org/TR/css3-values/
+Lorsqu’il est ici question de pixel, il s’agit du [pixel CSS tel que défini par le W3C](https://www.w3.org/TR/css3-values/). 

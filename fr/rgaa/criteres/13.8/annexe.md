@@ -1,39 +1,15 @@
 ---
-WCAG:
-  - successCriterion: 2.2.1
-    title: Timing Adjustable
-    level: A
-  - successCriterion: 2.2.2
-    title: Pause, Stop, Hide
-    level: A
+EN301549-V4: 9.2.5.4
+WCAG: 2.5.4
+RAWEB1.1: 13.12
 Techniques:
-  - F7
-  - F16
-  - F50
-  - F112
-  - G4
-  - G11
-  - G152
-  - G186
-  - G191
-  - SCR22
-  - SCR33
-  - SCR36
-  - SM11
-  - SM12
-Norm:
-  - criterion: 9.2.2.1
-    title: Timing Adjustable
-  - criterion: 9.2.2.2
-    title: Pause, Stop, Hide
+  - F106
+  - G213
 ---
 
 #### Cas particuliers
 
-Lorsque le mouvement, le clignotement ou le défilement est un élément essentiel au bon déroulement ou à la compréhension d’une fonctionnalité, le critère est non applicable.
+Le critère ne s’applique pas lorsque :
 
-Dans certains cas, le mouvement fait partie intégrante du composant et il n’est pas possible d’en donner le contrôle à l’utilisateur, par exemple une barre de progression (ou <em lang="en">loader</em>) dont la fonction est d’indiquer par un mouvement la progression d’un évènement comme un téléchargement. Dans ce cas, le critère est non applicable.
-
-#### Note
-
-Ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interférence).
+- Le mouvement est [essentiel](#essentiel) à l’accomplissement de la fonctionnalité (ex. podomètre).
+- La détection du mouvement est utilisée pour contrôler une fonctionnalité au travers d’une interface compatible avec l’accessibilité.

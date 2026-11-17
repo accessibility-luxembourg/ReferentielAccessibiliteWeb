@@ -1,3 +1,3 @@
 ---
-title: Pour chaque fonctionnalité qui transmet, convertit ou enregistre un [média temporel](#media-temporel-type-son-video-et-synchronise) pré-enregistré avec une audiodescription synchronisée, à l’issue du processus, l’[audiodescription](#audiodescription-synchronisee-media-temporel) est-elle correctement conservée ?
+title: Chaque média temporel a-t-il, si nécessaire, les fonctionnalités de [contrôle de sa consultation](#controle-de-la-consultation-d-un-media-temporel) (hors cas particuliers) ?
 ---

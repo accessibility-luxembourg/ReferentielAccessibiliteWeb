@@ -1,39 +1,36 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
-  - successCriterion: 1.3.2
-    title: Meaningful Sequence
-    level: A
-  - successCriterion: 2.4.1
-    title: Bypass Blocks
-    level: A
-  - successCriterion: 2.4.3
-    title: Focus Order
-    level: A
-  - successCriterion: 3.1.1
-    title: Language of Page
-    level: A
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
+EN301549-V4: 9.2.2.2
+WCAG: 2.2.2
+RAWEB1.1: 13.8
 Techniques:
-  - F15
-  - G10
-  - G135
-Norm: tous les critères de la section 10 Non-web documents.
+  - F7
+  - F16
+  - F50
+  - F112
+  - G4
+  - G11
+  - G152
+  - G186
+  - G191
+  - SCR22
+  - SCR33
 ---
 
 #### Cas particuliers
 
-Il existe une gestion de cas particuliers :
+Le critère ne s’applique pas lorsque le mouvement, le clignotement ou le défilement :
 
-- Si les fichiers bureautiques (ex : PDF, documents Microsoft ou LibreOffice, etc.) ont été publiés avant le 23 septembre 2018 sur un site internet d’un organisme du secteur public soumis à la [loi du 28 mai 2019](http://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) (sauf si ces contenus sont nécessaires pour les besoins de processus administratifs actifs concernant des tâches effectuées par l’organisme du secteur public concerné), ils sont exemptés de l’obligation d’accessibilité.
+- a une durée inférieure ou égale à 5 secondes ; 
+- concerne un contenu qui n’est pas présenté en parallèle d’autres contenus (par exemple, une publicité animée présentée en plein écran pendant 15 secondes, sans contenus présentés en parallèle) ;
+- est un élément [essentiel](#essentiel) au bon déroulement ou à la compréhension d’une fonctionnalité ;
+- fait partie intégrante du composant et il n’est pas possible d’en donner le contrôle à l’utilisateur, par exemple une barre de progression (ou <em lang="en">loader</em>) dont la fonction est d’indiquer par un mouvement la progression d’un évènement comme un téléchargement.
 
-Dans cette situation, le critère est non applicable.
+#### Notes techniques
 
-Dans le cas de documents PDF, s’il n’existe pas de version alternative accessible, ceux-ci doivent être conformes au [référentiel d’évaluation de l’accessibilité des documents au format PDF (RAPDF)](../rapdf1.1/index.html).
+Ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interférence).
+
+Si un clignotement se produit à une fréquence supérieure à 3 fois par seconde, il est considéré comme un flash, le {% crit 13.4 %} est alors également concerné.
+
+L’arrêt ou la mise en pause d’un contenu en mouvement ou clignotant au moyen du survol ou de la prise de focus (par exemple, l’effet est suspendu uniquement pendant la prise de focus) n’est pas considéré comme un procédé conforme. 
+
+Le déclenchement automatique au survol ou à la prise de focus est concerné par le critère.

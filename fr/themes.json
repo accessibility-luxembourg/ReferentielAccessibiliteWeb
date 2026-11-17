@@ -18,7 +18,7 @@
 		"title": "Liens"
 	},
 	"7": {
-		"title": "Scripts"
+		"title": "Composants d’interface"
 	},
 	"8": {
 		"title": "Éléments obligatoires"
@@ -38,9 +38,8 @@
 	"13": {
 		"title": "Consultation"
 	},
-
 	"14": {
-		"title": "Documentation et fonctionnalités d’accessibilité"
+		"title": "Informations sur les produits et services"
 	},
 
 	"15": {
@@ -52,6 +51,6 @@
 	},
 
 	"17": {
-		"title": "Communication en temps réel"
+		"title": "Communication bidirectionnelle en temps réel et conversation totale"
 	}
 }

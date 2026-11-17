@@ -1,13 +1,7 @@
 ---
-WCAG:
-  - successCriterion: 2.4.2
-    title: Page Titled
-    level: A
+WCAG: 1.3.2
+EN301549-V4: 9.1.3.2
+RAWEB1.1: "8.10"
 Techniques:
-  - G88
-  - G127
-  - H25
-Norm:
-  - criterion: 9.2.4.2
-    title: Page Titled
+  - H56
 ---

@@ -23,38 +23,9 @@ async function parseReferences(path) {
 	const data = await fs.readFile(path, "utf-8");
 	const result = await fm(data);
 
-    let wcag = []
-    if (Array.isArray(result.attributes.WCAG)) {
-        wcag = result.attributes.WCAG.map((w) => {
-            return `${w.successCriterion} ${w.title} (${w.level})`;
-        });
-    } 
+	let res = result.attributes
 
-    let norm = []
-    if (result.attributes.Norm !== undefined) {
-        if (Array.isArray(result.attributes.Norm)) {
-            norm = result.attributes.Norm.map((w) => {
-                if (w.criterion === undefined) {
-                    console.log(`${w.criterion} ${file}`)
-                }
-                return `${w.criterion} ${w.title}`;
-            });
-        } else {
-            norm = result.attributes.Norm
-        }
-    } 
-
-	return [
-		{
-			wcag,
-		},
-		{
-			techniques: result.attributes.Techniques,
-		},
-		{
-			norm
-		},
-	];
+	return res;
 }
 
 /**
@@ -88,6 +59,7 @@ async function parseTests(folderPath) {
  * @returns {string[]}
  */
 function formatPCAndTN(str) {
+	if (str === undefined) { str = ''}
 	const critRegex = /\{% crit (?<id>\d{1,2}.\d{1,2}) %\}/g; // {% crit 12.10 %}
 	const testRegex = /\{% test '(?<id>\d{1,2}.\d{1,2}.\d{1,2})' %\}/g; // {% test 2.10.3 %}
 	const baseUrl = "https://accessibilite.numerique.gouv.fr";
@@ -189,9 +161,8 @@ async function generateCriteria(lang) {
 	const CRITERIA_SOURCE = `${__dirname}/../${lang}/rgaa/criteres`;
 	const CRITERIA_DESTINATION = `${__dirname}/../${lang}/json/criteres.json`;
 
-	try {
 		// Init JSON data
-		let jsonData = { wcag: { version: 2.1 }, topics: [] };
+		let jsonData = { 'en301549': { version: '4.1.1' }, topics: [] };
 		const criteria = [];
 
 		const folders = await fs.readdir(CRITERIA_SOURCE);
@@ -259,11 +230,7 @@ async function generateCriteria(lang) {
 		await fs.writeFile(CRITERIA_DESTINATION, data);
 
 		console.log(`✅ Criteria list successfully generated.`);
-	} catch (error) {
-		console.error(
-			`❌ An error occured while generating criteria list: ${error}`
-		);
-	}
+
 }
 
 generateCriteria('fr');

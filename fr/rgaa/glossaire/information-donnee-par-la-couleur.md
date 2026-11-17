@@ -1,13 +1,12 @@
 ---
-title: Information (donnée par la couleur)
+title: Information donnée par la couleur
 ---
 
-Information transmise visuellement par l’intermédiaire d’une couleur. L’indication que les champs en rouge sont obligatoires dans un formulaire, l’utilisation d’un fond bleu pour indiquer la page en cours de consultation dans un menu avec le fond vert, le changement de couleur d’un nom d’article pour indiquer son indisponibilité dans une liste d’articles sont autant d’exemples d’indication donnée par la couleur.
+Information transmise visuellement par l’intermédiaire d’une couleur. L’indication que les champs en rouge sont obligatoires dans un formulaire, le bouton actif dans une liste de boutons, le changement de couleur d’un nom d’article pour indiquer son indisponibilité dans une liste d’articles sont autant d’exemples d’indication donnée par la couleur.
 
-Lorsqu’une information donnée par la couleur est accompagnée d’une autre méthode à destination des utilisateurs qui ne voient pas ou perçoivent mal les couleurs ou leurs associations, le critère sera considéré comme non applicable.
+L’indication donnée uniquement par la couleur doit être accompagnée d’une autre méthode à destination des utilisateurs qui ne voient pas ou perçoivent mal les couleurs ou leurs associations.
 
-Les moyens de transmettre une information autrement que par la couleur peuvent être :
+L’indication donnée par la couleur doit être fournie : 
 
-- Une indication textuelle visible ;
-- Un moyen faisant intervenir du graphisme (pictogramme, image de fond, forme, style de bordure différent, etc.) et par le biais d’un complément au niveau du code (`aria-label`, `title`, texte masqué, `aria-current`, etc.) ;
-- Un autre style typographique (gras, italique, taille de texte, autre police, etc) et par le biais d’un complément au niveau du code (`aria-label`, `title`, texte masqué, `aria-current`, etc.).
+- un moyen faisant intervenir du graphisme (pictogramme, image de fond, forme, style de bordure différent, etc.) ou un autre style typographique (gras, italique, taille de texte, autre police, etc) pour les utilisateurs qui perçoivent mal les couleurs ;
+- et par une information descriptive (visible ou non) présente sur l’élément (ou de manière adjacente) afin que les lecteurs d’écran restituent l’information aux utilisateurs qui ne voient pas (un complément au niveau du code (`aria-label`, `title`, texte masqué, `aria-current`, etc.).

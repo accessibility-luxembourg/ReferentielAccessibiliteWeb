@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 6.1
-    title: Audio bandwidth for speech
+EN301549-V4: 6.1.1
+RAWEB1.1: N/A
 ---

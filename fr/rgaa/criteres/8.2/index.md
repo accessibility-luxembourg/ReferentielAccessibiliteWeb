@@ -1,3 +1,3 @@
 ---
-title: Pour chaque page web, le code source généré est-il valide selon le [type de document](#type-de-document) spécifié ?
+title: Pour chaque page web ayant une [langue par défaut](#langue-par-defaut), le [code de langue](#code-de-langue) est-il pertinent ?
 ---

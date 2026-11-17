@@ -2,7 +2,7 @@
 title: Liste des valeurs possibles pour l’attribut `autocomplete`
 ---
 
-[La liste des valeurs](https://www.w3.org/Translations/WCAG21-fr/#input-purposes) disponibles est fournie par la spécification WCAG 2.1 :
+[La liste des valeurs](https://www.w3.org/Translations/WCAG22-fr/#input-purposes) disponibles est fournie par la spécification WCAG 2.2 :
 
 - `name` -- Nom complet ;
 - `honorific-prefix` -- Abréviation, civilité ou titre ;
@@ -45,7 +45,7 @@ title: Liste des valeurs possibles pour l’attribut `autocomplete`
 - `bday-month` -- Le mois de la date d’anniversaire ;
 - `bday-year` -- L’année de la date d’anniversaire ;
 - `sex` -- Identité de genre ;
-- `url` -- Page d’accueil ou une autre page Web correspondant à l’organisation, la personne, l’adresse ou à l’information de contact dans les autres champs associés avec ce champ ;
+- `url` -- Page d’accueil ou une autre page web correspondant à l’organisation, la personne, l’adresse ou à l’information de contact dans les autres champs associés avec ce champ ;
 - `photo` -- Photographie, icône ou une autre image correspondant à l’organisation, la personne, l’adresse ou à l’information de contact dans les autres champs associés avec ce champ ;
 - `tel` -- Numéro de téléphone complet, y compris le code pays ;
 - `tel-country-code` -- Code pays du numéro de téléphone ;

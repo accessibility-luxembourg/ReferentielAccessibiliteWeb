@@ -1,20 +1,22 @@
 ---
-WCAG:
-  - successCriterion: 2.5.1
-    title: Pointer Gestures
-    level: A
+EN301549-V4: 9.1.3.4
+WCAG: 1.3.4
+RAWEB1.1: 13.9
 Techniques:
-  - F105
-  - G215
-  - G216
-Norm:
-  - criterion: 9.2.5.1
-    title: Pointer Gestures
+  - F97
+  - F100
+  - G214
+ACT:
+  - 14
 ---
 
 #### Cas particuliers
 
-Il existe une gestion de cas particuliers dans deux types de situations :
+Le critère ne s’applique par lorsqu’une orientation spécifique de l’affichage est [essentielle](#essentiel), par exemple une interface de jeu, une application de piano, une application de dépôt de chèques bancaires, etc.
 
-- Le critère ne s’applique qu’à des fonctionnalités mises en place par l’auteur du site. Il ne concerne donc pas les gestes requis par l’agent utilisateur ou le système d’exploitation ;
-- Le critère ne s’applique pas aux fonctionnalités dont la réalisation d’un geste complexe est essentielle (exécuter le tracé d’une signature, par exemple).
+Si l’interface est le seul moyen d’accéder au service proposé, une alternative devrait être mise en place pour pallier cette carence.
+
+#### Références documentaires
+
+- [Screen Orientation specification](https://www.w3.org/TR/screen-orientation/) 
+- [CSS Viewport Module Level 1](https://www.w3.org/TR/css-viewport-1/)

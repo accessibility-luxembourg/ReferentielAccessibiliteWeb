@@ -1,15 +1,8 @@
 ---
-WCAG:
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
+WCAG: 3.3.2
+EN301549-V4: 9.3.3.2
+RAWEB1.1: 11.6
 Techniques:
-  - H85
-Norm:
-  - criterion: 9.1.3.1
-    title: Info and Relationships
+  - ARIA17
+  - H71
 ---
-
-#### Notes techniques
-
-Il est possible d’utiliser une balise ayant un attribut WAI-ARIA `role="listbox"` en remplacement d’une balise `<select>`. En revanche, il est impossible de créer des groupes d’options via l’utilisation de WAI-ARIA. De ce fait, une liste nécessitant un regroupement d’options structurées à l’aide d’une balise ayant un attribut WAI-ARIA `role="listbox"` sera considérée comme non conforme au critère 11.8.

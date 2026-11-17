@@ -1,16 +1,20 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
+WCAG: 1.2.5
+EN301549-V4: 9.1.2.5
 Techniques:
-  - G68
-  - G100
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
+  - F113
+  - G8
+  - G78
+  - G173
+  - G203
+  - G226
+  - H96
+  - SM1
+  - SM2
+  - SM6
+  - SM7
 ---
 
 #### Cas particuliers
 
-Il existe une gestion de cas particulier lorsque le [média temporel](#media-temporel-type-son-video-et-synchronise) est utilisé à des fins décoratives (c’est-à-dire qu’il n’apporte aucune information). Dans cette situation, le critère est non applicable.
+Voir les cas particuliers du {% crit 4.2 %}.

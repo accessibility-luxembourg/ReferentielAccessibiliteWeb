@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 6.4
-    title: Alternatives to voice-based services
+RAWEB1.1 : N/A
+EN301549-V4: 6.2.2.5
 ---

@@ -1,12 +1,7 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
+EN301549-V4: 9.1.1.1
+WCAG: 1.1.1
 Techniques:
   - G100
   - G143
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
 ---

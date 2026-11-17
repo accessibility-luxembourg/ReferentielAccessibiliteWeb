@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, les [messages de statut](#message-de-statut) sont-ils correctement restitués par les technologies d’assistance ?
+title: Dans chaque page web, les contenus additionnels apparaissant à la prise de focus ou au survol d’un [composant d’interface](#composant-d-interface) sont-ils contrôlables par l’utilisateur (hors cas particuliers) ?
 ---

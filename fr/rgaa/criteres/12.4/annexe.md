@@ -1,17 +1,16 @@
 ---
-WCAG:
-  - successCriterion: 2.4.5
-    title: Multiple Ways
-    level: AA
-  - successCriterion: 3.2.3
-    title: Consistent Navigation
-    level: AA
+EN301549-V4: 9.3.2.3
+WCAG: 3.2.3
+RAWEB1.1:  
 Techniques:
+  - F66
   - G61
-  - G63
-Norm:
-  - criterion: 9.2.4.5
-    title: Multiple Ways
-  - criterion: 9.3.2.3
-    title: Consistent Navigation
 ---
+
+#### Cas particuliers
+
+Le critère ne s’applique pas lorsque :
+
+- la page est la page d’accueil ;
+- le site web est constitué d’une seule page ;
+- le changement fait suite à une modification (zoom, orientation, …) initiée par l’utilisateur.

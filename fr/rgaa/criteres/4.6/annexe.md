@@ -1,18 +1,20 @@
 ---
-WCAG:
-  - successCriterion: 1.2.5
-    title: Audio Description (Prerecorded)
-    level: AA
+WCAG: 1.2.5
+EN301549-V4: 9.1.2.5
 Techniques:
   - F113
+  - G8
+  - G78
+  - G173
+  - G203
   - G226
+  - H96
   - SM1
   - SM2
   - SM6
   - SM7
-Norm:
-  - criterion: 7.2.2
-    title: Audio description synchronization
-  - criterion: 9.1.2.5
-    title: Audio Description (Prerecorded)
 ---
+
+#### Cas particuliers
+
+Voir les cas particuliers du {% crit 4.2 %}.

@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ?
+title: Chaque fonctionnalité d’identification ou de contrôle qui repose sur l’utilisation d’une [caractéristique biologique](#caracteristique-biologique) de l’utilisateur dispose-t-elle d’une méthode alternative qui ne repose pas sur une caractéristique biologique ?
 ---

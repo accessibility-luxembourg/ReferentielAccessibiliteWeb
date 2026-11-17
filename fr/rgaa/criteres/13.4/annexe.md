@@ -1,33 +1,13 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
-  - successCriterion: 1.3.2
-    title: Meaningful Sequence
-    level: A
-  - successCriterion: 2.4.1
-    title: Bypass Blocks
-    level: A
-  - successCriterion: 2.4.3
-    title: Focus Order
-    level: A
-  - successCriterion: 3.1.1
-    title: Language of Page
-    level: A
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
+EN301549-V4: 9.2.3.1
+WCAG: 2.3.1
+RAWEB1.1: 13.7
 Techniques:
-  - F15
-  - G10
-  - G135
-Norm: tous les critères de la section 10 <span lang="en">Non-web documents</span>.
+  - G15
+  - G19
+  - G176
 ---
 
-#### Cas particuliers
+#### Note
 
-Voir cas particuliers [critère 13.3](#crit-13-3).
+Ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interférence).

@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, chaque contenu en mouvement ou clignotant est-il [contrôlable](#controle-contenu-en-mouvement-ou-clignotant) par l’utilisateur (hors cas particuliers) ?
+title: Dans chaque page web, les fonctionnalités qui impliquent un mouvement de l’appareil ou vers l’appareil peuvent-elles être satisfaites de manière alternative (hors cas particuliers) ?
 ---

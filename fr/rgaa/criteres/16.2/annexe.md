@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 12.2.3
-    title: Effective communication
+EN301549-V4: 12.2
+RAWEB1.1: 16.3
 ---

@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, chaque document bureautique en téléchargement possède-t-il, si nécessaire, une [version accessible](#version-accessible-pour-un-document-en-telechargement) (hors cas particuliers) ?
+title: Dans chaque page web, chaque contenu en mouvement ou clignotant déclenché automatiquement est-il [contrôlable](#controle-contenu-en-mouvement-ou-clignotant) par l’utilisateur (hors cas particuliers) ?
 ---

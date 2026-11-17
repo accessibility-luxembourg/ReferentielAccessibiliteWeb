@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, l’information reste-t-elle [compréhensible](#comprehensible-ordre-de-lecture) lorsque les [feuilles de styles](#feuille-de-style) sont désactivées ?
+title: Dans chaque page web, le [contenu visible](#contenu-visible) porteur d’information est-il accessible aux technologies d’assistance ?
 ---

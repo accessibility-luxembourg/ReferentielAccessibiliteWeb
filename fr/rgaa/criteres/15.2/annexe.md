@@ -1,8 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 11.8.1
-    title: Content technology
-  - criterion: 11.8.2
-    title: Accessible content creation
+EN301549-V4: 5.10.2
+RAWEB1.1: 15.2
 ---

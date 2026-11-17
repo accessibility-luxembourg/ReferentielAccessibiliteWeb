@@ -1,11 +1,7 @@
 ---
-WCAG:
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
+EN301549-V4: 9.1.3.2
+WCAG: 1.3.2
+RAWEB1.1: 5.3.1[C1]
 Techniques:
-  - F46
-Norm:
-  - criterion: 9.1.3.1
-    title: Info and Relationships
+  - F49
 ---

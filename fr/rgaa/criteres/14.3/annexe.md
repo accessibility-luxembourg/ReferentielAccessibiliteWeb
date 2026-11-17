@@ -1,6 +1,5 @@
 ---
 WCAG: N/A
-Norm:
-  - criterion: 12.1.2
-    title: Accessible documentation
+EN301549-V4: 12.2
+RAWEB1.1: N/A
 ---

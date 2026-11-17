@@ -1,33 +1,17 @@
 ---
-WCAG:
-  - successCriterion: 1.4.4
-    title: Resize Text
-    level: AA
+EN301549-V4:  9.1.3.2
+WCAG: 1.3.2
+RAWEB1.1: 10.8.1[C1]
 Techniques:
-  - C12
-  - C13
-  - C14
-  - C17
-  - C28
-  - F69
-  - F80
-  - F94
-  - G142
-  - G146
-  - G178
-  - G179
-  - SCR34
-Norm:
-  - criterion: 9.1.4.4
-    title: Resize Text
-  - criterion: 11.7
-    title: User preferences
+  - G57
 ---
 
-#### Cas particuliers
+#### Notes techniques
 
-Font exception à ce critère, les contenus pour lesquels l’utilisateur n’a pas de possibilité de personnalisation :
+WAI-ARIA propose un attribut `aria-hidden` (`true` ou `false`) qui permet d’inhiber la restitution d’un contenu en direction des technologies d’assistance, sans action sur sa visibilité en direction des agents utilisateurs : un contenu avec `aria-hidden="true"` ne sera donc plus vocalisable, mais restera visible.
 
-- Les sous-titres incrustés dans une vidéo ;
-- Les textes en image ;
-- Le texte au sein d’une balise `<canvas>`.
+Sauf si le contenu contrôlé par `aria-hidden` n’a pas vocation à être restitué par les technologies d’assistance, la valeur de l’attribut `aria-hidden` doit être cohérente avec l’état affiché ou masqué du contenu à l’écran.
+
+La spécification HTML5 propose un attribut `hidden` qui permet de rendre indisponible (quand l’attribut `hidden` est présent) un contenu dans le DOM généré (de manière similaire au `type="hidden"` sur un contrôle de formulaire).
+
+Il est possible d’avoir des situations où un contenu contrôlé par `hidden` ou `aria-hidden` se trouve momentanément dans un état incohérent avec le statut affiché ou masqué du contenu, par exemple si l’on désire rendre disponible un élément, mais que son affichage à l’écran reste dépendant d’une action ultérieure. Dans ce cas, c’est l’état final du contenu qui doit être considéré.

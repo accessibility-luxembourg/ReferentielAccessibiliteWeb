@@ -1,3 +1,3 @@
 ---
-title: Pour chaque application web de [communication orale bidirectionnelle](#application-web-de-communication-orale-bidirectionnelle) qui dispose de [fonctionnalités vocales](#fonctionnalites-vocales), celles-ci sont-elles utilisables sans la nécessité d’écouter ou parler ?
+title: Pour chaque application web qui permet une [communication orale](#application-web-de-communication-orale-bidirectionnelle) et [écrite en temps réel](#communication-ecrite-en-temps-reel), l’intégralité du texte en temps réel échangé pendant une communication est-elle consultable ?
 ---

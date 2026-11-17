@@ -1,22 +1,20 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
+EN301549-V4: 9.2.5.1
+WCAG: 2.5.1
+RAWEB1.1: "13.10"
 Techniques:
-  - F71
-  - F70
-  - G135
-  - H86
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
+  - F105
+  - G215
+  - G216
 ---
 
-#### Note technique
+#### Cas particuliers
 
-Si un contenu cryptique informatif est imbriqué dans une balise possédant un attribut WAI-ARIA `role="img"`, il sera évalué sur les critères 1.1 et 1.3 et le critère 13.5 sera considéré non applicable.
+Le critère ne s’applique pas lorsque :
 
-Si un contenu cryptique décoratif est imbriqué dans une balise possédant un attribut WAI-ARIA `aria-hidden="true"`, quel que soit le niveau d’imbrication, alors il sera considéré comme étant masqué pour les technologies d’assistance.
+- Le geste est requis par l’agent utilisateur ou le système d’exploitation et n’est pas modifié par l’auteur.
+- La réalisation d’un geste complexe est [essentielle](#essentiel) pour la fonctionnalité (exécuter le tracé d’une signature, par exemple).
 
-Du fait du faible support de la balise `<abbr>` et de l’attribut `title`, la mise à disposition de la signification d’un contenu cryptique avec cette implémentation ne permet pas de rendre le critère conforme.
+#### Notes techniques 
+
+Le critère 13.5 s’intéresse aux gestes complexes, notamment les gestes qui nécessitent que le dispositif de pointage suive une trajectoire précise. À l’inverse du {% crit 13.6 %} qui s’intéresse aux mouvements de glissements qui ne tiennent pas compte des trajectoires du dispositif de pointage.

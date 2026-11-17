@@ -1,6 +1,6 @@
 {
-  "wcag": {
-    "version": 2.1
+  "en301549": {
+    "version": "4.1.1"
   },
   "topics": [
     {
@@ -49,27 +49,28 @@
                 "A mechanism allows the user to replace the `<canvas>` element with [alternative content](#alternative-content)."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F65",
-                  "H24",
-                  "H36",
-                  "H37",
-                  "H53"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F65",
+                "H24",
+                "H36",
+                "H37",
+                "H53"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -110,30 +111,38 @@
                 "The `<embed>` tag and its children have no [text alternative](#text-alternative-image)."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA4",
-                  "C9",
-                  "F38",
-                  "F39",
-                  "G196",
-                  "H67"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA4",
+                "C9",
+                "F38",
+                "F39",
+                "G196",
+                "H67"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -196,32 +205,40 @@
                 "For each [image conveying information](#image-conveying-information) with a [text alternative](#text-alternative-image), is the [text alternative](#text-alternative-image) [short and concise](#short-and-concise-alternative) (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA6",
-                  "ARIA9",
-                  "ARIA10",
-                  "F30",
-                  "F71",
-                  "G94",
-                  "G95",
-                  "G196"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA6",
+                "ARIA9",
+                "ARIA10",
+                "F30",
+                "F71",
+                "G94",
+                "G95",
+                "G196"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -278,24 +295,25 @@
                 "If present, the [alternative content](#alternative-content) is relevant."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G100",
-                  "G143"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G100",
+                "G143"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -314,23 +332,24 @@
                 "There is another way to access the functionality secured by the [CAPTCHA](#captcha)."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G144"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G144"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -391,26 +410,27 @@
                 "There is an [adjacent link or button](#adjacent-link-or-button) leading to the [detailed description](#detailed-description-image)."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA6",
-                  "G92",
-                  "G74",
-                  "G73"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA6",
+                "G92",
+                "G74",
+                "G73"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -462,24 +482,25 @@
                 "The passage of text linked by the WAI-ARIA `aria-describedby` attribute is relevant."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F67",
-                  "G92"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F67",
+                "G92"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -506,26 +527,27 @@
                 "In the absence of a [replacement mechanism](#replacement-mechanism), every SVG [image of text](#image-of-text) (`<svg>` tag) [conveying information](#image-conveying-information) whose text is not completely implemented using `<text>` elements, must, if possible, be replaced by [styled text](#styled-text). Is this rule respected (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.5 Images of Text (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "C22",
-                  "C30",
-                  "G136",
-                  "G140"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.5 Images of Text"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.5",
+                  "title": "Images of Text",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "C22",
+                "C30",
+                "G136",
+                "G140"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.5",
+                  "title": "Images of Text"
+                }
+              ]
+            }
           }
         },
         {
@@ -559,27 +581,35 @@
                 "The [image caption](#image-caption) is contained in a `<figcaption>` tag."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA4",
-                  "ARIA6",
-                  "G140"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA4",
+                "ARIA6",
+                "G140"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         }
       ]
@@ -597,23 +627,24 @@
                 "Does each frame (`<iframe>` or `<frame>` tag) have a `title` attribute?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H64"
-                ]
-              },
-              {
-                "norm": [
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H64"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -625,23 +656,24 @@
                 "For each frame (`<iframe>` or `<frame>` tag) with a `title` attribute, is the content of this attribute relevant?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H64"
-                ]
-              },
-              {
-                "norm": [
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H64"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         }
       ]
@@ -674,31 +706,39 @@
                 "For each [non-time-based media](#non-time-based-media) [conveying information](#image-conveying-information-provided-by-colour), the [information](#information-provided-by-colour) must not be provided by colour alone. Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "1.4.1 Use of color (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F13",
-                  "G14",
-                  "G182",
-                  "G111",
-                  "G117",
-                  "G138",
-                  "G205"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.1.4.1 Use of color"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.4.1",
+                  "title": "Use of color",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F13",
+                "G14",
+                "G182",
+                "G111",
+                "G117",
+                "G138",
+                "G205"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.1.4.1",
+                  "title": "Use of color"
+                }
+              ]
+            }
           }
         },
         {
@@ -730,30 +770,34 @@
                 "In the [mechanism for displaying a compliant contrast ratio](#mechanism-for-displaying-a-compliant-contrast-ratio), is the contrast ratio between the text and the background colour high enough?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.3 Contrast (Minimum) (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "C29",
-                  "F83",
-                  "G18",
-                  "G136",
-                  "G148",
-                  "G174",
-                  "G145"
-                ]
-              },
-              {
-                "norm": [
-                  "5.2 Activation of accessibility features",
-                  "9.1.4.3 Contrast (Minimum)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.3",
+                  "title": "Contrast (Minimum)",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "C29",
+                "F83",
+                "G18",
+                "G136",
+                "G148",
+                "G174",
+                "G145"
+              ],
+              "Norm": [
+                {
+                  "criterion": 5.2,
+                  "title": "Activation of accessibility features"
+                },
+                {
+                  "criterion": "9.1.4.3",
+                  "title": "Contrast (Minimum)"
+                }
+              ]
+            }
           }
         },
         {
@@ -780,32 +824,36 @@
                 "In the [mechanism for displaying a compliant contrast ratio](#mechanism-for-displaying-a-compliant-contrast-ratio), are the colours of the component or of its graphic element conveying information sufficiently contrasted?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.11 Non-text Contrast (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F78",
-                  "G18",
-                  "G136",
-                  "G145",
-                  "G174",
-                  "G183",
-                  "G195",
-                  "G207",
-                  "G209"
-                ]
-              },
-              {
-                "norm": [
-                  "5.2 Activation of accessibility features",
-                  "9.1.4.11 Non-text Contrast"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.11",
+                  "title": "Non-text Contrast",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F78",
+                "G18",
+                "G136",
+                "G145",
+                "G174",
+                "G183",
+                "G195",
+                "G207",
+                "G209"
+              ],
+              "Norm": [
+                {
+                  "criterion": 5.2,
+                  "title": "Activation of accessibility features"
+                },
+                {
+                  "criterion": "9.1.4.11",
+                  "title": "Non-text Contrast"
+                }
+              ]
+            }
           }
         }
       ]
@@ -841,35 +889,43 @@
                 "There is an alternative version with a synchronised [audio description](#synchronised-audio-description-time-based-media) accessible via an [adjacent link or button](#adjacent-link-or-button)."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.2.1 Audio-only and Video-only (Prerecorded) (A)",
-                  "1.2.3 Audio Description or Media Alternative (Prerecorded) (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G8",
-                  "G58",
-                  "G69",
-                  "G78",
-                  "G158",
-                  "G159",
-                  "G166",
-                  "G173",
-                  "H96",
-                  "SM6",
-                  "SM7"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.2.1 Audio-only and Video-only (Prerecorded)",
-                  "9.1.2.3 Audio Description or Media Alternative (Prerecorded)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.2.1",
+                  "title": "Audio-only and Video-only (Prerecorded)",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.2.3",
+                  "title": "Audio Description or Media Alternative (Prerecorded)",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G8",
+                "G58",
+                "G69",
+                "G78",
+                "G158",
+                "G159",
+                "G166",
+                "G173",
+                "H96",
+                "SM6",
+                "SM7"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.2.1",
+                  "title": "Audio-only and Video-only (Prerecorded)"
+                },
+                {
+                  "criterion": "9.1.2.3",
+                  "title": "Audio Description or Media Alternative (Prerecorded)"
+                }
+              ]
+            }
           }
         },
         {
@@ -894,29 +950,40 @@
                 "The synchronised [audio description](#synchronised-audio-description-time-based-media) of the alternative version is relevant."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.2.1 Audio-only and Video-only (Prerecorded) (A)",
-                  "1.2.3 Audio Description or Media Alternative (Prerecorded) (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F30",
-                  "F67",
-                  "SM6",
-                  "SM7"
-                ]
-              },
-              {
-                "norm": [
-                  "7.2.2 Audio description synchronization",
-                  "9.1.2.1 Audio-only and Video-only (Prerecorded)",
-                  "9.1.2.3 Audio Description or Media Alternative (Prerecorded)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.2.1",
+                  "title": "Audio-only and Video-only (Prerecorded)",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.2.3",
+                  "title": "Audio Description or Media Alternative (Prerecorded)",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F30",
+                "F67",
+                "SM6",
+                "SM7"
+              ],
+              "Norm": [
+                {
+                  "criterion": "7.2.2",
+                  "title": "Audio description synchronization"
+                },
+                {
+                  "criterion": "9.1.2.1",
+                  "title": "Audio-only and Video-only (Prerecorded)"
+                },
+                {
+                  "criterion": "9.1.2.3",
+                  "title": "Audio Description or Media Alternative (Prerecorded)"
+                }
+              ]
+            }
           }
         },
         {
@@ -936,30 +1003,31 @@
                 "Does each live synchronised [time-based media](#time-based-media-audio-video-and-synchronised) have synchronised [captions](#synchronised-captions-media-object) where necessary (except in special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.2.2 Captions (Prerecorded) (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F74",
-                  "F75",
-                  "G58",
-                  "G87",
-                  "G93",
-                  "H95",
-                  "SM11",
-                  "SM12"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.2.2 Captions (Prerecorded)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.2.2",
+                  "title": "Captions (Prerecorded)",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F74",
+                "F75",
+                "G58",
+                "G87",
+                "G93",
+                "H95",
+                "SM11",
+                "SM12"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.2.2",
+                  "title": "Captions (Prerecorded)"
+                }
+              ]
+            }
           }
         },
         {
@@ -980,30 +1048,34 @@
                 "The captions are correctly synchronised."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.2.2 Captions (Prerecorded) (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F8",
-                  "F74",
-                  "F75",
-                  "G87",
-                  "G93",
-                  "SM11",
-                  "SM12"
-                ]
-              },
-              {
-                "norm": [
-                  "7.1.2 Captioning synchronization",
-                  "9.1.2.2 Captions (Prerecorded)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.2.2",
+                  "title": "Captions (Prerecorded)",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F8",
+                "F74",
+                "F75",
+                "G87",
+                "G93",
+                "SM11",
+                "SM12"
+              ],
+              "Norm": [
+                {
+                  "criterion": "7.1.2",
+                  "title": "Captioning synchronization"
+                },
+                {
+                  "criterion": "9.1.2.2",
+                  "title": "Captions (Prerecorded)"
+                }
+              ]
+            }
           }
         },
         {
@@ -1022,31 +1094,32 @@
                 "There is an alternative version with a synchronised [audio description](#synchronised-audio-description-time-based-media)."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.2.5 Audio Description (Prerecorded) (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G8",
-                  "G58",
-                  "G78",
-                  "G173",
-                  "H96",
-                  "SM1",
-                  "SM2",
-                  "SM6",
-                  "SM7"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.2.5 Audio Description (Prerecorded)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.2.5",
+                  "title": "Audio Description (Prerecorded)",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "G8",
+                "G58",
+                "G78",
+                "G173",
+                "H96",
+                "SM1",
+                "SM2",
+                "SM6",
+                "SM7"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.2.5",
+                  "title": "Audio Description (Prerecorded)"
+                }
+              ]
+            }
           }
         },
         {
@@ -1061,27 +1134,31 @@
                 "For each synchronised [time-based media](#time-based-media-audio-video-and-synchronised) with a synchronised [audio description](#synchronised-audio-description-time-based-media), is it relevant?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.2.5 Audio Description (Prerecorded) (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "SM1",
-                  "SM2",
-                  "SM6",
-                  "SM7"
-                ]
-              },
-              {
-                "norm": [
-                  "7.2.2 Audio description synchronization",
-                  "9.1.2.5 Audio Description (Prerecorded)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.2.5",
+                  "title": "Audio Description (Prerecorded)",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "SM1",
+                "SM2",
+                "SM6",
+                "SM7"
+              ],
+              "Norm": [
+                {
+                  "criterion": "7.2.2",
+                  "title": "Audio description synchronization"
+                },
+                {
+                  "criterion": "9.1.2.5",
+                  "title": "Audio Description (Prerecorded)"
+                }
+              ]
+            }
           }
         },
         {
@@ -1093,24 +1170,25 @@
                 "For each audio only, video only or synchronised [time-based media](#time-based-media-audio-video-and-synchronised), does the adjacent text content clearly identify the [time-based media](#time-based-media-audio-video-and-synchronised) (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G68",
-                  "G100"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G68",
+                "G100"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -1129,23 +1207,24 @@
                 "The alternative on the page, referenced by the [adjacent link or button](#adjacent-link-or-button), is accessible."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H46"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H46"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -1157,24 +1236,25 @@
                 "For each [non-time-based media](#non-time-based-media) with an alternative, does this alternative provide access to the same content and similar features?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F30",
-                  "H46"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F30",
+                "H46"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -1189,27 +1269,28 @@
                 "The volume of the sound sequence can be controlled by the user independently of the system volume control."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.2 Audio Control (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F23",
-                  "F93",
-                  "G60",
-                  "G170",
-                  "G171"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.2 Audio Control"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.2",
+                  "title": "Audio Control",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F23",
+                "F93",
+                "G60",
+                "G170",
+                "G171"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.2",
+                  "title": "Audio Control"
+                }
+              ]
+            }
           }
         },
         {
@@ -1231,29 +1312,43 @@
                 "A feature performing the same action is present on the page. This feature can be activated by keyboard or any pointing device."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.1.1 Keyboard (A)",
-                  "2.1.2 No Keyboard Trap (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G4",
-                  "G90",
-                  "G202"
-                ]
-              },
-              {
-                "norm": [
-                  "7.1.1 Captioning playback",
-                  "7.2.1 Audio description playback",
-                  "9.2.1.1 Keyboard",
-                  "9.2.1.2 No Keyboard Trap"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.1.1",
+                  "title": "Keyboard",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.1.2",
+                  "title": "No Keyboard Trap",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G4",
+                "G90",
+                "G202"
+              ],
+              "Norm": [
+                {
+                  "criterion": "7.1.1",
+                  "title": "Captioning playback"
+                },
+                {
+                  "criterion": "7.2.1",
+                  "title": "Audio description playback"
+                },
+                {
+                  "criterion": "9.2.1.1",
+                  "title": "Keyboard"
+                },
+                {
+                  "criterion": "9.2.1.2",
+                  "title": "No Keyboard Trap"
+                }
+              ]
+            }
           }
         },
         {
@@ -1272,26 +1367,34 @@
                 "A feature performing the same action is present on the page. This feature can be activated by keyboard or any pointing device."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.1.1 Keyboard (A)",
-                  "2.1.2 No Keyboard Trap (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G4",
-                  "G90"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.1.1 Keyboard",
-                  "9.2.1.2 No Keyboard Trap"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.1.1",
+                  "title": "Keyboard",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.1.2",
+                  "title": "No Keyboard Trap",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G4",
+                "G90"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.1.1",
+                  "title": "Keyboard"
+                },
+                {
+                  "criterion": "9.2.1.2",
+                  "title": "No Keyboard Trap"
+                }
+              ]
+            }
           }
         },
         {
@@ -1311,26 +1414,27 @@
                 "There is a mechanism for replacing [time-based media](#time-based-media-audio-video-and-synchronised) or [non-time-based media](#non-time-based-media) with its alternative."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "4.1.2 Name, role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F15",
-                  "F54",
-                  "G10",
-                  "G135"
-                ]
-              },
-              {
-                "norm": [
-                  "9.4.1.2 Name, role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F15",
+                "F54",
+                "G10",
+                "G135"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -1344,17 +1448,15 @@
                 "For each time-based media player, the feature that enables and disables audio description is presented at the same level as the [main features](#main-features-of-a-time-based-media-player)."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "7.3 User controls for captions and audio description"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 7.3,
+                  "title": "User controls for captions and audio description"
+                }
+              ]
+            }
           }
         },
         {
@@ -1370,18 +1472,19 @@
                 "The [key features of captions](#key-features-of-captions) are preserved."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "5.4 Preservation of accessibility information during conversion",
-                  "7.1.3 Preservation of captioning"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 5.4,
+                  "title": "Preservation of accessibility information during conversion"
+                },
+                {
+                  "criterion": "7.1.3",
+                  "title": "Preservation of captioning"
+                }
+              ]
+            }
           }
         },
         {
@@ -1396,18 +1499,19 @@
                 "The audio description is correctly synchronised."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "5.4 Preservation of accessibility information during conversion",
-                  "7.2.3 Preservation of audio description"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 5.4,
+                  "title": "Preservation of accessibility information during conversion"
+                },
+                {
+                  "criterion": "7.2.3",
+                  "title": "Preservation of audio description"
+                }
+              ]
+            }
           }
         },
         {
@@ -1421,18 +1525,19 @@
                 "There is a feature on the page that allows the user to change the caption presentation settings."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "7.1.4 Captions characteristics",
-                  "11.7 User preferences"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "7.1.4",
+                  "title": "Captions characteristics"
+                },
+                {
+                  "criterion": 11.7,
+                  "title": "User preferences"
+                }
+              ]
+            }
           }
         },
         {
@@ -1448,17 +1553,15 @@
                 "An alternative version is available, with all the subtitles vocalised, accessible via an adjacent link or button."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "7.1.5 Spoken subtitles"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "7.1.5",
+                  "title": "Spoken subtitles"
+                }
+              ]
+            }
           }
         }
       ]
@@ -1476,23 +1579,24 @@
                 "For each [complex data table](#complex-data-table), is a [summary](#summary-of-table) available?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H73"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H73"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -1504,23 +1608,24 @@
                 "For each [complex data table](#complex-data-table) with a [summary](#summary-of-table), is the summary relevant?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H73"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H73"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -1534,26 +1639,34 @@
                 "The `<table>` tag has a `role=\"presentation\"` attribute."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.2 Meaningful Sequence (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA4",
-                  "F49"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.2 Meaningful Sequence",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.2",
+                  "title": "Meaningful Sequence",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA4",
+                "F49"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.2",
+                  "title": "Meaningful Sequence"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -1565,23 +1678,24 @@
                 "For each [data table with a title](#data-table-with-a-title), is the title correctly associated with the data table?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H39"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H39"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -1593,23 +1707,24 @@
                 "For each [data table with a title](#data-table-with-a-title), does the title clearly and concisely identify the content of the [data table](#data-table)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H39"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H39"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -1634,24 +1749,25 @@
                 "For each [data table](#data-table), is each cell associated with several headers implemented using a `<td>` or `<th>` tag?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F91",
-                  "H51"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F91",
+                "H51"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -1692,25 +1808,26 @@
                 "The `<th>` tag has a `scope` attribute with the value `colgroup` for [groups of column headers](#column-or-row-header)."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F90",
-                  "H43",
-                  "H63"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F90",
+                "H43",
+                "H63"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -1724,23 +1841,24 @@
                 "The cells in the layout table (`<td>` tags) do not have `scope`, `headers` or `axis` attributes."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F46"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F46"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         }
       ]
@@ -1781,43 +1899,58 @@
                 "Does each [identical link](#identical-link) have the same function and destination (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "2.4.4 Link Purpose (In Context) (A)",
-                  "2.5.3 Label in Name (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA7",
-                  "ARIA8",
-                  "C7",
-                  "F63",
-                  "F89",
-                  "F96",
-                  "G53",
-                  "G91",
-                  "G208",
-                  "G211",
-                  "H30",
-                  "H33",
-                  "H77",
-                  "H78",
-                  "H79",
-                  "H80",
-                  "H81"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content",
-                  "9.2.4.4 Link Purpose (In Context)",
-                  "9.2.5.3 Label in Name"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.4",
+                  "title": "Link Purpose (In Context)",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.5.3",
+                  "title": "Label in Name",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA7",
+                "ARIA8",
+                "C7",
+                "F63",
+                "F89",
+                "F96",
+                "G53",
+                "G91",
+                "G208",
+                "G211",
+                "H30",
+                "H33",
+                "H77",
+                "H78",
+                "H79",
+                "H80",
+                "H81"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                },
+                {
+                  "criterion": "9.2.4.4",
+                  "title": "Link Purpose (In Context)"
+                },
+                {
+                  "criterion": "9.2.5.3",
+                  "title": "Label in Name"
+                }
+              ]
+            }
           }
         },
         {
@@ -1829,27 +1962,35 @@
                 "On each web page, does each [link](#link) have an [accessible name](#accessible-name-of-a-link)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "2.4.4 Link Purpose (In Context) (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F89",
-                  "G91",
-                  "H30"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content",
-                  "9.2.4.4 Link Purpose (In Context)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.4",
+                  "title": "Link Purpose (In Context)",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F89",
+                "G91",
+                "H30"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                },
+                {
+                  "criterion": "9.2.4.4",
+                  "title": "Link Purpose (In Context)"
+                }
+              ]
+            }
           }
         }
       ]
@@ -1881,41 +2022,49 @@
                 "The component has a relevant role."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.5.3 Label in Name (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA4",
-                  "ARIA5",
-                  "ARIA18",
-                  "ARIA19",
-                  "F15",
-                  "F19",
-                  "F20",
-                  "F42",
-                  "F59",
-                  "F79",
-                  "F96",
-                  "G10",
-                  "G135",
-                  "G136",
-                  "G208",
-                  "G211",
-                  "SCR21"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.5.3 Label in Name",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.5.3",
+                  "title": "Label in Name",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA4",
+                "ARIA5",
+                "ARIA18",
+                "ARIA19",
+                "F15",
+                "F19",
+                "F20",
+                "F42",
+                "F59",
+                "F79",
+                "F96",
+                "G10",
+                "G135",
+                "G136",
+                "G208",
+                "G211",
+                "SCR21"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.5.3",
+                  "title": "Label in Name"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -1937,27 +2086,35 @@
                 "The updated alternative is relevant."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F19",
-                  "F20",
-                  "G136"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F19",
+                "F20",
+                "G136"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -1974,35 +2131,50 @@
                 "A [script](#script) must not remove the focus of an element which receives it. Is this rule respected (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "2.1.1 Keyboard (A)",
-                  "2.4.7 Focus Visible (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F42",
-                  "F54",
-                  "F55",
-                  "G90",
-                  "G202",
-                  "SCR2",
-                  "SCR20",
-                  "SCR29",
-                  "SCR35"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.2.1.1 Keyboard",
-                  "9.2.4.7 Focus Visible"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.1.1",
+                  "title": "Keyboard",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.7",
+                  "title": "Focus Visible",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F42",
+                "F54",
+                "F55",
+                "G90",
+                "G202",
+                "SCR2",
+                "SCR20",
+                "SCR29",
+                "SCR35"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.2.1.1",
+                  "title": "Keyboard"
+                },
+                {
+                  "criterion": "9.2.4.7",
+                  "title": "Focus Visible"
+                }
+              ]
+            }
           }
         },
         {
@@ -2017,36 +2189,44 @@
                 "The change of context is initiated by an explicit link."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.2.1 On Focus (A)",
-                  "3.2.2 On Input (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F9",
-                  "F22",
-                  "F36",
-                  "F37",
-                  "F41",
-                  "G13",
-                  "G76",
-                  "G80",
-                  "G107",
-                  "H32",
-                  "H84",
-                  "SCR19"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.2.1 On Focus",
-                  "9.3.2.2 On Input"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.2.1",
+                  "title": "On Focus",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.2.2",
+                  "title": "On Input",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F9",
+                "F22",
+                "F36",
+                "F37",
+                "F41",
+                "G13",
+                "G76",
+                "G80",
+                "G107",
+                "H32",
+                "H84",
+                "SCR19"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.2.1",
+                  "title": "On Focus"
+                },
+                {
+                  "criterion": "9.3.2.2",
+                  "title": "On Input"
+                }
+              ]
+            }
           }
         },
         {
@@ -2064,26 +2244,27 @@
                 "Does every [status message](#status-message) that indicates the progress of a process use one of the WAI-ARIA `role=\"log\"`, `role=\"progressbar\"` or `role=\"status\"` attributes?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "4.1.3 Status Messages (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA19",
-                  "ARIA22",
-                  "ARIA23",
-                  "F103"
-                ]
-              },
-              {
-                "norm": [
-                  "9.4.1.3 Status Messages"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "4.1.3",
+                  "title": "Status Messages",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "ARIA19",
+                "ARIA22",
+                "ARIA23",
+                "F103"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.4.1.3",
+                  "title": "Status Messages"
+                }
+              ]
+            }
           }
         }
       ]
@@ -2101,19 +2282,21 @@
                 "Has each web page a defined [document type](#document-type)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "4.1.1 Parsing (A)"
-                ]
-              },
-              {},
-              {
-                "norm": [
-                  "9.4.1.1 Parsing"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "4.1.1",
+                  "title": "Parsing",
+                  "level": "A"
+                }
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.4.1.1",
+                  "title": "Parsing"
+                }
+              ]
+            }
           }
         },
         {
@@ -2125,21 +2308,30 @@
                 "For each web page, is the generated source code valid for the specified [document type](#document-type)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "4.1.1 Parsing (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {},
-              {
-                "norm": [
-                  "9.4.1.1 Parsing",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "4.1.1",
+                  "title": "Parsing",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.4.1.1",
+                  "title": "Parsing"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -2153,23 +2345,24 @@
                 "The language of the page (`lang` and/or `xml:lang` attribute) is given for each text element or for one of the parent elements."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.1.1 Language of Page (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H57"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.1.1 Language of Page"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.1.1",
+                  "title": "Language of Page",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H57"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.1.1",
+                  "title": "Language of Page"
+                }
+              ]
+            }
           }
         },
         {
@@ -2183,23 +2376,24 @@
                 "The language code is relevant."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.1.1 Language of Page (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H57"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.1.1 Language of Page"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.1.1",
+                  "title": "Language of Page",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H57"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.1.1",
+                  "title": "Language of Page"
+                }
+              ]
+            }
           }
         },
         {
@@ -2211,25 +2405,26 @@
                 "Does every web page have a [page title](#page-title) (`<title>` tag)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.4.2 Page Titled (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G88",
-                  "G127",
-                  "H25"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.4.2 Page Titled"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.4.2",
+                  "title": "Page Titled",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G88",
+                "G127",
+                "H25"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.4.2",
+                  "title": "Page Titled"
+                }
+              ]
+            }
           }
         },
         {
@@ -2241,26 +2436,27 @@
                 "For each web page with a [page title](#page-title) (`<title>` tag), is the content of this tag relevant?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.4.2 Page Titled (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F25",
-                  "G88",
-                  "G127",
-                  "H25"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.4.2 Page Titled"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.4.2",
+                  "title": "Page Titled",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F25",
+                "G88",
+                "G127",
+                "H25"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.4.2",
+                  "title": "Page Titled"
+                }
+              ]
+            }
           }
         },
         {
@@ -2274,23 +2470,24 @@
                 "The language indication is given on one of the parent elements (`lang` and/or `xml:lang` attribute)"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.1.2 Language of Parts (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H58"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.1.2 Language of Parts"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.1.2",
+                  "title": "Language of Parts",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "H58"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.1.2",
+                  "title": "Language of Parts"
+                }
+              ]
+            }
           }
         },
         {
@@ -2304,23 +2501,24 @@
                 "The language code is relevant."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.1.2 Language of Parts (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H58"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.1.2 Language of Parts"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.1.2",
+                  "title": "Language of Parts",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "H58"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.1.2",
+                  "title": "Language of Parts"
+                }
+              ]
+            }
           }
         },
         {
@@ -2332,26 +2530,27 @@
                 "In every web page, tags (with the exception of `<div>`, `<span>` and `<table>`) must not be used [only for layout purposes](#only-for-layout-purposes). Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F43",
-                  "F92",
-                  "G115",
-                  "H88"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F43",
+                "F92",
+                "G115",
+                "H88"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -2368,23 +2567,24 @@
                 "The value of the `dir` attribute is relevant."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.2 Meaningful Sequence (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H56"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.2 Meaningful Sequence"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.2",
+                  "title": "Meaningful Sequence",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H56"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.2",
+                  "title": "Meaningful Sequence"
+                }
+              ]
+            }
           }
         }
       ]
@@ -2408,34 +2608,56 @@
                 "On each web page, is each passage of text making up a [heading](#heading) implemented using a `<hx>` tag or a tag with a WAI-ARIA `role=\"heading\"` attribute associated with a WAI-ARIA `aria-level` attribute?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "2.4.1 Bypass Blocks (A)",
-                  "2.4.6 Headings and Labels (AA)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA4",
-                  "ARIA12",
-                  "G115",
-                  "G130",
-                  "G141",
-                  "H42"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.2.4.1 Bypass Blocks",
-                  "9.2.4.6 Headings and Labels",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.1",
+                  "title": "Bypass Blocks",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.6",
+                  "title": "Headings and Labels",
+                  "level": "AA"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA4",
+                "ARIA12",
+                "G115",
+                "G130",
+                "G141",
+                "H42"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.2.4.1",
+                  "title": "Bypass Blocks"
+                },
+                {
+                  "criterion": "9.2.4.6",
+                  "title": "Headings and Labels"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -2465,26 +2687,27 @@
                 "The `<footer>` element, without the WAI-ARIA `role` attribute, used to structure the [footer region of the page](#footer-region), is nested within an element with a computed role other than `article`, `complementary`, `main`, `navigation`, and `section`. Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA11",
-                  "G115",
-                  "H97",
-                  "H101"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA11",
+                "G115",
+                "H97",
+                "H101"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -2506,27 +2729,28 @@
                 "On each web page, does the information grouped in the form of description [lists](#lists) use the tags `<dl>` and `<dt>/<dd>`?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F2",
-                  "G115",
-                  "G153",
-                  "H40",
-                  "H48"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F2",
+                "G115",
+                "G153",
+                "H40",
+                "H48"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -2541,25 +2765,26 @@
                 "On each web page, does each quotation block use a `<blockquote>` tag?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F2",
-                  "G115",
-                  "H49"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F2",
+                "G115",
+                "H49"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         }
       ]
@@ -2586,33 +2811,41 @@
                 "Spaces are not used to simulate columns of text."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "1.3.2 Meaningful Sequence (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "C6",
-                  "C8",
-                  "C18",
-                  "C22",
-                  "F32",
-                  "F33",
-                  "F34",
-                  "F48",
-                  "G140"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.1.3.2 Meaningful Sequence"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.3.2",
+                  "title": "Meaningful Sequence",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "C6",
+                "C8",
+                "C18",
+                "C22",
+                "F32",
+                "F33",
+                "F34",
+                "F48",
+                "G140"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.1.3.2",
+                  "title": "Meaningful Sequence"
+                }
+              ]
+            }
           }
         },
         {
@@ -2624,27 +2857,35 @@
                 "On each web page, is the [visible content](#visible-content) conveying information accessible to assistive technologies?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F3",
-                  "F87",
-                  "G140"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content",
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F3",
+                "F87",
+                "G140"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                },
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -2656,27 +2897,35 @@
                 "On each web page, does the information remain [understandable](#understandable-reading-order) when the [style sheets](#style-sheet) are deactivated?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.2 Meaningful Sequence (A)",
-                  "2.4.3 Focus Order (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F1",
-                  "G59",
-                  "G140"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.2 Meaningful Sequence",
-                  "9.2.4.3 Focus Order"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.2",
+                  "title": "Meaningful Sequence",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.3",
+                  "title": "Focus Order",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F1",
+                "G59",
+                "G140"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.2",
+                  "title": "Meaningful Sequence"
+                },
+                {
+                  "criterion": "9.2.4.3",
+                  "title": "Focus Order"
+                }
+              ]
+            }
           }
         },
         {
@@ -2697,36 +2946,40 @@
                 "When using a [user interface component](#user-interface-component) specific to the site which allows the text to be enlarged or zoomed."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.4 Resize Text (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "C12",
-                  "C13",
-                  "C14",
-                  "C17",
-                  "C28",
-                  "F69",
-                  "F80",
-                  "F94",
-                  "G142",
-                  "G146",
-                  "G178",
-                  "G179",
-                  "SCR34"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.4 Resize Text",
-                  "11.7 User preferences"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.4",
+                  "title": "Resize Text",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "C12",
+                "C13",
+                "C14",
+                "C17",
+                "C28",
+                "F69",
+                "F80",
+                "F94",
+                "G142",
+                "G146",
+                "G178",
+                "G179",
+                "SCR34"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.4",
+                  "title": "Resize Text"
+                },
+                {
+                  "criterion": 11.7,
+                  "title": "User preferences"
+                }
+              ]
+            }
           }
         },
         {
@@ -2744,23 +2997,24 @@
                 "On every web page, is every use of an image to create a background colour for an element likely to contain text, via CSS (`background`, `background-image`), accompanied by a background colour declaration (`background`, `background-color`), at least, inherited from a parent?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.3 Contrast (Minimum) (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F24"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.3 Contrast (Minimum)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.3",
+                  "title": "Contrast (Minimum)",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F24"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.3",
+                  "title": "Contrast (Minimum)"
+                }
+              ]
+            }
           }
         },
         {
@@ -2775,24 +3029,25 @@
                 "The link has a visual indication on focus other than a colour change."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.1 Use of Color (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F73",
-                  "G183"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.1 Use of Color"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.1",
+                  "title": "Use of Color",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F73",
+                "G183"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.1",
+                  "title": "Use of Color"
+                }
+              ]
+            }
           }
         },
         {
@@ -2806,33 +3061,41 @@
                 "An author-defined focus style is visible."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.1 Use of Color (A)",
-                  "2.4.7 Focus Visible (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "C15",
-                  "C40",
-                  "F73",
-                  "F78",
-                  "G149",
-                  "G165",
-                  "G183",
-                  "G195",
-                  "SCR31"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.1 Use of Color",
-                  "9.2.4.7 Focus Visible"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.1",
+                  "title": "Use of Color",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.7",
+                  "title": "Focus Visible",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "C15",
+                "C40",
+                "F73",
+                "F78",
+                "G149",
+                "G165",
+                "G183",
+                "G195",
+                "SCR31"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.1",
+                  "title": "Use of Color"
+                },
+                {
+                  "criterion": "9.2.4.7",
+                  "title": "Focus Visible"
+                }
+              ]
+            }
           }
         },
         {
@@ -2846,25 +3109,33 @@
                 "The [hidden content](#hidden-content) is not intended to be ignored by assistive technologies and is made renderable by assistive technologies following an action by the user using the keyboard or any pointing device on an element preceding the hidden content or following a repositioning of the focus on it."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.2 Meaningful Sequence (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G57"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.2 Meaningful Sequence",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.2",
+                  "title": "Meaningful Sequence",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G57"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.2",
+                  "title": "Meaningful Sequence"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -2885,28 +3156,36 @@
                 "On each web page, for each [non-time-based media](#non-time-based-media), information must not be conveyed solely [by shape, size or location](#indication-conveyed-by-shape-size-or-location). Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.3 Sensory Characteristics (A)",
-                  "1.4.1 Use of Color (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F14",
-                  "F26",
-                  "G96",
-                  "G140"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.3 Sensory Characteristics",
-                  "9.1.4.1 Use of Color"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.3",
+                  "title": "Sensory Characteristics",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.4.1",
+                  "title": "Use of Color",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F14",
+                "F26",
+                "G96",
+                "G140"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.3",
+                  "title": "Sensory Characteristics"
+                },
+                {
+                  "criterion": "9.1.4.1",
+                  "title": "Use of Color"
+                }
+              ]
+            }
           }
         },
         {
@@ -2927,28 +3206,36 @@
                 "On each web page, for each [non-time-based media](#non-time-based-media), information must not be conveyed solely [by shape, size or location](#indication-conveyed-by-shape-size-or-location). Is this rule implemented appropriately?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.3 Sensory Characteristics (A)",
-                  "1.4.1 Use of Color (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F14",
-                  "F26",
-                  "G96",
-                  "G140"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.3 Sensory Characteristics",
-                  "9.1.4.1 Use of Color"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.3",
+                  "title": "Sensory Characteristics",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.4.1",
+                  "title": "Use of Color",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F14",
+                "F26",
+                "G96",
+                "G140"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.3",
+                  "title": "Sensory Characteristics"
+                },
+                {
+                  "criterion": "9.1.4.1",
+                  "title": "Use of Color"
+                }
+              ]
+            }
           }
         },
         {
@@ -2963,30 +3250,31 @@
                 "For each web page, when content with a vertical reading direction is displayed in a window reduced to a height of 256 px, is all the information and functions available without any vertical scrolling (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.10 Reflow (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "C31",
-                  "C32",
-                  "C33",
-                  "C34",
-                  "C37",
-                  "C38",
-                  "F102",
-                  "G206"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.10 Reflow"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.10",
+                  "title": "Reflow",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "C31",
+                "C32",
+                "C33",
+                "C34",
+                "C37",
+                "C38",
+                "F102",
+                "G206"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.10",
+                  "title": "Reflow"
+                }
+              ]
+            }
           }
         },
         {
@@ -3002,27 +3290,28 @@
                 "Word-spacing is set to at least 0.16 times the font size."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.12 Text Spacing (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "C8",
-                  "C21",
-                  "C35",
-                  "C36",
-                  "F104"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.12 Text Spacing"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.12",
+                  "title": "Text Spacing",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "C8",
+                "C21",
+                "C35",
+                "C36",
+                "F104"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.12",
+                  "title": "Text Spacing"
+                }
+              ]
+            }
           }
         },
         {
@@ -3043,24 +3332,25 @@
                 "The additional content remains visible until it is no longer valid."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.4.13 Content on Hover or Focus (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F95",
-                  "SCR39"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.4.13 Content on Hover or Focus"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.4.13",
+                  "title": "Content on Hover or Focus",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F95",
+                "SCR39"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.4.13",
+                  "title": "Content on Hover or Focus"
+                }
+              ]
+            }
           }
         },
         {
@@ -3081,23 +3371,24 @@
                 "Additional content also appears when another component is activated or hovered over."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.1.1 Keyboard (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G202"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.1.1 Keyboard"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.1.1",
+                  "title": "Keyboard",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G202"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.1.1",
+                  "title": "Keyboard"
+                }
+              ]
+            }
           }
         }
       ]
@@ -3131,40 +3422,62 @@
                 "The [form input field](#form-input-field) is accompanied by a visible [passage of text](#passage-of-text-linked-by-aria-labelledby-or-aria-describedby) attached to the field so that the nature of the expected input can be understood."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "2.4.6 Headings and Labels (AA)",
-                  "3.3.2 Labels or Instructions (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA6",
-                  "ARIA9",
-                  "ARIA14",
-                  "ARIA16",
-                  "F68",
-                  "F82",
-                  "F86",
-                  "G82",
-                  "G131",
-                  "G167",
-                  "H44",
-                  "H65"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.2.4.6 Headings and Labels",
-                  "9.3.3.2 Labels or Instructions",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.6",
+                  "title": "Headings and Labels",
+                  "level": "AA"
+                },
+                {
+                  "successCriterion": "3.3.2",
+                  "title": "Labels or Instructions",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA6",
+                "ARIA9",
+                "ARIA14",
+                "ARIA16",
+                "F68",
+                "F82",
+                "F86",
+                "G82",
+                "G131",
+                "G167",
+                "H44",
+                "H65"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.2.4.6",
+                  "title": "Headings and Labels"
+                },
+                {
+                  "criterion": "9.3.3.2",
+                  "title": "Labels or Instructions"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -3195,37 +3508,52 @@
                 "Does each button adjacent to the [form input field](#form-input-field) that provides a visible label identify the exact function of the [form input field](#form-input-field) with which it is associated?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.4.6 Headings and Labels (AA)",
-                  "2.5.3 Label in Name (A)",
-                  "3.3.2 Labels or Instructions (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA6",
-                  "ARIA9",
-                  "ARIA14",
-                  "ARIA16",
-                  "F96",
-                  "G82",
-                  "G131",
-                  "G208",
-                  "G211",
-                  "H44",
-                  "H65"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.4.6 Headings and Labels",
-                  "9.2.5.3 Label in Name",
-                  "9.3.3.2 Labels or Instructions"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.4.6",
+                  "title": "Headings and Labels",
+                  "level": "AA"
+                },
+                {
+                  "successCriterion": "2.5.3",
+                  "title": "Label in Name",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.3.2",
+                  "title": "Labels or Instructions",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA6",
+                "ARIA9",
+                "ARIA14",
+                "ARIA16",
+                "F96",
+                "G82",
+                "G131",
+                "G208",
+                "G211",
+                "H44",
+                "H65"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.4.6",
+                  "title": "Headings and Labels"
+                },
+                {
+                  "criterion": "9.2.5.3",
+                  "title": "Label in Name"
+                },
+                {
+                  "criterion": "9.3.3.2",
+                  "title": "Labels or Instructions"
+                }
+              ]
+            }
           }
         },
         {
@@ -3240,23 +3568,24 @@
                 "Is every [label](#form-field-label) associated with a [form field](#form-input-field) having the same function and repeated in a set of web pages [consistent](#consistent-labels)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.2.4 Consistent Identification (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F31"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.2.4 Consistent Identification"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.2.4",
+                  "title": "Consistent Identification",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F31"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.2.4",
+                  "title": "Consistent Identification"
+                }
+              ]
+            }
           }
         },
         {
@@ -3278,23 +3607,24 @@
                 "The label is visually [located](#label-and-field-located-next-to-each-other) immediately below or to the left of the [form field](#form-input-field) when the label's language reading direction is right to left."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.3.2 Labels or Instructions (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G162"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.3.2 Labels or Instructions"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.3.2",
+                  "title": "Labels or Instructions",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G162"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.3.2",
+                  "title": "Labels or Instructions"
+                }
+              ]
+            }
           }
         },
         {
@@ -3309,26 +3639,34 @@
                 "The [related form controls](#related-form-controls) of radio type (`<input type=\"radio\">`) or tags with a WAI-ARIA `role=\"radio\"` attribute) are grouped together in a tag with a WAI-ARIA `role=\"radiogroup\"` or `role=\"group\"` attribute."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "3.3.2 Labels or Instructions (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA17",
-                  "H71"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.3.3.2 Labels or Instructions"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.3.2",
+                  "title": "Labels or Instructions",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA17",
+                "H71"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.3.3.2",
+                  "title": "Labels or Instructions"
+                }
+              ]
+            }
           }
         },
         {
@@ -3340,26 +3678,34 @@
                 "Does each group of [related form controls](#related-form-controls) have a [legend](#legend)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "3.3.2 Labels or Instructions (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA17",
-                  "H71"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.3.3.2 Labels or Instructions"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.3.2",
+                  "title": "Labels or Instructions",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA17",
+                "H71"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.3.3.2",
+                  "title": "Labels or Instructions"
+                }
+              ]
+            }
           }
         },
         {
@@ -3371,26 +3717,34 @@
                 "Is each [legend](#legend) associated with a group of [related form controls](#related-form-controls) relevant?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "3.3.2 Labels or Instructions (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA17",
-                  "H71"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.3.3.2 Labels or Instructions"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.3.2",
+                  "title": "Labels or Instructions",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA17",
+                "H71"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.3.3.2",
+                  "title": "Labels or Instructions"
+                }
+              ]
+            }
           }
         },
         {
@@ -3408,23 +3762,24 @@
                 "For each `<optgroup>` tag with a `label` attribute, is the value of the `label` attribute relevant?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "H85"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "H85"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                }
+              ]
+            }
           }
         },
         {
@@ -3451,33 +3806,41 @@
                 "If present, the value of the `title` attribute contains at least the [visible label](#visible-label)."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.5.3 Label in Name (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA6",
-                  "ARIA9",
-                  "ARIA14",
-                  "F96",
-                  "G208",
-                  "G211",
-                  "H36",
-                  "H91",
-                  "ARIA16"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.5.3 Label in Name",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.5.3",
+                  "title": "Label in Name",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA6",
+                "ARIA9",
+                "ARIA14",
+                "F96",
+                "G208",
+                "G211",
+                "H36",
+                "H91",
+                "ARIA16"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.5.3",
+                  "title": "Label in Name"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -3524,43 +3887,51 @@
                 "An instruction or indication of data type and/or mandatory format is visible and located in the [passage of text](#passage-of-text-linked-by-aria-labelledby-or-aria-describedby) associated with the field."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.3.1 Error Identification (A)",
-                  "3.3.2 Labels or Instructions (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA1",
-                  "ARIA2",
-                  "ARIA6",
-                  "ARIA9",
-                  "ARIA16",
-                  "ARIA21",
-                  "F81",
-                  "G83",
-                  "G84",
-                  "G85",
-                  "G89",
-                  "G139",
-                  "G184",
-                  "H44",
-                  "H81",
-                  "H89",
-                  "H90",
-                  "SCR18",
-                  "SCR32"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.3.1 Error Identification",
-                  "9.3.3.2 Labels or Instructions"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.3.1",
+                  "title": "Error Identification",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.3.2",
+                  "title": "Labels or Instructions",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA1",
+                "ARIA2",
+                "ARIA6",
+                "ARIA9",
+                "ARIA16",
+                "ARIA21",
+                "F81",
+                "G83",
+                "G84",
+                "G85",
+                "G89",
+                "G139",
+                "G184",
+                "H44",
+                "H81",
+                "H89",
+                "H90",
+                "SCR18",
+                "SCR32"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.3.1",
+                  "title": "Error Identification"
+                },
+                {
+                  "criterion": "9.3.3.2",
+                  "title": "Labels or Instructions"
+                }
+              ]
+            }
           }
         },
         {
@@ -3575,27 +3946,28 @@
                 "For each input error, are examples of expected values suggested, if necessary?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.3.3 Error Suggestion (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G84",
-                  "G85",
-                  "G89",
-                  "G177",
-                  "H89"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.3.3 Error Suggestion"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.3.3",
+                  "title": "Error Suggestion",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "G84",
+                "G85",
+                "G89",
+                "G177",
+                "H89"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.3.3",
+                  "title": "Error Suggestion"
+                }
+              ]
+            }
           }
         },
         {
@@ -3615,27 +3987,28 @@
                 "A mechanism for requesting explicit confirmation of the deletion or modification, via a [form input field](#form-input-field) or an additional step, is proposed."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.3.4 Error Prevention (Legal, Financial, Data) (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G98",
-                  "G99",
-                  "G155",
-                  "G164",
-                  "G168"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.3.4 Error Prevention (Legal, Financial, Data)"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.3.4",
+                  "title": "Error Prevention (Legal, Financial, Data)",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "G98",
+                "G99",
+                "G155",
+                "G164",
+                "G168"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.3.4",
+                  "title": "Error Prevention (Legal, Financial, Data)"
+                }
+              ]
+            }
           }
         },
         {
@@ -3650,24 +4023,25 @@
                 "The value indicated for the `autocomplete` attribute is relevant to the type of information expected."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.5 Identify Input Purpose (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F107",
-                  "H98"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.5 Identify Input Purpose"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.5",
+                  "title": "Identify Input Purpose",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F107",
+                "H98"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.5",
+                  "title": "Identify Input Purpose"
+                }
+              ]
+            }
           }
         }
       ]
@@ -3688,26 +4062,27 @@
                 "A [search engine](#search-engine-internal-to-a-website) and a [site map](#site-map-page) are present."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.4.5 Multiple Ways (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G63",
-                  "G64",
-                  "G161",
-                  "G185"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.4.5 Multiple Ways"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.4.5",
+                  "title": "Multiple Ways",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "G63",
+                "G64",
+                "G161",
+                "G185"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.4.5",
+                  "title": "Multiple Ways"
+                }
+              ]
+            }
           }
         },
         {
@@ -3721,24 +4096,25 @@
                 "The [menu and navigation bars](#menu-and-navigation-bar) are always in the same relative order in the source code."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.2.3 Consistent Navigation (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F66",
-                  "G61"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.2.3 Consistent Navigation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.2.3",
+                  "title": "Consistent Navigation",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F66",
+                "G61"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.2.3",
+                  "title": "Consistent Navigation"
+                }
+              ]
+            }
           }
         },
         {
@@ -3756,23 +4132,24 @@
                 "Do the links in the [site map](#site-map-page) lead to the pages indicated by their text?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.4.5 Multiple Ways (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G63"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.4.5 Multiple Ways"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.4.5",
+                  "title": "Multiple Ways",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "G63"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.4.5",
+                  "title": "Multiple Ways"
+                }
+              ]
+            }
           }
         },
         {
@@ -3790,26 +4167,34 @@
                 "In each [set of web pages](#set-of-web-pages), is the functionality to the [site map page](#site-map-page) always in the same relative order in the source code?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.4.5 Multiple Ways (AA)",
-                  "3.2.3 Consistent Navigation (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G61",
-                  "G63"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.4.5 Multiple Ways",
-                  "9.3.2.3 Consistent Navigation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.4.5",
+                  "title": "Multiple Ways",
+                  "level": "AA"
+                },
+                {
+                  "successCriterion": "3.2.3",
+                  "title": "Consistent Navigation",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "G61",
+                "G63"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.4.5",
+                  "title": "Multiple Ways"
+                },
+                {
+                  "criterion": "9.3.2.3",
+                  "title": "Consistent Navigation"
+                }
+              ]
+            }
           }
         },
         {
@@ -3827,24 +4212,25 @@
                 "In each [set of web pages](#set-of-web-pages), is the functionality leading to the [search engine](#search-engine-internal-to-a-website) always in the same relative order in the source code?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.2.3 Consistent Navigation (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F66",
-                  "G61"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.2.3 Consistent Navigation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.2.3",
+                  "title": "Consistent Navigation",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F66",
+                "G61"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.2.3",
+                  "title": "Consistent Navigation"
+                }
+              ]
+            }
           }
         },
         {
@@ -3861,30 +4247,45 @@
                 "The block can be reached by means of a [bypass link](#bypass-or-skip-links) visible or, failing that, visible when focused."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.1 Info and Relationships (A)",
-                  "2.4.1 Bypass Blocks (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "ARIA4",
-                  "ARIA11",
-                  "G115",
-                  "H69"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.1 Info and Relationships",
-                  "9.2.4.1 Bypass Blocks",
-                  "9.4.1.2 Name, Role, Value"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.1",
+                  "title": "Bypass Blocks",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "ARIA4",
+                "ARIA11",
+                "G115",
+                "H69"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.1",
+                  "title": "Info and Relationships"
+                },
+                {
+                  "criterion": "9.2.4.1",
+                  "title": "Bypass Blocks"
+                },
+                {
+                  "criterion": "9.4.1.2",
+                  "title": "Name, Role, Value"
+                }
+              ]
+            }
           }
         },
         {
@@ -3903,32 +4304,47 @@
                 "The link is functional."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.4.1 Bypass Blocks (A)",
-                  "2.4.3 Focus Order (A)",
-                  "3.2.3 Consistent Navigation (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F66",
-                  "G1",
-                  "G59",
-                  "G123",
-                  "G124",
-                  "SCR28"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.4.1 Bypass Blocks",
-                  "9.2.4.3 Focus Order",
-                  "9.3.2.3 Consistent Navigation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.4.1",
+                  "title": "Bypass Blocks",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.3",
+                  "title": "Focus Order",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.2.3",
+                  "title": "Consistent Navigation",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F66",
+                "G1",
+                "G59",
+                "G123",
+                "G124",
+                "SCR28"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.4.1",
+                  "title": "Bypass Blocks"
+                },
+                {
+                  "criterion": "9.2.4.3",
+                  "title": "Focus Order"
+                },
+                {
+                  "criterion": "9.3.2.3",
+                  "title": "Consistent Navigation"
+                }
+              ]
+            }
           }
         },
         {
@@ -3943,30 +4359,31 @@
                 "For each [script](#script) that updates or inserts content, does the [navigation sequence](#navigation-sequence) remain [consistent](#understandable-reading-order)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.4.3 Focus Order (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "C27",
-                  "F44",
-                  "F85",
-                  "G59",
-                  "H4",
-                  "SCR26",
-                  "SCR27",
-                  "SCR37"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.4.3 Focus Order"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.4.3",
+                  "title": "Focus Order",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "C27",
+                "F44",
+                "F85",
+                "G59",
+                "H4",
+                "SCR26",
+                "SCR27",
+                "SCR37"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.4.3",
+                  "title": "Focus Order"
+                }
+              ]
+            }
           }
         },
         {
@@ -3980,27 +4397,35 @@
                 "The user is informed of a functional mechanism enabling the next or previous element to be reached using the keyboard."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.1.1 Keyboard (A)",
-                  "2.1.2 No Keyboard Trap (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F10",
-                  "G21",
-                  "H91"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.1.1 Keyboard",
-                  "9.2.1.2 No Keyboard Trap"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.1.1",
+                  "title": "Keyboard",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.1.2",
+                  "title": "No Keyboard Trap",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F10",
+                "G21",
+                "H91"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.1.1",
+                  "title": "Keyboard"
+                },
+                {
+                  "criterion": "9.2.1.2",
+                  "title": "No Keyboard Trap"
+                }
+              ]
+            }
           }
         },
         {
@@ -4015,24 +4440,25 @@
                 "In the case of a user [interface component](#user-interface-component), the associated [keyboard shortcut](#keyboard-shortcut) can only be activated if the keyboard focus is on this component."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.1.4 Character Key Shortcuts (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F99",
-                  "G217"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.1.4 Character Key Shortcuts"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.1.4",
+                  "title": "Character Key Shortcuts",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F99",
+                "G217"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.1.4",
+                  "title": "Character Key Shortcuts"
+                }
+              ]
+            }
           }
         },
         {
@@ -4044,19 +4470,21 @@
                 "On each web page, is the additional content that appears when hovering, focusing or activating a [user interface component](#user-interface-component) accessible by keyboard if necessary?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.1.1 Keyboard (A)"
-                ]
-              },
-              {},
-              {
-                "norm": [
-                  "9.2.1.1 Keyboard"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.1.1",
+                  "title": "Keyboard",
+                  "level": "A"
+                }
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.1.1",
+                  "title": "Keyboard"
+                }
+              ]
+            }
           }
         }
       ]
@@ -4094,40 +4522,48 @@
                 "The time limit before the end of the session is at least twenty hours."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.2.1 Timing Adjustable (A)",
-                  "2.2.2 Pause, Stop, Hide (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F40",
-                  "F41",
-                  "F58",
-                  "F61",
-                  "G75",
-                  "G76",
-                  "G110",
-                  "G133",
-                  "G180",
-                  "G186",
-                  "G198",
-                  "H76",
-                  "SCR1",
-                  "SCR16",
-                  "SCR36",
-                  "SVR1"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.2.1 Timing Adjustable",
-                  "9.2.2.2 Pause, Stop, Hide"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.2.1",
+                  "title": "Timing Adjustable",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.2.2",
+                  "title": "Pause, Stop, Hide",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F40",
+                "F41",
+                "F58",
+                "F61",
+                "G75",
+                "G76",
+                "G110",
+                "G133",
+                "G180",
+                "G186",
+                "G198",
+                "H76",
+                "SCR1",
+                "SCR16",
+                "SCR36",
+                "SVR1"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.2.1",
+                  "title": "Timing Adjustable"
+                },
+                {
+                  "criterion": "9.2.2.2",
+                  "title": "Pause, Stop, Hide"
+                }
+              ]
+            }
           }
         },
         {
@@ -4139,24 +4575,25 @@
                 "On each web page, the opening of a new window must not be triggered without user action. Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "3.2.1 On focus (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F55",
-                  "G107"
-                ]
-              },
-              {
-                "norm": [
-                  "9.3.2.1 On focus"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "3.2.1",
+                  "title": "On focus",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F55",
+                "G107"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.3.2.1",
+                  "title": "On focus"
+                }
+              ]
+            }
           }
         },
         {
@@ -4171,29 +4608,51 @@
                 "There is an alternative version in HTML format that is compatible with accessibility."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "1.3.1 Info and Relationships (A)",
-                  "1.3.2 Meaningful Sequence (A)",
-                  "2.4.1 Bypass Blocks (A)",
-                  "2.4.3 Focus Order (A)",
-                  "3.1.1 Language of Page (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F15",
-                  "G10",
-                  "G135"
-                ]
-              },
-              {
-                "norm": "all criteria of section 10 Non-web documents."
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.3.2",
+                  "title": "Meaningful Sequence",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.1",
+                  "title": "Bypass Blocks",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.3",
+                  "title": "Focus Order",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.1.1",
+                  "title": "Language of Page",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F15",
+                "G10",
+                "G135"
+              ],
+              "Norm": "all criteria of section 10 Non-web documents."
+            }
           }
         },
         {
@@ -4207,29 +4666,51 @@
                 "The alternative HTML version is relevant and provides the same information."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)",
-                  "1.3.1 Info and Relationships (A)",
-                  "1.3.2 Meaningful Sequence (A)",
-                  "2.4.1 Bypass Blocks (A)",
-                  "2.4.3 Focus Order (A)",
-                  "3.1.1 Language of Page (A)",
-                  "4.1.2 Name, Role, Value (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F15",
-                  "G10",
-                  "G135"
-                ]
-              },
-              {
-                "norm": "all criteria of section 10 Non-web documents."
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.3.1",
+                  "title": "Info and Relationships",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "1.3.2",
+                  "title": "Meaningful Sequence",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.1",
+                  "title": "Bypass Blocks",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.4.3",
+                  "title": "Focus Order",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "3.1.1",
+                  "title": "Language of Page",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "4.1.2",
+                  "title": "Name, Role, Value",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F15",
+                "G10",
+                "G135"
+              ],
+              "Norm": "all criteria of section 10 Non-web documents."
+            }
           }
         },
         {
@@ -4246,26 +4727,27 @@
                 "On each web page, is each [cryptic content](#cryptic-content) correctly ignored by assistive technologies using a WAI-ARIA `aria-hidden=\"true\"` attribute?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F71",
-                  "F70",
-                  "G135",
-                  "H86"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F71",
+                "F70",
+                "G135",
+                "H86"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -4279,25 +4761,26 @@
                 "The meaning provided by a method [compatible with accessibility](#compatible-with-assistive-technologies) is relevant."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.1.1 Non-text Content (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F71",
-                  "F72",
-                  "H86"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.1.1 Non-text Content"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.1.1",
+                  "title": "Non-text Content",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F71",
+                "F72",
+                "H86"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.1.1",
+                  "title": "Non-text Content"
+                }
+              ]
+            }
           }
         },
         {
@@ -4321,25 +4804,26 @@
                 "The total cumulative area of the effects is less than or equal to 21824 pixels."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.3.1 Three Flashes or Below Threshold (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "G15",
-                  "G19",
-                  "G176"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.3.1 Three Flashes or Below Threshold"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.3.1",
+                  "title": "Three Flashes or Below Threshold",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "G15",
+                "G19",
+                "G176"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.3.1",
+                  "title": "Three Flashes or Below Threshold"
+                }
+              ]
+            }
           }
         },
         {
@@ -4362,40 +4846,48 @@
                 "The user can display all the information without the blinking."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.2.1 Timing Adjustable (A)",
-                  "2.2.2 Pause, Stop, Hide (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F4",
-                  "F7",
-                  "F16",
-                  "F47",
-                  "F50",
-                  "G4",
-                  "G11",
-                  "G152",
-                  "G186",
-                  "G187",
-                  "G191",
-                  "SCR22",
-                  "SCR33",
-                  "SCR36",
-                  "SM11",
-                  "SM12"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.2.1 Timing Adjustable",
-                  "9.2.2.2 Pause, Stop, Hide"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.2.1",
+                  "title": "Timing Adjustable",
+                  "level": "A"
+                },
+                {
+                  "successCriterion": "2.2.2",
+                  "title": "Pause, Stop, Hide",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F4",
+                "F7",
+                "F16",
+                "F47",
+                "F50",
+                "G4",
+                "G11",
+                "G152",
+                "G186",
+                "G187",
+                "G191",
+                "SCR22",
+                "SCR33",
+                "SCR36",
+                "SM11",
+                "SM12"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.2.1",
+                  "title": "Timing Adjustable"
+                },
+                {
+                  "criterion": "9.2.2.2",
+                  "title": "Pause, Stop, Hide"
+                }
+              ]
+            }
           }
         },
         {
@@ -4409,25 +4901,26 @@
                 "The displayed content remains the same regardless of the screen orientation used, even if its presentation and the means of accessing it may differ."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "1.3.4 Orientation (AA)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F97",
-                  "F100",
-                  "G214"
-                ]
-              },
-              {
-                "norm": [
-                  "9.1.3.4 Orientation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "1.3.4",
+                  "title": "Orientation",
+                  "level": "AA"
+                }
+              ],
+              "Techniques": [
+                "F97",
+                "F100",
+                "G214"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.1.3.4",
+                  "title": "Orientation"
+                }
+              ]
+            }
           }
         },
         {
@@ -4442,25 +4935,26 @@
                 "On each web page, is each function that is usable or available thanks to a path-based gesture on the screen also usable or available through a single point operation on the screen (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.5.1 Pointer Gestures (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F105",
-                  "G215",
-                  "G216"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.5.1 Pointer Gestures"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.5.1",
+                  "title": "Pointer Gestures",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F105",
+                "G215",
+                "G216"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.5.1",
+                  "title": "Pointer Gestures"
+                }
+              ]
+            }
           }
         },
         {
@@ -4475,25 +4969,26 @@
                 "A mechanism is available to abort (before completion of the action) or cancel (after completion) the execution of the action."
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.5.2 Pointer Cancellation (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F101",
-                  "G210",
-                  "G212"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.5.2 Pointer Cancellation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.5.2",
+                  "title": "Pointer Cancellation",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F101",
+                "G210",
+                "G212"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.5.2",
+                  "title": "Pointer Cancellation"
+                }
+              ]
+            }
           }
         },
         {
@@ -4511,24 +5006,25 @@
                 "Can the user deactivate motion detection to avoid accidental activation of the feature (except in special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": [
-                  "2.5.4 Motion Actuation (A)"
-                ]
-              },
-              {
-                "techniques": [
-                  "F106",
-                  "G213"
-                ]
-              },
-              {
-                "norm": [
-                  "9.2.5.4 Motion Actuation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": [
+                {
+                  "successCriterion": "2.5.4",
+                  "title": "Motion Actuation",
+                  "level": "A"
+                }
+              ],
+              "Techniques": [
+                "F106",
+                "G213"
+              ],
+              "Norm": [
+                {
+                  "criterion": "9.2.5.4",
+                  "title": "Motion Actuation"
+                }
+              ]
+            }
           }
         },
         {
@@ -4540,17 +5036,15 @@
                 "For each document conversion feature, is the [accessibility information](#accessibility-information) available in the source document kept in the destination document (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "5.4 Preservation of accessibility information during conversion"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 5.4,
+                  "title": "Preservation of accessibility information during conversion"
+                }
+              ]
+            }
           }
         },
         {
@@ -4564,17 +5058,15 @@
                 "An alternative exists that is based on a biological characteristic of the user that is sufficiently different from the biological characteristic initially requested."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "5.3 Biometrics"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 5.3,
+                  "title": "Biometrics"
+                }
+              ]
+            }
           }
         }
       ]
@@ -4596,17 +5088,15 @@
                 "A description of the components that are not compatible with assistive technologies."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "12.1.1 Accessibility and compatibility features"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "12.1.1",
+                  "title": "Accessibility and compatibility features"
+                }
+              ]
+            }
           }
         },
         {
@@ -4618,17 +5108,15 @@
                 "For each [accessibility feature](#accessibility-feature) described in the [documentation](#documentation), the [mechanism for enabling an accessibility feature](#mechanism-for-enabling-an-accessibility-feature) meets the accessibility needs of the users concerned. Is this rule respected (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "5.2 Activation of accessibility features"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 5.2,
+                  "title": "Activation of accessibility features"
+                }
+              ]
+            }
           }
         },
         {
@@ -4646,17 +5134,15 @@
                 "Does the [documentation](#documentation) made available in a non-web format (excluding PDF) comply with the criteria of [section 10 Non-web documents](https://www.etsi.org/deliver/etsi_en/301500_301599/301549/03.02.01_60/en_301549v030201p.pdf#page=52) of European standard EN 301 549 v3.2.1?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "12.1.2 Accessible documentation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "12.1.2",
+                  "title": "Accessible documentation"
+                }
+              ]
+            }
           }
         }
       ]
@@ -4683,18 +5169,19 @@
                 "Does each [editing tool](#editing-tool) that creates content distributed in a mobile application allow you to define the [accessibility information](#accessibility-information) needed to create content that complies with the [RAAM](../raam1.1/index.html)?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "11.8.1 Content technology",
-                  "11.8.2 Accessible content creation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "11.8.1",
+                  "title": "Content technology"
+                },
+                {
+                  "criterion": "11.8.2",
+                  "title": "Accessible content creation"
+                }
+              ]
+            }
           }
         },
         {
@@ -4706,18 +5193,19 @@
                 "Does each [editing tool](#editing-tool) provide [help with creating accessible content](#help-with-creating-accessible-content) that complies with the [digital accessibility rules](#digital-accessibility-rules)?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "11.8.1 Content technology",
-                  "11.8.2 Accessible content creation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "11.8.1",
+                  "title": "Content technology"
+                },
+                {
+                  "criterion": "11.8.2",
+                  "title": "Accessible content creation"
+                }
+              ]
+            }
           }
         },
         {
@@ -4729,18 +5217,19 @@
                 "Does the content generated by each [transformation](#transformation) comply with the [digital accessibility rules](#digital-accessibility-rules) (excluding special cases)?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "11.8.1 Content technology",
-                  "11.8.3 Preservation of accessibility information in transformations"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "11.8.1",
+                  "title": "Content technology"
+                },
+                {
+                  "criterion": "11.8.3",
+                  "title": "Preservation of accessibility information in transformations"
+                }
+              ]
+            }
           }
         },
         {
@@ -4752,18 +5241,19 @@
                 "For each accessibility issue identified by an automatic or semi-automatic accessibility test, does the [editing tool](#editing-tool) provide suggestions for repair?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "11.8.1 Content technology",
-                  "11.8.4 Repair assistance"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "11.8.1",
+                  "title": "Content technology"
+                },
+                {
+                  "criterion": "11.8.4",
+                  "title": "Repair assistance"
+                }
+              ]
+            }
           }
         },
         {
@@ -4784,18 +5274,19 @@
                 "For each set of [templates](#template) used to distribute content in a mobile application, at least one template complies with the [RAAM](../raam1.1/referentiel-technique.html) criteria. Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "11.8.1 Content technology",
-                  "11.8.5 Templates"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "11.8.1",
+                  "title": "Content technology"
+                },
+                {
+                  "criterion": "11.8.5",
+                  "title": "Templates"
+                }
+              ]
+            }
           }
         },
         {
@@ -4807,18 +5298,19 @@
                 "Is each [template](#template) that makes it possible to comply with the [digital accessibility rules](#digital-accessibility-rules) clearly identifiable?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "11.8.1 Content technology",
-                  "11.8.5 Templates"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "11.8.1",
+                  "title": "Content technology"
+                },
+                {
+                  "criterion": "11.8.5",
+                  "title": "Templates"
+                }
+              ]
+            }
           }
         }
       ]
@@ -4836,17 +5328,15 @@
                 "Does each [support service](#support-service) provide information about the [accessibility features](#accessibility-feature) and accessibility compatibility described in the [documentation](#documentation) of the website?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "12.2.2 Information on accessibility and compatibility features"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "12.2.2",
+                  "title": "Information on accessibility and compatibility features"
+                }
+              ]
+            }
           }
         },
         {
@@ -4858,17 +5348,15 @@
                 "Each [support service](#support-service) meets the communication needs of people with disabilities directly or through [a relay service](#relay-service). Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "12.2.3 Effective communication"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "12.2.3",
+                  "title": "Effective communication"
+                }
+              ]
+            }
           }
         },
         {
@@ -4880,17 +5368,15 @@
                 "Does the [documentation](#documentation) provided by the [support service](#support-service) comply with the [digital accessibility rules](#digital-accessibility-rules)?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "12.2.4 Accessible documentation"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "12.2.4",
+                  "title": "Accessible documentation"
+                }
+              ]
+            }
           }
         }
       ]
@@ -4908,17 +5394,15 @@
                 "For each [two-way voice communication web application](#two-way-voice-communication-web-application), is the application capable of encoding and decoding this communication with a frequency range whose upper limit is at least 7,000 Hz?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.1 Audio bandwidth for speech"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 6.1,
+                  "title": "Audio bandwidth for speech"
+                }
+              ]
+            }
           }
         },
         {
@@ -4932,17 +5416,15 @@
                 "The web application can be connected to a terminal with integrated [real-time text communication](#real-time-text-communication) functionality."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.2.1.1 RTT communication"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "6.2.1.1",
+                  "title": "RTT communication"
+                }
+              ]
+            }
           }
         },
         {
@@ -4954,17 +5436,15 @@
                 "For each web application that enables [two-way voice communication](#two-way-voice-communication-web-application) and [real-time text](#real-time-text-communication), can both modes be used simultaneously?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.2.1.2 Concurrent voice and text"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "6.2.1.2",
+                  "title": "Concurrent voice and text"
+                }
+              ]
+            }
           }
         },
         {
@@ -4984,19 +5464,23 @@
                 "The identification of the author of the message is accessible to assistive technologies."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.2.2.1 Visually distinguishable display",
-                  "6.2.2.2 Programmatically determinable send and receive direction",
-                  "6.2.2.3 Speaker identification"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "6.2.2.1",
+                  "title": "Visually distinguishable display"
+                },
+                {
+                  "criterion": "6.2.2.2",
+                  "title": "Programmatically determinable send and receive direction"
+                },
+                {
+                  "criterion": "6.2.2.3",
+                  "title": "Speaker identification"
+                }
+              ]
+            }
           }
         },
         {
@@ -5011,18 +5495,19 @@
                 "For each [two-way voice communication web application](#two-way-voice-communication-web-application) that has real-time video, is there a visual indicator of speaking activity?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.2.2.4 Visual indicator of Audio with RTT",
-                  "6.5.5 Visual indicator of audio with video"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "6.2.2.4",
+                  "title": "Visual indicator of Audio with RTT"
+                },
+                {
+                  "criterion": "6.5.5",
+                  "title": "Visual indicator of audio with video"
+                }
+              ]
+            }
           }
         },
         {
@@ -5034,17 +5519,15 @@
                 "Does each [real-time text communication](#real-time-text-communication) web application that can interact with other [real-time text communication](#real-time-text-communication) applications comply with the interoperability rules in force?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.2.3 Interoperability"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "6.2.3",
+                  "title": "Interoperability"
+                }
+              ]
+            }
           }
         },
         {
@@ -5056,17 +5539,15 @@
                 "For each [real-time-text-communication](#real-time-text-communication) web application, the transmission time for each [input unit](#input-unit) is 500ms or less. Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.2.4 RTT responsiveness"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "6.2.4",
+                  "title": "RTT responsiveness"
+                }
+              ]
+            }
           }
         },
         {
@@ -5080,17 +5561,15 @@
                 "The caller identification is accessible to assistive technologies."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.3 Caller ID"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 6.3,
+                  "title": "Caller ID"
+                }
+              ]
+            }
           }
         },
         {
@@ -5102,17 +5581,15 @@
                 "For each [two-way voice communication web application](#two-way-voice-communication-web-application) which makes it possible to identify the activity of a speaker, it is possible to identify the activity of a signer. Is this rule respected?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.5.6 Speaker identification with video (sign language) communication"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "6.5.6",
+                  "title": "Speaker identification with video (sign language) communication"
+                }
+              ]
+            }
           }
         },
         {
@@ -5124,17 +5601,15 @@
                 "For each [two-way voice communication web application](#two-way-voice-communication-web-application) that has [voice-based services](#voice-based-services), can these be used without the need to listen or speak?"
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.4 Alternatives to voice-based services"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": 6.4,
+                  "title": "Alternatives to voice-based services"
+                }
+              ]
+            }
           }
         },
         {
@@ -5149,19 +5624,23 @@
                 "The time lag between the video and the spoken words must not exceed 100 ms."
               ]
             },
-            "references": [
-              {
-                "wcag": []
-              },
-              {},
-              {
-                "norm": [
-                  "6.5.2 Resolution",
-                  "6.5.3 Frame rate",
-                  "6.5.4 Synchronization between audio and video"
-                ]
-              }
-            ]
+            "references": {
+              "WCAG": "N/A",
+              "Norm": [
+                {
+                  "criterion": "6.5.2",
+                  "title": "Resolution"
+                },
+                {
+                  "criterion": "6.5.3",
+                  "title": "Frame rate"
+                },
+                {
+                  "criterion": "6.5.4",
+                  "title": "Synchronization between audio and video"
+                }
+              ]
+            }
           }
         }
       ]

@@ -1,20 +1,32 @@
 ---
-WCAG:
-  - successCriterion: 3.3.2
-    title: Labels or Instructions
-    level: A
+WCAG: 2.5.3
+EN301549-V4: 9.2.5.3
+RAWEB1.1: 11.2.5
 Techniques:
-  - G162
-Norm:
-  - criterion: 9.3.3.2
-    title: Labels or Instructions
+  - F96
+  - F111
+  - G208
+  - G211
 ---
 
 #### Cas particuliers
 
-Les tests 11.4.2 et 11.4.3 seront considérés comme non applicables :
+Le critère ne s’applique pas lorsque :
 
-- Dans le cas où l’[étiquette](#etiquette-de-champ-de-formulaire) mélange une portion de texte qui se lit de droite à gauche avec une portion de texte qui se lit de gauche à droite ;
-- Dans le cas où un formulaire contient des labels de plusieurs langues qui se liraient de droite à gauche et inversement. Par exemple, un formulaire de commande en arabe qui propose une liste de cases à cocher de produit en langue française ou mixant des produits en langue arabe ou en langue française ;
-- Dans le cas où les champs de type `radio` ou `checkbox` et les balises ayant un attribut WAI-ARIA `role="checkbox"`, `role="radio"` ou `role="switch"` ne sont pas visuellement présentés sous forme de bouton radio ou de case à cocher ;
-- Dans le cas où les champs seraient utilisés dans un contexte où il pourrait être légitime, du point de vue de l’expérience utilisateur, de placer les étiquettes de manière différente à celle requise dans les tests 11.4.2 et 11.4.3.
+- La ponctuation et les lettres majuscules sont présentes dans le texte de l’intitulé visible : elles peuvent être ignorées dans le nom accessible sans porter à conséquence.
+- Le texte de l’intitulé visible sert de symbole : le texte ne doit pas être interprété littéralement au niveau du nom accessible. Le nom doit exprimer la fonction véhiculée par le symbole (par exemple, « B » au niveau d’un éditeur de texte aura pour nom accessible « Mettre en gras », le signe « &gt; » en fonction du contexte signifiera « Suivant » ou « Lancer la vidéo »). Le cas des symboles mathématiques fait cependant exception (voir la note ci-dessous).
+
+Note : si l’intitulé visible représente une expression mathématique, les symboles mathématiques peuvent être repris littéralement pour servir de nom accessible (ex. : « A &gt; B »). Il est laissé à l’utilisateur le soin d’opérer la correspondance entre l’expression et ce qu’il doit épeler compte tenu de la connaissance qu’il a du fonctionnement de son logiciel de saisie vocale (« A plus grand que B » ou « A supérieur à B »).
+
+#### Notes techniques
+
+Lorsque l’intitulé visible est complété par une autre expression dans le nom accessible :
+
+- WCAG insiste sur le placement de l’intitulé visible au début du nom accessible sans toutefois réserver l’exclusivité de cet emplacement ;
+- WCAG considère comme un cas d’échec une correspondance non exacte de la chaîne de caractères de l’intitulé visible au sein du nom accessible.
+
+Par exemple, si l’on considère l’intitulé visible « Commander maintenant » complété dans le nom accessible par l’expression « produit X», on peut avoir les différents cas suivants :
+
+- « Commander maintenant produit X » est valide (bonne pratique) ;
+- « Produit X : commander maintenant » est valide ;
+- « Commander produit X maintenant » est non valide.

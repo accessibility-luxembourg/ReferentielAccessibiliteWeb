@@ -1,8 +1,13 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 5.4
-    title: Preservation of accessibility information during conversion
-  - criterion: 7.2.3
-    title: Preservation of audio description
+EN301549-V4: 9.2.1.1
+WCAG: 2.1.1
+RAWEB1.1: 4.11.1
+Techniques:
+  - G4
 ---
+
+#### Cas particuliers
+
+Voir les cas particuliers du {% crit 4.2 %}.
+
+Les médias temporels synchronisés en direct diffusés via un site web soumis à la [loi du 28 mai 2019](https://legilux.public.lu/eli/etat/leg/loi/2019/05/28/a373/jo) sont exemptés.

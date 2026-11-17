@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, chaque [lien](#lien) a-t-il un [intitulé](#intitule-ou-nom-accessible-de-lien) ?
+title: Chaque [lien](#lien) ayant un [nom accessible](#nom-accessible-de-lien), ce nom accessible est-il pertinent (hors cas particuliers) ?
 ---

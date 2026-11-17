@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, chaque citation est-elle correctement indiquée ?
+title: Dans chaque page web, chaque [liste](#listes) est-elle correctement structurée ?
 ---

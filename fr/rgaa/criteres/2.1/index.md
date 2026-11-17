@@ -1,3 +1,3 @@
 ---
-title: Chaque [cadre](#cadre) a-t-il un [titre de cadre](#titre-de-cadre) ?
+title: Chaque [cadre](#cadre) a-t-il un [nom accessible](#nom-accessible-de-cadre) ?
 ---

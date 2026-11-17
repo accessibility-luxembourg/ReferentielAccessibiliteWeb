@@ -1,3 +1,3 @@
 ---
-title: Dans chaque [formulaire](#formulaire), le [contrôle de saisie](#controle-de-saisie-formulaire) est-il accompagné, si nécessaire, de suggestions facilitant la correction des erreurs de saisie ?
+title: Chaque [bouton de formulaire](#bouton-formulaire) a-t-il un [nom accessible](#nom-accessible-de-bouton) ?
 ---

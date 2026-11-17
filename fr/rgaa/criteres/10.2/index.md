@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, le [contenu visible](#contenu-visible) porteur d’information est-il accessible aux technologies d’assistance ?
+title: Dans chaque page web, l’ordre de restitution par les technologies d’assistance est-il [cohérent](#coherent-ordre-de-lecture) ?
 ---

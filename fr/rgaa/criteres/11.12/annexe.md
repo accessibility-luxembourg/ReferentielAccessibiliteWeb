@@ -1,15 +1,15 @@
 ---
-WCAG:
-  - successCriterion: 3.3.4
-    title: Error Prevention (Legal, Financial, Data)
-    level: AA
+WCAG: 4.1.2
+EN301549-V4: 9.4.1.2
+RAWEB1.1: 11.9.1
 Techniques:
-  - G98
-  - G99
-  - G155
-  - G164
-  - G168
-Norm:
-  - criterion: 9.3.3.4
-    title: Error Prevention (Legal, Financial, Data)
+  - ARIA14
+  - ARIA16
+  - F111
+  - H91
+  - H65
 ---
+
+#### Notes techniques
+
+Les boutons `<input type="image"/>` s’évaluent au {% crit 11.13 %} et au {% crit 11.14 %}.

@@ -1,3 +1,3 @@
 ---
-title: Dans chaque [ensemble de pages](#ensemble-de-pages), la [page « plan du site »](#page-plan-du-site) est-elle accessible à partir d’une fonctionnalité identique ?
+title: Dans chaque [ensemble de pages](#ensemble-de-pages), les [mécanismes de navigation répétés](#mecanisme-de-navigation-repete) sont-ils présentés dans le même ordre relatif dans la présentation et le code source (hors cas particuliers) ?
 ---

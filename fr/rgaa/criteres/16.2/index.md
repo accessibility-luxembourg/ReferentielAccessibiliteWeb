@@ -1,3 +1,3 @@
 ---
-title: Chaque [service d’assistance](#service-d-assistance) répond aux besoins de communication des personnes handicapées directement ou par [l’intermédiaire d’un service de relais](#service-de-relais). Cette règle est-elle respectée ?
+title: La [documentation](#documentation) fournie par le [service d’assistance](#service-d-assistance) est-elle conforme aux [règles d’accessibilité numérique](#regles-d-accessibilite-numerique) ?
 ---

@@ -1,17 +1,12 @@
 ---
-WCAG:
-  - successCriterion: 2.4.3
-    title: Focus Order
-    level: A
+EN301549-V4: 9.2.1.2
+WCAG: 2.1.2
+RAWEB1.1: 12.9
 Techniques:
-  - C27
-  - F44
-  - F85
-  - G59
-  - H102
-  - SCR26
-  - SCR27
-Norm:
-  - criterion: 9.2.4.3
-    title: Focus Order
+  - F10
+  - G21
 ---
+
+#### Note
+
+Ce critère est soumis au [principe de non-interférence](./methodo-test.html#principe-de-non-interférence).

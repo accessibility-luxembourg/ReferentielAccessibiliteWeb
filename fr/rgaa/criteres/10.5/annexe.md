@@ -1,11 +1,6 @@
 ---
-WCAG:
-  - successCriterion: 1.4.3
-    title: Contrast (Minimum)
-    level: AA
+EN301549-V4: 9.1.3.1
+WCAG: 1.3.1
 Techniques:
-  - F24
-Norm:
-  - criterion: 9.1.4.3
-    title: Contrast (Minimum)
+  - G117
 ---

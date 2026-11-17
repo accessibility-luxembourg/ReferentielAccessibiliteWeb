@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, le contenu proposé est-il consultable, quelle que soit l’orientation de l’écran (portrait ou paysage) (hors cas particuliers) ?
+title: Dans chaque page web, les fonctionnalités activables par la réalisation d’actions simultanées sont-elles activables sans actions simultanées (hors cas particuliers) ?
 ---

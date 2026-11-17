@@ -1,0 +1,510 @@
+{
+  "name": "WCAG",
+  "data-norm": "WCAG",
+  "criteria": [
+    {
+      "data-type": "criterion",
+      "data-ref": "1.1.1",
+      "group": "Perceptible",
+      "subgroup": "Équivalents textuels",
+      "label": "Contenu non textuel",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#non-text-content"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.2.1",
+      "group": "Perceptible",
+      "subgroup": "Média temporel",
+      "label": "Contenus seulement audio et seulement vidéo (pré-enregistrés)",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#audio-only-and-video-only-prerecorded"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.2.2",
+      "group": "Perceptible",
+      "subgroup": "Média temporel",
+      "label": "Sous-titres (pré-enregistrés)",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#captions-prerecorded"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.2.3",
+      "group": "Perceptible",
+      "subgroup": "Média temporel",
+      "label": "Audio-description ou version de remplacement pour un média temporel (pré-enregistré)",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#audio-description-or-media-alternative-prerecorded"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.2.4",
+      "group": "Perceptible",
+      "subgroup": "Média temporel",
+      "label": "Sous-titres (en direct)",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#captions-live"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.2.5",
+      "group": "Perceptible",
+      "subgroup": "Média temporel",
+      "label": "Audio-description (pré-enregistrée)",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#audio-description-prerecorded"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.3.1",
+      "group": "Perceptible",
+      "subgroup": "Adaptable",
+      "label": "Information et relations",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#info-and-relationships"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.3.2",
+      "group": "Perceptible",
+      "subgroup": "Adaptable",
+      "label": "Ordre séquentiel logique",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#meaningful-sequence"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.3.3",
+      "group": "Perceptible",
+      "subgroup": "Adaptable",
+      "label": "Caractéristiques sensorielles",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#sensory-characteristics"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.3.4",
+      "group": "Perceptible",
+      "subgroup": "Adaptable",
+      "label": "Orientation",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#orientation"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.3.5",
+      "group": "Perceptible",
+      "subgroup": "Adaptable",
+      "label": "Identifier la finalité de la saisie",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#identify-input-purpose"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.1",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Utilisation de la couleur",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#use-of-color"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.2",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Contrôle du son",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#audio-control"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.3",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Contraste (minimum)",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#contrast-minimum"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.4",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Redimensionnement du texte",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#resize-text"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.5",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Texte sous forme d’image",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#images-of-text"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.10",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Redistribution",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#reflow"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.11",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Contraste du contenu non textuel",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#non-text-contrast"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.12",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Espacement du texte",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#text-spacing"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "1.4.13",
+      "group": "Perceptible",
+      "subgroup": "Distinguable",
+      "label": "Contenu au survol ou au focus",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#content-on-hover-or-focus"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.1.1",
+      "group": "Utilisable",
+      "subgroup": "Accessibilité au clavier",
+      "label": "Clavier",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#keyboard"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.1.2",
+      "group": "Utilisable",
+      "subgroup": "Accessibilité au clavier",
+      "label": "Pas de piège au clavier",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#no-keyboard-trap"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.1.4",
+      "group": "Utilisable",
+      "subgroup": "Accessibilité au clavier",
+      "label": "Raccourcis clavier utilisant des caractères",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#character-key-shortcuts"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.2.1",
+      "group": "Utilisable",
+      "subgroup": "Délai suffisant",
+      "label": "Réglage du délai",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#timing-adjustable"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.2.2",
+      "group": "Utilisable",
+      "subgroup": "Délai suffisant",
+      "label": "Mettre en pause, arrêter, masquer",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#pause-stop-hide"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.3.1",
+      "group": "Utilisable",
+      "subgroup": "Crises et réactions épileptiques",
+      "label": "Pas plus de trois flashs ou sous le seuil critique",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#three-flashes-or-below-threshold"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.4.1",
+      "group": "Utilisable",
+      "subgroup": "Navigable",
+      "label": "Contourner des blocs",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#bypass-blocks"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.4.2",
+      "group": "Utilisable",
+      "subgroup": "Navigable",
+      "label": "Titre de page",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#page-titled"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.4.3",
+      "group": "Utilisable",
+      "subgroup": "Navigable",
+      "label": "Parcours du focus",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#focus-order"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.4.4",
+      "group": "Utilisable",
+      "subgroup": "Navigable",
+      "label": "Fonction du lien (selon le contexte)",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#link-purpose-in-context"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.4.5",
+      "group": "Utilisable",
+      "subgroup": "Navigable",
+      "label": "Accès multiples",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#multiple-ways"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.4.6",
+      "group": "Utilisable",
+      "subgroup": "Navigable",
+      "label": "En-têtes et étiquettes",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#headings-and-labels"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.4.7",
+      "group": "Utilisable",
+      "subgroup": "Navigable",
+      "label": "Visibilité du focus",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#focus-visible"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.4.11",
+      "group": "Utilisable",
+      "subgroup": "Navigable",
+      "label": "Focus non masqué (minimum)",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#focus-not-obscured-minimum"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.5.1",
+      "group": "Utilisable",
+      "subgroup": "Modalités d'entrée",
+      "label": "Gestes pour le contrôle du pointeur",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#pointer-gestures"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.5.2",
+      "group": "Utilisable",
+      "subgroup": "Modalités d'entrée",
+      "label": "Annulation de l’action du pointeur",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#pointer-cancellation"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.5.3",
+      "group": "Utilisable",
+      "subgroup": "Modalités d'entrée",
+      "label": "Étiquette dans le nom",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#label-in-name"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.5.4",
+      "group": "Utilisable",
+      "subgroup": "Modalités d'entrée",
+      "label": "Activation par le mouvement",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#motion-actuation"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.5.7",
+      "group": "Utilisable",
+      "subgroup": "Modalités d'entrée",
+      "label": "Mouvements de glissement",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#dragging-movements"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "2.5.8",
+      "group": "Utilisable",
+      "subgroup": "Modalités d'entrée",
+      "label": "Taille de la cible (minimum)",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#target-size-minimum"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.1.1",
+      "group": "Compréhensible",
+      "subgroup": "Lisible",
+      "label": "Langue de la page",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#language-of-page"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.1.2",
+      "group": "Compréhensible",
+      "subgroup": "Lisible",
+      "label": "Langue d’un passage",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#language-of-parts"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.2.1",
+      "group": "Compréhensible",
+      "subgroup": "Prévisible",
+      "label": "Au focus",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#on-focus"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.2.2",
+      "group": "Compréhensible",
+      "subgroup": "Prévisible",
+      "label": "À la saisie",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#on-input"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.2.3",
+      "group": "Compréhensible",
+      "subgroup": "Prévisible",
+      "label": "Navigation cohérente",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#consistent-navigation"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.2.4",
+      "group": "Compréhensible",
+      "subgroup": "Prévisible",
+      "label": "Identification cohérente",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#consistent-identification"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.2.6",
+      "group": "Compréhensible",
+      "subgroup": "Prévisible",
+      "label": "Aide cohérente",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#consistent-help"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.3.1",
+      "group": "Compréhensible",
+      "subgroup": "Assistance à la saisie",
+      "label": "Identification des erreurs",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#error-identification"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.3.2",
+      "group": "Compréhensible",
+      "subgroup": "Assistance à la saisie",
+      "label": "Étiquettes ou instructions",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#labels-or-instructions"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.3.3",
+      "group": "Compréhensible",
+      "subgroup": "Assistance à la saisie",
+      "label": "Suggestion après une erreur",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#error-suggestion"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.3.4",
+      "group": "Compréhensible",
+      "subgroup": "Assistance à la saisie",
+      "label": "Prévention des erreurs (juridiques, financières, de données)",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#error-prevention-legal-financial-data"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.3.7",
+      "group": "Compréhensible",
+      "subgroup": "Assistance à la saisie",
+      "label": "Saisie redondante",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#redundant-entry"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "3.3.8",
+      "group": "Compréhensible",
+      "subgroup": "Assistance à la saisie",
+      "label": "Authentification accessible (minimum)",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#accessible-authentication-minimum"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "4.1.1",
+      "group": "Robuste",
+      "subgroup": "Compatible",
+      "label": "Analyse syntaxique (Obsolète et supprimé)",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#parsing"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "4.1.2",
+      "group": "Robuste",
+      "subgroup": "Compatible",
+      "label": "Nom, rôle et valeur",
+      "level": "A",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#name-role-value"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "4.1.3",
+      "group": "Robuste",
+      "subgroup": "Compatible",
+      "label": "Messages d’état",
+      "level": "AA",
+      "url": "https://www.w3.org/Translations/WCAG22-fr/#status-messages"
+    }
+  ]
+}

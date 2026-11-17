@@ -1,17 +1,8 @@
 ---
-WCAG:
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
-  - successCriterion: 3.3.2
-    title: Labels or Instructions
-    level: A
+WCAG: 3.2.4
+EN301549-V4: 9.3.2.4
+RAWEB1.1: 11.3
 Techniques:
-  - ARIA17
-  - H71
-Norm:
-  - criterion: 9.1.3.1
-    title: Info and Relationships
-  - criterion: 9.3.3.2
-    title: Labels or Instructions
+  - F31
+  - G197
 ---

@@ -1,3 +1,3 @@
 ---
-title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé pré-enregistré qui possède des [sous-titres de traduction](#sous-titres-de-traduction) synchronisés, ceux-ci peuvent-ils être vocalisés (hors cas particuliers) ?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé disposant de sous-titres, il existe une méthode pour activer les sous-titres. Cette règle est-elle respectée (hors cas particuliers) ?
 ---

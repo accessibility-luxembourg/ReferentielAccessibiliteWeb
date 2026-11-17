@@ -1,12 +1,9 @@
 ---
-WCAG:
-  - successCriterion: 1.4.1
-    title: Use of Color
-    level: A
+EN301549-V4: 9.1.3.3
+WCAG: 1.3.3
+RAWEB1.1: N/A
 Techniques:
-  - F73
-  - G183
-Norm:
-  - criterion: 9.1.4.1
-    title: Use of Color
+  - F14
+  - F26
+  - G96
 ---

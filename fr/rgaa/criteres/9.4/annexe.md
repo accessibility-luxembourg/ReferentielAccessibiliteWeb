@@ -1,13 +1,16 @@
 ---
-WCAG:
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
+EN301549-V4: 9.1.3.1
+WCAG: 1.3.1
+RAWEB1.1: 9.3
 Techniques:
   - F2
+  - F92
   - G115
-  - H49
-Norm:
-  - criterion: 9.1.3.1
-    title: Info and Relationships
+  - H48
 ---
+
+#### Notes techniques
+
+Les attributs WAI-ARIA `role="list"` et `role="listitem"` peuvent nécessiter l’utilisation des attributs WAI-ARIA `aria-setsize` et `aria-posinset` dans le cas où l’ensemble de la liste n’est pas disponible via le DOM généré au moment de la consultation.
+
+Les attributs WAI-ARIA `role="tree"`, `role="tablist"`, `role="menu"`, `role="combobox"` et `role="listbox"` ne sont pas équivalents à une liste HTML `<ul>` ou `<ol>`.

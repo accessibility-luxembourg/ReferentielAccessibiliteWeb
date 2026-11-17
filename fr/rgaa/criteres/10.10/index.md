@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, l’information ne doit pas être donnée [par la forme, taille ou position](#indication-donnee-par-la-forme-la-taille-ou-la-position) uniquement. Cette règle est-elle implémentée de façon pertinente ?
+title: Dans chaque page web, les propriétés d’espacement du texte peuvent-elles être redéfinies par l’utilisateur sans perte de contenu ou de fonctionnalité (hors cas particuliers) ?
 ---

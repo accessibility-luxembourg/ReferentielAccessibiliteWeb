@@ -1,10 +1,5 @@
 ---
 WCAG: N/A
-Norm:
-  - criterion: 5.2
-    title: Activation of accessibility features
+EN301549-V4: 12.1
+RAWEB1.1: N/A
 ---
-
-#### Cas particuliers
-
-Le critère est non applicable pour les fonctionnalités intégrées au système d’exploitation ou au navigateur.

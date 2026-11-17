@@ -9,6 +9,6 @@ Quelques exemples :
 - Trois champs successifs pour saisir une date (jour/mois/année) ;
 - Champs successifs pour un numéro de téléphone ;
 - Un bloc destiné à saisir l’identité et l’adresse de l’utilisateur, lorsque le formulaire contient plusieurs blocs de contact ;
-- Un ensemble de boutons radio ou de cases à cocher qui se rapportent à une question.
+- Un ensemble de boutons radio ou de cases à cocher qui se rapporte à une question.
 
-Ces champs doivent être regroupés lorsque les intitulés de label ne sont pas suffisants pour informer l’utilisateur que les champs font partie d’un regroupement.
+Ces champs doivent être regroupés lorsque leurs noms accessibles ne sont pas suffisants pour informer l’utilisateur que les champs font partie d’un regroupement.

@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, le [contraste](#contraste) entre la couleur du texte et la couleur de son arrière-plan est-il suffisamment élevé (hors cas particuliers) ?
+title: Dans chaque page web, l’[information donnée par la couleur](#information-donnee-par-la-couleur) est accompagnée d’une alternative accessible aux technologies d’assistance. Cette règle est-elle respectée ?
 ---

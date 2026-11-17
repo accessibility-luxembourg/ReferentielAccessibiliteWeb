@@ -1,3 +1,3 @@
 ---
-title: Pour chaque [tableau de mise en forme](#tableau-de-mise-en-forme), le contenu linéarisé reste-t-il compréhensible ?
+title: Pour chaque [tableau de données ayant un titre visible](#tableau-de-donnees-ayant-un-titre-visible), le titre est-il correctement associé au tableau de données ?
 ---

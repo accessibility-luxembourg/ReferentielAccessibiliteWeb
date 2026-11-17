@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, le texte reste-t-il lisible lorsque la [taille des caractères](#taille-des-caracteres) est augmentée jusqu’à 200 %, au moins (hors cas particuliers) ?
+title: Pour chaque page web, les [contenus cachés](#contenu-cache) ont-ils vocation à être ignorés par les technologies d’assistance ?
 ---

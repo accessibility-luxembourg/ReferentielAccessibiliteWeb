@@ -1,3 +1,3 @@
 ---
-title: Pour chaque page web ayant un [titre de page](#titre-de-page), ce titre est-il pertinent ?
+title: Chaque page web a-t-elle un [titre de page](#titre-de-page) ?
 ---

@@ -1,22 +1,12 @@
 ---
-WCAG:
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
-  - successCriterion: 1.4.1
-    title: Use of color
-    level: A
+EN301549-V4: 9.1.4.1
+WCAG: 1.4.1 
 Techniques:
   - F13
+  - F73
   - G14
   - G182
+  - G183
   - G111
-  - G117
-  - G138
   - G205
-Norm:
-  - criterion: 9.1.3.1
-    title: Info and Relationships
-  - criterion: 9.1.4.1
-    title: Use of color
 ---

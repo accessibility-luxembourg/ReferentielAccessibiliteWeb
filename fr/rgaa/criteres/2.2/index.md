@@ -1,3 +1,3 @@
 ---
-title: Pour chaque [cadre](#cadre) ayant un [titre de cadre](#titre-de-cadre), ce titre de cadre est-il pertinent ?
+title: Pour chaque [cadre](#cadre) ayant un [nom accessible](#nom-accessible-de-cadre), ce nom accessible est-il pertinent ?
 ---

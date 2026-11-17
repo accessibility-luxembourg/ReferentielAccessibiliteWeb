@@ -1,18 +1,17 @@
 ---
-WCAG:
-  - successCriterion: 1.4.13
-    title: Content on Hover or Focus
-    level: AA
-Techniques:
-  - F95
-  - SCR39
-Norm:
-  - criterion: 9.1.4.13
-    title: Content on Hover or Focus
+EN301549-V4: 9.7
+RAWEB1.1: N/A
 ---
 
-#### Cas particuliers
+### Cas particuliers
 
-Lorsque le contenu additionnel est contrôlé par l’agent utilisateur (par exemple, attribut `title` ou validation native de formulaire) ou correspond à une fenêtre modale conforme au [motif de conception](#motif-de-conception) WAI-ARIA `dialog`, le critère 10.13 est non applicable.
+Le critère ne s’applique pas : 
 
-Lorsque le contenu additionnel ne masque ou ne remplace aucun contenu porteur d’information, le test 10.13.1 est non applicable.
+- aux propriétés de présentation gérées par les styles natifs du navigateur sans aucune modification par l’auteur ;
+- lorsqu’une propriété de présentation spécifique est [essentielle](#essentiel).
+
+### Notes techniques
+
+Le critère demande de vérifier que les préférences de l’utilisateur ne soient pas bloquées ou surchargées par la page web. Cependant, le critère n’impose pas la prise en charge des préférences de l’utilisateur définies au niveau du navigateur. 
+
+Par exemple, un utilisateur a paramétré son navigateur pour appliquer un thème sombre automatiquement aux sites web. Si le site web n’a pas intégré de feuille de styles dédiée au thème sombre, aucun thème sombre ne s’appliquera. Pour autant, la page ne bloque pas les préférences de l’utilisateur. Le critère est conforme pour ce cas.

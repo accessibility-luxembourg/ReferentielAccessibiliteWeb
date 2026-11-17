@@ -1,3 +1,3 @@
 ---
-title: Pour chaque page web ayant une [langue par défaut](#langue-par-defaut), le [code de langue](#code-de-langue) est-il pertinent ?
+title: Dans chaque page web, le code de langue de chaque [changement de langue](#changement-de-langue) est-il valide et pertinent ?
 ---

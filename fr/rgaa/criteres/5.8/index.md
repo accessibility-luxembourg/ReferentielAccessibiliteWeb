@@ -1,3 +1,3 @@
 ---
-title: Chaque [tableau de mise en forme](#tableau-de-mise-en-forme) ne doit pas utiliser d’éléments propres aux  [tableaux de données](#tableau-de-donnees). Cette règle est-elle respectée ?
+title: Pour chaque [tableau de mise en forme](#tableau-de-mise-en-forme), le contenu linéarisé reste-t-il compréhensible ?
 ---

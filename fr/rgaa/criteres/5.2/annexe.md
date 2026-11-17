@@ -1,11 +1,5 @@
 ---
-WCAG:
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
-Techniques:
-  - H39
-Norm:
-  - criterion: 9.1.3.1
-    title: Info and Relationships
+EN301549-V4: 9.1.3.1
+WCAG: 1.3.1
+RAWEB1.1: 5.2
 ---

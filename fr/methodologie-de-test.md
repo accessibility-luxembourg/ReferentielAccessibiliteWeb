@@ -23,7 +23,7 @@ La méthodologie de test est désormais disponible au niveau de chaque test sur 
 
 #### Cadre général
 
-Afin d’évaluer la conformité du site avec la norme de référence, l’organisme doit conduire un audit d’accessibilité. L’audit (ou évaluation) peut être effectué par l’organisme lui-même (auto-évaluation) ou par un tiers. L’évaluation est réalisée sur un échantillon de pages représentatif du site. 
+Afin d’évaluer la conformité du [site](glossaire.html#site-web) avec la norme de référence, l’organisme doit conduire un audit d’accessibilité. L’audit (ou évaluation) peut être effectué par l’organisme lui-même (auto-évaluation) ou par un tiers. L’évaluation est réalisée sur un échantillon de pages représentatif du [site](glossaire.html#site-web). 
 
 La vérification de la conformité des pages de l’échantillon avec les critères applicables s’effectue à l’aide du [référentiel d’évaluation de l’accessibilité web (RAWeb)](./index.html).  
 
@@ -42,7 +42,7 @@ Il est possible de recourir à une autre méthode de tests, à une triple condit
 
 #### Échantillon
 
-L’échantillon sur lequel est réalisé l’audit d’un site web porte au moins sur les pages suivantes, lorsqu’elles existent :
+L’échantillon sur lequel est réalisé l’audit d’un [site web](glossaire.html#site-web) porte au moins sur les pages suivantes, lorsqu’elles existent :
  
 1. la page d’accueil&nbsp;;
 1. les mentions légales&nbsp;;
@@ -159,15 +159,56 @@ Il est indispensable de s’assurer que ces contenus n’empêchent pas les util
 
 Ainsi, bien que la conformité de ces contenus ne soit pas requise, il reste obligatoire qu’ils se conforment aux critères et tests suivants&nbsp;:
 
-- [Critère 4.10](criteres.html#crit-4-10) : Chaque son déclenché automatiquement est-il contrôlable par l’utilisateur&nbsp;?
-- [Critère 12.9](criteres.html#crit-12-9) : Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée&nbsp;?
-- [Test 13.1.1](criteres.html#test-13-1-1) : Pour chaque page web, chaque procédé de rafraîchissement (balise `<object>`, balise `<embed>`, balise `<svg>`, balise `<canvas>`, balise `<meta>`) vérifie-t-il une de ces conditions (hors cas particuliers)&nbsp;?
-- [Critère 13.7](criteres.html#crit-13-7) : Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés&nbsp;?
-- [Critère 13.8](criteres.html#crit-13-8) : Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur&nbsp;?
+- [Critère 4.15](criteres.html#crit-4-15) : Chaque son déclenché automatiquement est-il contrôlable par l’utilisateur (hors cas particuliers)&nbsp;?
+- [Critère 12.8](criteres.html#crit-12-8) : Dans chaque page web, la navigation ne doit pas contenir de piège au clavier. Cette règle est-elle respectée&nbsp;?
+- [Critère 13.2](criteres.html#crit-13-2) : Pour chaque page web, les mises à jour automatiques de contenu vérifient-elles une de ces conditions (hors cas particuliers) ?
+- [Critère 13.3](criteres.html#crit-13-2) : Dans chaque page web, chaque contenu en mouvement ou clignotant est-il contrôlable par l’utilisateur (hors cas particuliers) ?
+- [Critère 13.4](criteres.html#crit-13-4) : Dans chaque page web, les changements brusques de luminosité ou les effets de flash sont-ils correctement utilisés&nbsp;?
 
 Le non-respect de l’un de ces critères ou tests pour l’un des types de contenus énumérés rend le ou les critères correspondants non conformes.
 
-Le principe de non-interférence est identifié dans la norme EN 301 549 au critère 9.6 WCAG <span lang="en">conformance requirements</span>.
+Le principe de non-interférence est identifié dans la norme EN 301 549 au critère 9.6 WCAG <span lang="en">conformance requirements</span>.
+
+#### Alternative à une partie du contenu (contenu alternatif)
+
+La conformité d’une page d’un échantillon s’entend uniquement pour la page complète mais peut être atteinte **même en cas de présence de contenus non conformes, tant que ces contenus disposent d’un [contenu alternatif conforme](glossaire.html#contenu-alternatif) (mêmes informations et mêmes fonctionnalités) directement atteignable depuis la page concernée**.
+
+Les contenus non conformes doivent toutefois respecter au moins [le principe de non-interférence](glossaire.html#principe-de-non-interférence)
+
+Par exemple : un composant d’interface non utilisable au clavier (par exemple, un calendrier pour sélectionner une date) qui dispose d’une alternative dans la page (un champ de saisie d’une date)
+
+Sources : 
+- [Pages complètes (Traduction en français des WCAG 2.2)](https://www.w3.org/Translations/WCAG22-fr/#cc2)
+- [Understanding Requirement 2 (WCAG 2.2)](https://www.w3.org/WAI/WCAG22/Understanding/conformance#conf-req2)
+
+Si l’alternative porte sur toute la page, alors c’est le principe de version de remplacement conforme décrit ci-après qui s’applique.
+
+#### Version de remplacement conforme
+
+Une page web peut être considérée comme conforme si une version de remplacement conforme (ou version alternative conforme) est fournie par l’auteur. 
+
+On admet qu’une version de remplacement à une version non conforme permet d’atteindre la conformité lorsqu’elle : 
+
+- se conforme à l’ensemble des critères du présent référentiel ; 
+- fournit toutes les informations et fonctionnalités et dans la même langue que la version non conforme ;
+- est aussi à jour que le contenu de la version non conforme.
+
+Concernant l’accès à cette version de remplacement conforme, au moins l’une de ces conditions doit être respectée :
+
+- la version de remplacement conforme peut être atteinte depuis la version non conforme, grâce à un mécanisme compatible avec l’accessibilité (il est indispensable que le mécanisme qui permet d’atteindre la version de remplacement conforme, soit lui-même conforme, par exemple un bouton avec un nom accessible pertinent) ;
+- ou la version non conforme ne peut être atteinte qu’à partir de la version de remplacement conforme (il n’est pas possible de charger la version non conforme sans être passé par la version de remplacement conforme) ;  
+- ou la version non conforme peut être atteinte seulement à partir d’une autre page conforme qui fournit aussi un mécanisme pour atteindre la version de remplacement conforme. 
+
+Le principe de version de remplacement conforme est identifié dans la norme EN 301 549 au critère 9.6 WCAG <span lang="en">conformance requirements</span>, note 2.
+
+Source : [Version de remplacement conforme (Traduction en français des WCAG 2.2)](https://www.w3.org/Translations/WCAG22-fr/#dfn-conforming-alternate-versions)
+
+
+Des techniques WCAG viennent également documenter certains modalités de mise à disposition des versions de remplacement conforme :
+
+- <a href="https://www.w3.org/WAI/WCAG22/Techniques/failures/F19" lang="en">F19: Failure of Conformance Requirement 1 due to not providing a method for the user to find the alternative conforming version of a non-conforming web page.</a>
+- <a href="https://www.w3.org/WAI/WCAG22/Techniques/failures/F19" lang="en">G136: Providing a link at the beginning of a nonconforming web page that points to a conforming alternate version</a>
+- <a href="https://www.w3.org/WAI/WCAG22/Techniques/client-side-script/SCR38" lang="en">SCR38:Creating a conforming alternate version for a web page designed with progressive enhancement</a>
 
 ### Outils
 

@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 12.2.2
-    title: Information on accessibility and compatibility features
+EN301549-V4: 12.3
+RAWEB1.1: 16.1
 ---

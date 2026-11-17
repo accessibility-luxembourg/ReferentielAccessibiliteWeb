@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, l’information ne doit pas être donnée uniquement [par la forme, taille ou position](#indication-donnee-par-la-forme-la-taille-ou-la-position). Cette règle est-elle respectée ?
+title: Dans chaque page web, le texte reste-t-il lisible lorsque la [taille des caractères](#taille-des-caracteres) est augmentée jusqu’à 200 %, au moins (hors cas particuliers) ?
 ---

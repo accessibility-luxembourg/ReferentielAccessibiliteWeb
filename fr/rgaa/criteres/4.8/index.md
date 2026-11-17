@@ -1,3 +1,3 @@
 ---
-title: Chaque [média non temporel](#media-non-temporel) a-t-il, si nécessaire, une alternative (hors cas particuliers) ?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé ayant une [audiodescription](#audiodescription-synchronisee-media-temporel) synchronisée, l’audiodescription est-elle correctement synchronisée (hors cas particuliers) ?
 ---

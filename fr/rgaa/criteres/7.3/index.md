@@ -1,3 +1,3 @@
 ---
-title: Chaque [script](#script) est-il [contrôlable par le clavier et par tout dispositif de pointage](#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) (hors cas particuliers) ?
+title: Chaque [composant d’interface](#composant-d-interface) ayant la même fonction et répété plusieurs fois dans une même page ou dans un [ensemble de pages](#ensemble-de-pages) est-il [cohérent](#noms-accessibles-et-intitules-visibles-coherents) ?
 ---

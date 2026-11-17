@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, [les changements brusques de luminosité ou les effets de flash](#changement-brusque-de-luminosite-ou-effet-de-flash) sont-ils correctement utilisés ?
+title: Dans chaque page web, les actions déclenchées au moyen d’un dispositif de pointage sur un point unique de l’écran peuvent-elles faire l’objet d’une annulation (hors cas particuliers) ?
 ---

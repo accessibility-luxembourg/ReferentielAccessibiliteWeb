@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, chaque [changement de langue](#changement-de-langue) est-il indiqué dans le code source (hors cas particuliers) ?
+title: Pour chaque page web ayant un [titre de page](#titre-de-page), ce titre est-il pertinent ?
 ---

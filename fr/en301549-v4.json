@@ -1,0 +1,899 @@
+{
+  "name": "EN301549-V4",
+  "data-norm": "EN301549-V4",
+  "criteria": [
+    {
+      "data-type": "criterion",
+      "data-ref": "5.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=35",
+      "group": "Generic requirements",
+      "label": "Activation of accessibility features",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=35",
+      "group": "Generic requirements",
+      "label": "Biometrics",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=35",
+      "group": "Generic requirements",
+      "label": "Preservation of accessibility information during conversion",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.6.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=36",
+      "group": "Generic requirements",
+      "label": "Tactile or auditory status",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.6.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=36",
+      "group": "Generic requirements",
+      "label": "Visual status",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.7",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=36",
+      "group": "Generic requirements",
+      "label": "Key repeat",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.8",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=37",
+      "group": "Generic requirements",
+      "label": "Double-strike key acceptance",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.9",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=37",
+      "group": "Generic requirements",
+      "label": "Simultaneous user actions",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.10.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=37",
+      "group": "Generic requirements Authoring tools",
+      "label": "Accessible content creation",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.10.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=37",
+      "group": "Generic requirements Authoring tools",
+      "label": "Preservation of accessibility information in transformations",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.10.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=38",
+      "group": "Generic requirements Authoring tools",
+      "label": "Repair assistance",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "5.10.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=38",
+      "group": "Generic requirements Authoring tools",
+      "label": "Templates",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=40",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Voice communication interoperability",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.1.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=41",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Audio bandwidth for capture and presentation for voice communication",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=42",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "RTT functionality",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.1.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=42",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Concurrent voice and RTT",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.1.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=42",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Single user action",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.2.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=42",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Distinguishable display",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.2.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=43",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Active communicator indication",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.2.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=43",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Indication of audio with RTT",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.2.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=43",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Presentation of relative time order of text",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.2.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=43",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Review of RTT communication contents",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=44",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "DTMF touch-tone generation during RTT operations",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=44",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "RTT responsiveness",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=44",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Adding and erasing of RTT input",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.6",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=45",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Processing rate of RTT",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.7",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=45",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Character representation",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.8",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=45",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "RTT input methods",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.9",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=45",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "RTT media establishment and use",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.2.10",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=46",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "RTT interoperability",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=47",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Caller ID",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=47",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Alternatives to voice-based services",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.5.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=48",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Resolution",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.5.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=48",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Frame rate",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.5.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=48",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Synchronization between audio and video",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.5.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=48",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Indicator of audio with video",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.5.6",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=49",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Indication of all active communication participants",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "6.7.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=49",
+      "group": "ICT supporting real-time bidirectionnal communication",
+      "label": "Total conversation interoperability",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=50",
+      "group": "ICT with video capabilities",
+      "label": "Subtitle playback",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.1.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=50",
+      "group": "ICT with video capabilities",
+      "label": "Subtitle synchronization",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.1.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=50",
+      "group": "ICT with video capabilities",
+      "label": "Preservation of subtitles",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.1.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=50",
+      "group": "ICT with video capabilities",
+      "label": "Subtitle characteristics",
+      "level":"A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.1.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=51",
+      "group": "ICT with video capabilities",
+      "label": "Spoken subtitles",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.2.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=51",
+      "group": "ICT with video capabilities",
+      "label": "Audio description playback",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.2.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=51",
+      "group": "ICT with video capabilities",
+      "label": "Audio description synchronization",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.2.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=51",
+      "group": "ICT with video capabilities",
+      "label": "Preservation of audio description",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "7.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=51",
+      "group": "ICT with video capabilities",
+      "label": "User control of audiovisual accessibility features",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=62",
+      "group": "Web",
+      "label": "Non-text content",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.2.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=62",
+      "group": "Web",
+      "label": "Audio-only and video-only (pre-recorded)",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.2.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=62",
+      "group": "Web",
+      "label": "Subtitles (pre-recorded)",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.2.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=62",
+      "group": "Web",
+      "label": "Audio description or media alternative (pre-recorded)",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.2.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=63",
+      "group": "Web",
+      "label": "Subtitles (live)",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.2.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=63",
+      "group": "Web",
+      "label": "Audio description (pre-recorded)",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.3.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=63",
+      "group": "Web",
+      "label": "Info and relationships",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.3.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=63",
+      "group": "Web",
+      "label": "Meaningful sequence",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.3.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=63",
+      "group": "Web",
+      "label": "Sensory characteristics",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.3.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=63",
+      "group": "Web",
+      "label": "Orientation",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.3.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=63",
+      "group": "Web",
+      "label": "Identify input purpose",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=63",
+      "group": "Web",
+      "label": "Use of colour",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=64",
+      "group": "Web",
+      "label": "Audio control",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=64",
+      "group": "Web",
+      "label": "Contrast (minimum)",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=64",
+      "group": "Web",
+      "label": "Resize text",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=64",
+      "group": "Web",
+      "label": "Images of text",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.10",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=64",
+      "group": "Web",
+      "label": "Reflow",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.11",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=64",
+      "group": "Web",
+      "label": "Non-text contrast",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.12",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=64",
+      "group": "Web",
+      "label": "Text spacing",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.1.4.13",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=64",
+      "group": "Web",
+      "label": "Content on hover or focus",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=65",
+      "group": "Web",
+      "label": "Keyboard",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.1.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=65",
+      "group": "Web",
+      "label": "No keyboard trap",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.1.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=65",
+      "group": "Web",
+      "label": "Character key shortcuts",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.2.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=65",
+      "group": "Web",
+      "label": "Timing adjustable",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.2.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=65",
+      "group": "Web",
+      "label": "Pause, stop, hide",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.3.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=65",
+      "group": "Web",
+      "label": "Three flashes or below threshold",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.4.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=65",
+      "group": "Web",
+      "label": "Bypass blocks",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.4.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=65",
+      "group": "Web",
+      "label": "Page titled",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.4.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Focus order",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.4.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Link purpose (in context)",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.4.5",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Multiple ways",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.4.6",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Headings and labels",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.4.7",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Focus visible",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.4.11",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Focus not obscured (minimum)",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.5.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Pointer gestures",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.5.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Pointer cancellation",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.5.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Label in name",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.5.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=66",
+      "group": "Web",
+      "label": "Motion actuation",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.5.7",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=67",
+      "group": "Web",
+      "label": "Dragging movements",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.2.5.8",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=67",
+      "group": "Web",
+      "label": "Target size (minimum)",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.1.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=67",
+      "group": "Web",
+      "label": "Language of page",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.1.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=67",
+      "group": "Web",
+      "label": "Language of parts",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.2.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=67",
+      "group": "Web",
+      "label": "On focus",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.2.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=67",
+      "group": "Web",
+      "label": "On input",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.2.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=67",
+      "group": "Web",
+      "label": "Consistent navigation",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.2.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=67",
+      "group": "Web",
+      "label": "Consistent identification",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.2.6",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=68",
+      "group": "Web",
+      "label": "Consistent help",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.3.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=68",
+      "group": "Web",
+      "label": "Error identification",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.3.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=68",
+      "group": "Web",
+      "label": "Labels or instructions",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.3.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=68",
+      "group": "Web",
+      "label": "Error suggestion",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.3.4",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=68",
+      "group": "Web",
+      "label": "Error prevention (legal, financial, data)",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.3.7",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=68",
+      "group": "Web",
+      "label": "Redundant entry",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.3.3.8",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=68",
+      "group": "Web",
+      "label": "Accessible authentication (minimum)",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.4.1.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=68",
+      "group": "Web",
+      "label": "Name, role, value",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.4.1.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=69",
+      "group": "Web",
+      "label": "Status messages",
+      "level": "AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "9.7",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=70",
+      "group": "Web",
+      "label": "User preferences",
+      "level": "A"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "12.1",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=106",
+      "group": "Information about products and services",
+      "label": "Accessible information about products",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "12.2",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=107",
+      "group": "Information about products and services",
+      "label": "Accessible information about services",
+      "level":"AA"
+    },
+    {
+      "data-type": "criterion",
+      "data-ref": "12.3",
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=107",
+      "group": "Information about products and services",
+      "label": "Accessibility and compatibility features",
+      "level":"AA"
+    }
+  ],
+  "sections": {
+    "1": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=12"
+    },
+    "2": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=12"
+    },
+    "3": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=16"
+    },
+    "4": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=26"
+    },
+    "5": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=29"
+    },
+    "6": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=38"
+    },
+    "7": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=50"
+    },
+    "8": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=52"
+    },
+    "9": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=61"
+    },
+    "10": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=71",
+      "level": "A"
+    },
+    "11": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=86"
+    },
+    "12": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=106"
+    },
+    "13": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=108"
+    },
+    "14": {
+      "url": "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf#page=111"
+    }
+  }
+}

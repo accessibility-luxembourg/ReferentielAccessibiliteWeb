@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 6.2.1.2
-    title: Concurrent voice and text
+EN301549-V4:  6.2.1.1
+RAWEB1.1: 17.2
 ---

@@ -1,19 +1,9 @@
 ---
-WCAG:
-  - successCriterion: 4.1.1
-    title: Parsing
-    level: A
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
-Norm:
-  - criterion: 9.4.1.1
-    title: Parsing
-  - criterion: 9.4.1.2
-    title: Name, Role, Value
+EN301549-V4: 9.3.1.1
+WCAG: 3.1.1
+RAWEB1.1: 8.4
+Techniques:
+  - H57
+ACT: 
+  - 31
 ---
-
-#### Note 
-
-Les technologies d’assistance ne dépendent plus de l’analyse directe du HTML. Les problèmes d’accessibilité spécifiquement liés à la validité du code n’existent plus. Les erreurs remontées par le validateur qui ont un impact pour les personnes en situation de handicap sont traitées par d’autres critères.
-Le critère doit dorénavant toujours être considéré comme conforme.

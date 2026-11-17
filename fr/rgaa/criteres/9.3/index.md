@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, chaque [liste](#listes) est-elle correctement structurée ?
+title: Dans chaque page web, la [structure du document](#structure-du-document) est-elle cohérente ?
 ---

@@ -1,3 +1,3 @@
 ---
-title: La finalité d’un champ de saisie peut-elle être déduite pour faciliter le remplissage automatique des champs avec les données de l’utilisateur ?
+title: Chaque [bouton de type image](#bouton-formulaire) (`<input type="image"/>`) a-t-il un [nom accessible](#nom-accessible-de-bouton) ?
 ---

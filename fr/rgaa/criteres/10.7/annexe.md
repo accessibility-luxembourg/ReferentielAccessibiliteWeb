@@ -1,25 +1,20 @@
 ---
-WCAG:
-  - successCriterion: 1.4.1
-    title: Use of Color
-    level: A
-  - successCriterion: 2.4.7
-    title: Focus Visible
-    level: AA
+EN301549-V4: 9.2.4.7
+WCAG: 2.4.7
+RAWEB1.1: 10.7
 Techniques:
   - C15
   - C40
   - C45
-  - F73
   - F78
   - G149
   - G165
-  - G183
   - G195
   - SCR31
-Norm:
-  - criterion: 9.1.4.1
-    title: Use of Color
-  - criterion: 9.2.4.7
-    title: Focus Visible
+ACT: 29
 ---
+
+
+#### Notes techniques
+
+Ce critère évalue la présence d’un indicateur visuel de la prise de focus. Le rapport de contraste des couleurs utilisées pour cet indicateur avec les couleurs environnantes, s’évalue au {% crit 3.4 %}.

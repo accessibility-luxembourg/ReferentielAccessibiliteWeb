@@ -1,3 +1,4 @@
 ---
-title: Dans chaque page web, la [structure du document](#structure-du-document) est-elle cohérente ?
+title: Dans chaque page web, le contenu de chaque [titre balisé](#titre) est-il pertinent ?
 ---
+

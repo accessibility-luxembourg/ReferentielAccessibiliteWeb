@@ -1,3 +1,3 @@
 ---
-title: Pour chaque page web, les [contenus cachés](#contenu-cache) ont-ils vocation à être ignorés par les technologies d’assistance ?
+title: Chaque [composant d’interface](#composant-d-interface) recevant le focus du clavier est-il au moins partiellement visible ?
 ---

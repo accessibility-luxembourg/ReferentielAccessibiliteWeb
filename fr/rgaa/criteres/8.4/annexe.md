@@ -1,11 +1,9 @@
 ---
-WCAG:
-  - successCriterion: 3.1.1
-    title: Language of Page
-    level: A
+EN301549-V4: 9.3.1.2
+WCAG: 3.1.2
+RAWEB1.1: 8.8
 Techniques:
-  - H57
-Norm:
-  - criterion: 9.3.1.1
-    title: Language of Page
+  - H58
+ACT:
+  - 32
 ---

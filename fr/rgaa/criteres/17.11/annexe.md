@@ -1,10 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 6.5.2
-    title: Resolution
-  - criterion: 6.5.3
-    title: Frame rate
-  - criterion: 6.5.4
-    title: Synchronization between audio and video
+RAWEB1.1 : N/A
+EN301549-V4: 6.2.3
 ---

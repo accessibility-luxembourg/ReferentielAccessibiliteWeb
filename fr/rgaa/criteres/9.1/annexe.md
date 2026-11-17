@@ -1,35 +1,16 @@
 ---
-WCAG:
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
-  - successCriterion: 2.4.1
-    title: Bypass Blocks
-    level: A
-  - successCriterion: 2.4.6
-    title: Headings and Labels
-    level: AA
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
+EN301549-V4: 9.1.3.1
+WCAG: 1.3.1
 Techniques:
-  - ARIA4
   - ARIA12
+  - F92
   - G115
-  - G130
   - G141
   - H42
-Norm:
-  - criterion: 9.1.3.1
-    title: Info and Relationships
-  - criterion: 9.2.4.1
-    title: Bypass Blocks
-  - criterion: 9.2.4.6
-    title: Headings and Labels
-  - criterion: 9.4.1.2
-    title: Name, Role, Value
 ---
 
 #### Notes techniques
 
-WAI-ARIA permet de définir des titres via le rôle `heading` et l’attribut `aria-level` (indication du niveau de titre). Bien qu’il soit préférable d’utiliser l’élément de titre natif en HTML `<hx>`, l’utilisation du rôle WAI-ARIA `heading` est compatible avec l’accessibilité.
+Assurer une stricte hiérarchie entre les titres d’une page web est une bonne pratique, mais la présence de sauts hiérarchiques n’invalide pas le test 9.1.2 tant que cette hiérarchie plus lâche reste cohérente (un titre `<h3>` peut ainsi venir directement après un titre `<h1>`, par exemple). La hiérarchie de titres ne doit pas obligatoirement contenir un titre `<h1>`. Même si ces pratiques ne sont pas encouragées, elles ne constituent pas une non-conformité.
+
+Les titres visuellement cachés via CSS sont considérés comme présents et valident le {% crit 9.1 %}.

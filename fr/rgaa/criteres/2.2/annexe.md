@@ -1,11 +1,7 @@
 ---
-WCAG:
-  - successCriterion: 4.1.2
-    title: Name, Role, Value
-    level: A
+EN301549-V4: 9.4.1.2
+WCAG: 4.1.2
+RAWEB1.1: 2.2
 Techniques:
   - H64
-Norm:
-  - criterion: 9.4.1.2
-    title: Name, Role, Value
 ---

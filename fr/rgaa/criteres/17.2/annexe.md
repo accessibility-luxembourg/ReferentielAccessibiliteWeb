@@ -1,6 +1,4 @@
 ---
-WCAG: N/A
-Norm:
-  - criterion: 6.2.1.1
-    title: RTT communication
+EN301549-V4: 6.1.2
+RAWEB1.1: 17.1
 ---

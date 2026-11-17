@@ -1,3 +1,3 @@
 ---
-title: La consultation de chaque [média non temporel](#media-non-temporel) est-elle [contrôlable par le clavier et tout dispositif de pointage](#accessible-et-activable-par-le-clavier-et-tout-dispositif-de-pointage) ?
+title: Pour chaque [média temporel](#media-temporel-type-son-video-et-synchronise) synchronisé en direct ayant des [sous-titres synchronisés](#sous-titres-synchronises-objet-multimedia), ces sous-titres sont-ils pertinents (hors cas particuliers) ?
 ---

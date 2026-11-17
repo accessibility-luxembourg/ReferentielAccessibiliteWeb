@@ -1,17 +1,11 @@
 ---
-WCAG:
-  - successCriterion: 1.1.1
-    title: Non-text Content
-    level: A
-  - successCriterion: 1.3.1
-    title: Info and Relationships
-    level: A
+EN301549-V4: 9.1.3.2
+WCAG: 1.3.2
 Techniques:
-  - F3
-  - G140
-Norm:
-  - criterion: 9.1.1.1
-    title: Non-text Content
-  - criterion: 9.1.3.1
-    title: Info and Relationships
+  - C8
+  - F1
+  - F32
+  - F33 
+  - F34
+  - G57
 ---

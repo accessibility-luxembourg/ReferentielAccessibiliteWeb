@@ -1,3 +1,3 @@
 ---
-title: Pour chaque [tableau de données ayant un titre](#tableau-de-donnees-ayant-un-titre), le titre est-il correctement associé au tableau de données ?
+title: Pour chaque [tableau de données](#tableau-de-donnees) ayant un [nom accessible](#nom-accessible-de-tableau-de-donnees), celui-ci est-il pertinent ?
 ---

@@ -1,3 +1,3 @@
 ---
-title: Dans chaque page web, l’information est-elle structurée par l’utilisation appropriée de [titres](#titre) ?
+title: Dans chaque page web, chaque [passage de texte constituant un titre](#passage-de-texte-constituant-un-titre) est-il correctement structuré ?
 ---
