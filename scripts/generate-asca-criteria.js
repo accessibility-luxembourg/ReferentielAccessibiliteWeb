@@ -89,8 +89,11 @@ async function generateAscaCriteria(lang) {
       let level = levels.criteria.find(r => r['data-ref'] === enNumber.match(/\d{1,2}(?:\.\d{1,2}){0,3}/)?.[0])
       if (level !== undefined){
         level = level.level
+      } else if (criterionNumber == '13.16') {
+        level = 'A'
       } else {
         level = 'N/A'
+        console.warn(`Level not found for criterion ${criterionNumber}`)
       }
 
       questions.push({

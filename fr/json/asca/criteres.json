@@ -1194,7 +1194,7 @@
       "id": 133,
       "critere": "13.16",
       "recommandation": "Dans chaque page web, chaque document bureautique est-il compatible avec l’accessibilité (hors cas particuliers) ?",
-      "level": "N/A",
+      "level": "A",
       "theme": "Consultation",
       "defaultStatus": "NT",
       "defaultDerogation": "N"
